@@ -1,0 +1,75 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "required": ["meta", "sources"],
+  "properties": {
+    "meta": {
+      "type": "object",
+      "required": ["created_on"],
+      "properties": {
+        "created_on": { "type": "string", "format": "date" },
+        "updated_on": { "type": "string", "format": "date" },
+        "notes": { "type": "string" }
+      }
+    },
+    "universes": {
+      "type": "object",
+      "description": "Keyed by index symbol e.g. ^IXIC (ftp) or ETF ticker e.g. ARKK (url).",
+      "additionalProperties": {
+        "type": "object",
+        "required": ["name", "members", "sources"],
+        "properties": {
+          "name": { "type": "string" },
+          "index_proxy_for": {
+            "type": "string",
+            "description": "Index symbol this source proxies e.g. ^NDX."
+          },
+          "members": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "sources": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "oneOf": [
+                { "$ref": "#/definitions/ftp_source" },
+                { "$ref": "#/definitions/url_source" }
+              ]
+            }
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "definitions": {
+    "ftp_source": {
+      "type": "object",
+      "required": ["source_type", "host", "dir", "source_id", "ticker_col"],
+      "properties": {
+        "source_type": { "type": "string", "enum": ["ftp"] },
+        "host": { "type": "string" },
+        "dir": { "type": "string" },
+        "source_id": { "type": "string" },
+        "delimiter": {"type": "string" },
+        "ticker_col": { "type": "string" }
+      },
+      "additionalProperties": false
+    },
+    "url_source": {
+      "type": "object",
+      "required": ["source_type", "base_url", "file", "mime_type", "ticker_col"],
+      "properties": {
+        "source_type": { "type": "string", "enum": ["url"] },
+        "base_url": { "type": "string" },
+        "source_id": { "type": "string" },
+        "mime_type": { "type": "string", "enum": ["text/csv", "text/html", "application/vnd.ms-excel"] },
+        "delimiter": {"type": "string" },
+        "ticker_col": { "type": "string" },
+        "table_index": { "type": "integer" }
+      },
+      "additionalProperties": false
+    }
+  }
+}

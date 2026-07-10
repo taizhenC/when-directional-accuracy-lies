@@ -1,0 +1,72 @@
+{
+  "meta": {
+    "created_on": "2026-06-12",
+    "model_config": "lols_by_claude"
+  },
+  "model": {
+    "NVDA": {
+      "name": "NVIDIA Corporation",
+      "weight": 0.8
+    },
+    "AMZN": {
+      "name": "Amazon.com, Inc.",
+      "weight": 0.6
+    },
+    "GOOGL": {
+      "name": "Alphabet Inc.",
+      "weight": 0.7
+    },
+    "GOOG": {
+      "name": "Alphabet Inc.",
+      "weight": 0.7
+    },
+    "AVGO": {
+      "name": "Broadcom Inc.",
+      "weight": 0.8
+    },
+    "TSLA": {
+      "name": "Tesla, Inc.",
+      "weight": 0.6
+    },
+    "META": {
+      "name": "Meta Platforms, Inc.",
+      "weight": 0.7
+    },
+    "AMD": {
+      "name": "Advanced Micro Devices, Inc.",
+      "weight": 0.8
+    },
+    "PLTR": {
+      "name": "Palantir Technologies Inc.",
+      "weight": 0.8
+    },
+    "CRWD": {
+      "name": "CrowdStrike Holdings, Inc.",
+      "weight": 0.6
+    },
+    "SHOP": {
+      "name": "Shopify Inc.",
+      "weight": 0.8
+    },
+    "SNPS": {
+      "name": "Synopsys, Inc.",
+      "weight": 0.7
+    },
+    "DASH": {
+      "name": "DoorDash, Inc.",
+      "weight": 0.6
+    },
+    "TER": {
+      "name": "Teradyne, Inc.",
+      "weight": 0.8
+    },
+    "XYZ": {
+      "name": "Block, Inc.",
+      "weight": 0.6
+    },
+    "TSM": {
+      "name": "Taiwan Semiconductor Manufacturing Company Limited",
+      "weight": 0.8
+    }
+  }
+}

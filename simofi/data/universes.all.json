@@ -1,0 +1,334 @@
+{
+  "meta": {
+    "created_on": "2026-06-09",
+    "notes": "Universes for universe.py. Sources are ordered — first success wins. Verify table_index if wiki pages restructure."
+  },
+  "universes": {
+    "QQQ": {
+      "name": "Invesco QQQ Trust (NASDAQ-100)",
+      "index_proxy_for": "^NDX",
+      "members": [ "NVDA", "AAPL", "MSFT", "AMZN", "GOOGL", "GOOG", "AVGO",
+        "TSLA", "META", "MU", "WMT", "AMD", "ASML", "INTC", "CSCO", "LRCX",
+        "AMAT", "COST", "ARM", "NFLX", "KLAC", "PLTR", "SNDK", "TXN", "MRVL",
+        "LIN", "PANW", "QCOM", "STX", "TMUS", "ADI", "PEP", "WDC", "AMGN",
+        "CRWD", "APP", "GILD", "ISRG", "HON", "SHOP", "BKNG", "SBUX", "PDD",
+        "VRTX", "FTNT", "MAR", "CDNS", "CEG", "MNST", "ADP", "CSX", "CMCSA",
+        "SNPS", "ADBE", "DDOG", "MDLZ", "MELI", "ABNB", "MPWR", "ROST","NXPI",
+        "INTU", "ORLY", "LITE", "CTAS", "AEP", "WBD", "DASH", "REGN", "BKR",
+        "PCAR", "FANG", "FAST", "ODFL", "EA", "MCHP", "XEL", "FER", "EXC",
+        "IDXX", "CCEP", "MSTR", "KDP", "ADSK", "TTWO", "ALNY", "PYPL", "PAYX",
+        "AXON", "TRI", "ROP", "WDAY", "GEHC", "DXCM", "KHC", "CPRT", "CTSH",
+        "VRSK", "INSM", "ZS", "CHTR" ],
+      "sources": [
+        {
+          "source_type": "url",
+          "base_url": "https://www.slickcharts.com/",
+          "source_id": "nasdaq100",
+          "mime_type": "text/html",
+          "ticker_col": "Symbol",
+          "table_index": 0
+        },
+        {
+          "source_type": "url",
+          "base_url": "https://en.wikipedia.org/wiki/",
+          "source_id": "Nasdaq-100",
+          "mime_type": "text/html",
+          "ticker_col": "Ticker",
+          "table_index": 4
+        }
+      ]
+    },
+    "SPY": {
+      "name": "SPDR S&P 500 ETF Trust",
+      "index_proxy_for": "^GSPC",
+      "members": [ "NVDA", "AAPL", "MSFT", "AMZN", "GOOGL", "GOOG", "AVGO",
+        "TSLA", "META", "MU", "BRK.B", "LLY", "WMT", "JPM", "AMD", "INTC", "V",
+        "XOM", "JNJ", "ORCL", "CSCO", "LRCX", "AMAT", "COST", "MA", "CAT",
+        "ABBV", "BAC", "CVX", "UNH", "KO", "GE", "PG", "NFLX", "MS", "KLAC",
+        "HD", "GS", "PLTR", "MRK", "SNDK", "PM", "TXN", "DELL", "WFC", "IBM",
+        "GEV", "RTX", "LIN", "C", "PANW", "QCOM", "AXP", "STX", "ANET", "TMUS",
+        "MCD", "ADI", "VZ", "PEP", "WDC", "AMGN", "APH", "TJX", "NEE", "TMO",
+        "CRWD", "DIS", "BA", "APP", "T", "UNP", "BLK", "SCHW", "GILD", "DE",
+        "GLW", "ABT", "ETN", "WELL", "BX", "PFE", "ISRG", "COP", "HON", "UBER",
+        "PLD", "CRM", "CVS", "DHR", "BKNG", "CB", "LMT", "SPGI", "LOW", "SYK",
+        "MO", "PGR", "SBUX", "BMY", "VRT", "COF", "PH", "VRTX", "FTNT", "NEM",
+        "PWR", "CDNS", "SO", "MAR", "HWM", "NOW", "ACN", "EQIX", "MDT", "TT",
+        "BNY", "FCX", "GD", "DUK", "CME", "PNC", "MCK", "UPS", "USB", "CMI",
+        "MNST", "CEG", "ADP", "CSX", "JCI", "WM", "WMB", "ELV", "AMT", "CMCSA",
+        "KKR", "SNPS", "HCA", "SLB", "HOOD", "MMM", "ADBE", "DDOG", "MRSH",
+        "MDLZ", "FDX", "EMR", "ICE", "CI", "SHW", "HLT", "ABNB", "RCL", "NOC",
+        "MCO", "APO", "MPWR", "VLO", "MPC", "ROST", "NXPI", "COHR", "ORLY",
+        "INTU", "ECL", "ITW", "GM", "EOG", "PSX", "LITE", "AON", "CL", "KMI",
+        "CRH", "SPG", "NSC", "CTAS", "TDG", "AEP", "BSX", "MSI", "WBD", "URI",
+        "NKE", "FIX", "DASH", "TRV", "HPE", "DLR", "REGN", "CIEN", "RSG", "TFC",
+        "APD", "TER", "BKR", "PCAR", "GWW", "TEL", "TGT", "NUE", "SRE", "AFL",
+        "KEYS", "D", "F", "TRGP", "O", "CARR", "LHX", "PSA", "MET", "OKE",
+        "ALL", "AJG", "OXY", "COR", "DAL", "FANG", "FAST", "CAH", "DVN", "AME",
+        "ODFL", "MCHP", "ROK", "EA", "CTVA", "AZO", "ETR", "VST", "NDAQ",
+        "FITB", "XEL", "EW", "EBAY", "EXC", "STT", "CVNA", "GRMN", "HUM", "ON",
+        "WAB", "IDXX", "DHI", "MSCI", "KDP", "COIN", "YUM", "ADSK", "XYZ",
+        "CMG", "VTR", "AMP", "STLD", "IBKR", "JBL", "CCI", "BDX", "CCL", "AIG",
+        "LYV", "KR", "PEG", "ED", "TTWO", "CBRE", "ADM", "SYY", "IRM", "PRU",
+        "UAL", "PCG", "VMC", "WEC", "HSY", "A", "PYPL", "EME", "PAYX", "HBAN",
+        "HIG", "AXON", "WAT", "KVUE", "MLM", "KMB", "ROP", "MTB", "ZTS", "LVS",
+        "HAL", "CASY", "SATS", "EQT", "EL", "CNC", "NTRS", "ACGL", "WDAY",
+        "EXR", "Q", "NTAP", "CBOE", "VICI", "DTE", "ARES", "IQV", "AEE", "TPR",
+        "RJF", "GEHC", "BIIB", "DOV", "FSLR", "KHC", "TDY", "IR", "DXCM",
+        "FISV", "CFG", "CPRT", "ATO", "RMD", "CNP", "EIX", "JBHT", "FE",
+        "FICO", "OTIS", "EXPE", "PPL", "NRG", "PPG", "TPL", "AVB", "WSM",
+        "CINF", "XYL", "FDXF", "VEEV", "ES", "STZ", "VRSN", "DG", "WRB", "EQR",
+        "HUBB", "RF", "WTW", "SYF", "AWK", "CTSH", "BG", "KEY", "DRI", "DOW",
+        "RL", "VRSK", "PFG", "PHM", "TROW", "CPAY", "WST", "CHD", "HPQ", "CHRW",
+        "MTD", "SW", "ROL", "CMS", "NI", "DGX", "LEN", "FFIV", "L", "LUV",
+        "DLTR", "OMC", "EXPD", "INCY", "LH", "SBAC", "EXE", "LYB", "VLTO",
+        "ALB", "PKG", "TSN", "BRO", "STE", "FIS", "ULTA", "SNA", "IFF",
+        "MRNA", "DD", "AKAM", "EFX", "EVRG", "VTRS", "IP", "LNT", "AMCR", "GPN",
+        "FTV", "GIS", "SMCI", "ESS", "WY", "LII", "INVH", "CHTR", "KIM", "NVR",
+        "ZBH", "HST", "CF", "BR", "BEN", "CDW", "BBY", "TSCO", "TXT", "MAA",
+        "IEX", "NDSN", "DECK", "LDOS", "GNRC", "TKO", "BALL", "MAS", "J",
+        "REG", "GEN", "APTV", "DOC", "GPC", "HRL", "SOLV", "LULU", "DVA",
+        "CSGP", "EG", "FOXA", "FOX", "COO", "MKC", "PTC", "APA", "SWK", "GL",
+        "AIZ", "UDR", "IVZ", "MGM", "ALGN", "PNW", "BF.B", "SJM", "AVY", "TYL",
+        "PNR", "ERIE", "HAS", "HII", "CLX", "PSKY", "TRMB", "ALLE", "CPT",
+        "WYNN", "RVTY", "SWKS", "FRT", "ZBRA", "BAX", "DPZ", "BXP", "AES",
+        "PODD", "GDDY", "IT", "NWSA", "HSIC", "ARE", "JKHY", "CRL", "TTD",
+        "NCLH", "UHS", "FDS", "TECH", "BLDR", "AOS", "TAP", "MOS", "POOL",
+        "CPB", "CAG", "NWS" ],
+      "sources": [
+        {
+          "source_type": "url",
+          "base_url": "https://www.slickcharts.com/",
+          "source_id": "sp500",
+          "mime_type": "text/html",
+          "ticker_col": "Symbol",
+          "table_index": 0
+        },
+        {
+          "source_type": "url",
+          "base_url": "https://en.wikipedia.org/wiki/",
+          "source_id": "List_of_S%26P_500_companies",
+          "mime_type": "text/html",
+          "ticker_col": "Symbol",
+          "table_index": 0
+        }
+      ]
+    },
+    "DIA": {
+      "name": "SPDR Dow Jones Industrial Average ETF",
+      "index_proxy_for": "^DJI",
+      "members": [ "GS", "CAT", "UNH", "MSFT", "AMGN", "HD", "AXP", "V", "JPM",
+        "SHW", "TRV", "AAPL", "MCD", "IBM", "JNJ", "AMZN", "HON", "BA", "NVDA",
+        "CVX", "CRM", "MMM", "PG", "CSCO", "WMT", "MRK", "DIS", "KO", "VZ",
+        "NKE" ],
+      "sources": [
+        {
+          "source_type": "url",
+          "base_url": "https://www.slickcharts.com/",
+          "source_id": "dowjones",
+          "mime_type": "text/html",
+          "ticker_col": "Symbol",
+          "table_index": 0
+        },
+        {
+          "source_type": "url",
+          "base_url": "https://en.wikipedia.org/wiki/",
+          "source_id": "Dow_Jones_Industrial_Average",
+          "mime_type": "text/html",
+          "ticker_col": "Symbol",
+          "table_index": 1
+        }
+      ]
+    },
+    "SOXX": {
+      "name": "iShares Semiconductor ETF",
+      "members": [ "ALGM", "AMKR", "ADI", "AMAT", "ASML", "ACLS", "AVGO",
+        "COHR", "ENTG", "GFS", "INTC", "KLAC", "LRCX", "LSCC", "MRVL", "MCHP",
+        "MU", "MPWR", "NVDA", "NXPI", "ON", "QRVO", "QCOM", "RMBS", "SWKS",
+        "TSM", "TER", "TXN", "WOLF" ],
+      "sources": [
+        {
+          "source_type": "url",
+          "base_url": "https://en.wikipedia.org/wiki/",
+          "source_id": "PHLX_Semiconductor_Sector",
+          "mime_type": "text/html",
+          "ticker_col": "Ticker",
+          "table_index": 1
+        },
+        {
+          "source_type": "url",
+          "base_url": "https://www.blackrock.com/varnish-api/blk-one01-product-data/product-data/api/v1/get-fund-document",
+          "source_id": "?appType=PRODUCT_PAGE&appSubType=ISHARES&targetSite=us-ishares&locale=en_US&portfolioId=239705&component=fundDownload&userType=individual",
+          "mime_type": "application/vnd.ms-excel",
+          "ticker_col": "Ticker",
+          "table_index": 1
+        }
+      ]
+    },
+    "ARKK": {
+      "name": "ARK Innovation ETF",
+      "members": [ "TSLA", "TEM", "HOOD", "AMD", "CRSP", "SHOP", "ROKU", "COIN",
+        "CRCL", "TWST", "BEAM", "PLTR", "TXG", "RBLX", "AMZN", "CRWV", "GOOG",
+        "BLSH", "NTLA", "NVDA", "BMNR", "XYZ", "ILMN", "NTRA", "BABA", "ACHR",
+        "DE", "AVGO", "CBRS", "VCYT", "KTOS", "RXRX", "TSM", "META", "TER",
+        "WGS", "BWXT", "XE", "SOFI", "FIG", "GOOGL", "CERS", "PACB", "BIDU" ],
+      "sources": [
+        {
+          "source_type": "url",
+          "base_url": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/",
+          "source_id": "ARK_INNOVATION_ETF_ARKK_HOLDINGS.csv",
+          "mime_type": "text/csv",
+          "ticker_col": "ticker"
+        }
+      ]
+    },
+    "ARKQ": {
+      "name": "ARK Autonomous Technology & Robotics ETF",
+      "members": [ "TSLA", "AMD", "TER", "RKLB UQ", "KTOS", "GOOG", "DE",
+        "PLTR", "TSM", "LHX", "AMZN", "NVDA", "AVAV", "LUNR", "CAT", "ACHR",
+        "TRMB", "KMTUY", "ESLT", "BWXT", "CCJ", "AVGO", "AUR", "JOBY", "BIDU",
+        "SYM UQ", "IRDM", "ISRG", "DASH", "TDY", "WRD", "OKLO", "KDK", "SNPS",
+        "BYDDY", "SRTA", "XE", "PONY", "GOOGL" ],
+      "sources": [
+        {
+          "source_type": "url",
+          "base_url": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/",
+          "source_id": "ARK_AUTONOMOUS_TECH._&_ROBOTICS_ETF_ARKQ_HOLDINGS.csv",
+          "mime_type": "text/csv",
+          "ticker_col": "ticker"
+        }
+      ]
+    },
+    "ARKW": {
+      "name": "ARK Next Generation Internet ETF",
+      "members": [ "TSLA", "AMD", "HOOD", "SHOP", "ROKU", "GOOG", "AMZN",
+        "CRCL", "CRWV", "COIN", "CRWD", "XYZ", "PLTR", "DDOG", "RBLX", "TSM",
+        "AVGO", "NET", "META", "NVDA", "BLSH", "BMNR", "RBRK", "P", "GENI",
+        "CBRS", "DKNG UW", "FIG", "NFLX", "SPOT", "GTLB", "TOST", "BABA",
+        "DASH", "MELI", "ABNB", "BIDU", "ETHQ/U", "GOOGL", "SOLQ/U" ],
+      "sources": [
+        {
+          "source_type": "url",
+          "base_url": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/",
+          "source_id": "ARK_NEXT_GENERATION_INTERNET_ETF_ARKW_HOLDINGS.csv",
+          "mime_type": "text/csv",
+          "ticker_col": "ticker"
+        }
+      ]
+    },
+    "ARKG": {
+      "name": "ARK Genomic Revolution ETF",
+      "members": [ "TWST", "TEM", "CRSP", "TXG", "ABSI", "PSNL", "ILMN", "GH",
+        "BEAM", "NTRA", "VCYT", "CDNA", "NTLA", "RXRX", "ADPT", "CMPS", "SDGR",
+        "NRIX", "WGS", "BFLY", "IONS", "ARCT UQ", "CERS", "ATAI UQ", "MASS",
+        "PACB", "LLY", "PRME", "ALMR", "BNTX", "QSI", "GENB" ],
+      "sources": [
+        {
+          "source_type": "url",
+          "base_url": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/",
+          "source_id": "ARK_GENOMIC_REVOLUTION_ETF_ARKG_HOLDINGS.csv",
+          "mime_type": "text/csv",
+          "ticker_col": "ticker"
+        }
+      ]
+    },
+    "ARKF": {
+      "name": "ARK Blockchain & Fintech Innovation ETF",
+      "members": [ "SHOP", "HOOD", "XYZ", "CRCL", "COIN", "PLTR", "TOST", "AMD",
+        "AMZN", "MELI", "ROKU", "BLSH", "META", "SOFI", "NVDA", "DKNG UW",
+        "RBLX", "CRWD", "SE", "ADYEN", "NU UN", "BMNR", "SPOT", "KLAR", "ABNB",
+        "ETOR", "FUTU", "DASH", "BABA", "Z", "PAYP", "KSPI", "ETHQ/U", "SOLQ/U",
+        "CNTN" ],
+      "sources": [
+        {
+          "source_type": "url",
+          "base_url": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/",
+          "source_id": "ARK_BLOCKCHAIN_&_FINTECH_INNOVATION_ETF_ARKF_HOLDINGS.csv",
+          "mime_type": "text/csv",
+          "ticker_col": "ticker"
+        }
+      ]
+    },
+    "ARKX": {
+      "name": "ARK Space & Defense Innovation ETF",
+      "members": [ "AMD", "RKLB UQ", "LHX", "KTOS", "DE", "AVAV", "AMZN",
+        "GOOG", "TER", "IRDM", "ACHR", "NVDA", "LUNR", "PLTR", "6301", "TRMB",
+        "JOBY", "TSLA", "ESLT", "HO", "HEI", "BWXT", "TSM", "GRMN UN", "SRTA",
+        "DASH", "TDY", "2618", "HON", "SNPS", "XE", "LMT", "AIR", "GOOGL" ],
+      "sources": [
+        {
+          "source_type": "url",
+          "base_url": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/",
+          "source_id": "ARK_SPACE_&_DEFENSE_INNOVATION_ETF_ARKX_HOLDINGS.csv",
+          "mime_type": "text/csv",
+          "ticker_col": "ticker"
+        }
+      ]
+    },
+    "ARKB": {
+      "name": "ARK 21Shares Bitcoin ETF",
+      "members": [ "BTC" ],
+      "sources": [
+        {
+          "source_type": "url",
+          "base_url": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/",
+          "source_id": "ARK_21SHARES_BITCOIN_ETF_ARKB_HOLDINGS.csv",
+          "mime_type": "text/csv",
+          "ticker_col": "ticker"
+        }
+      ]
+    },
+    "IZRL": {
+      "name": "ARK Israel Innovative Technology ETF",
+      "members": [ "FROG", "SMWB", "TLSY", "VLN", "URGN UQ", "BSEN", "TBLA",
+        "DRTS", "MBLY", "ITRN", "MNDY", "FTAL", "TSEM", "PTNR", "RDWR", "HLAN",
+        "ONE", "CEL", "RSKD", "TEVA", "NVMI", "AUDC", "PGY", "RPOL", "AMAL",
+        "SSYS", "DANE", "ETOR", "CAMT", "TATTF", "ESLT", "RDCM", "CLBT", "NYAX",
+        "BEZQ", "MTRX", "ALLT", "BWAY", "INMD", "ISRO", "ISTA", "MLTM", "CGNT",
+        "FVRR", "CHKP", "ASHO", "KMDA", "QLTU", "PLTK", "NICE", "GILT",
+        "MDWD UQ", "PERI", "PCBT", "ENLV", "ARYT", "SLRM", "ODD", "CGEN", "WIX",
+        "NNOX" ],
+      "sources": [
+        {
+          "source_type": "url",
+          "base_url": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/",
+          "source_id": "ARK_ISRAEL_INNOVATIVE_TECHNOLOGY_ETF_IZRL_HOLDINGS.csv",
+          "mime_type": "text/csv",
+          "ticker_col": "ticker"
+        }
+      ]
+    },
+    "PRNT": {
+      "name": "The 3D Printing ETF (ARK)",
+      "members": [ "VELO", "XMTR", "DDD", "SIE", "SNPS", "HPQ", "MTLS", "PRLB",
+        "DSY FP", "RSW", "ADSK", "PTC", "XRAY UW", "SSYS", "STMN SE", "7731",
+        "NNDM", "BICO", "TTT", "KALU", "MOG/A", "GE", "OERL", "ML", "LECO",
+        "LHX", "AME", "ALGN", "HEXAB S", "MTRN", "ATI", "CRS", "JBL", "SGL",
+        "HEN3", "VOE", "MMM", "AKE", "AVNT", "KMT", "SAND", "3402", "EVK",
+        "DCH", "DCH" ],
+      "sources": [
+        {
+          "source_type": "url",
+          "base_url": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/",
+          "source_id": "THE_3D_PRINTING_ETF_PRNT_HOLDINGS.csv",
+          "mime_type": "text/csv",
+          "ticker_col": "ticker"
+        }
+      ]
+    },
+    "ARKVX": {
+      "name": "ARK Venture Fund",
+      "members": [ "ABSI", "BEAM", "CRSP", "TXG", "TEM", "ALMR", "THAR", "PRME",
+        "NTLA", "KDK", "TSLA", "HOOD", "TWST", "RXRX", "WGS", "GENB", "COIN",
+        "ACHR","SHOP", "PACB", "BMNR", "RBLX" ],
+      "sources": [
+        {
+          "source_type": "url",
+          "base_url": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/",
+          "source_id": "ARK_VENTURE_FUND_ARKVX_HOLDINGS.csv",
+          "mime_type": "text/csv",
+          "ticker_col": "ticker"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "required": ["meta", "model_configs"],
+  "properties": {
+    "meta": {
+      "type": "object",
+      "required": ["created_on"],
+      "properties": {
+        "created_on": { "type": "string", "format": "date" },
+        "updated_on": { "type": "string", "format": "date" },
+        "notes": { "type": "string" }
+      }
+    },
+    "model_configs": {
+      "type": "object",
+      "additionalProperties": { "$ref": "#/definitions/model_config" }
+    }
+  },
+  "definitions": {
+    "model_config": {
+      "type": "object",
+      "required": ["threshold", "bias_multipliers"],
+      "properties": {
+        "threshold": { "type": "number", "minimum": 0 },
+        "bias_multipliers": {
+          "type": "object",
+          "propertyNames": {
+            "enum": [ 
+              "universe",
+              "gics_sector", "gics_industry_group", "gics_industry", "gics_sub_industry",
+              "custom"
+            ]
+          },
+          "additionalProperties": { "type": "number", "minimum": 0, "maximum": 10 }
+        },
+        "bias": {
+          "type": "object",
+          "properties": {
+            "universe": {
+              "type": "object",
+              "additionalProperties": { "$ref": "#/definitions/bias_level" }
+            },
+            "gics": {
+              "type": "object",
+              "propertyNames": {
+                "enum": ["sector", "industry_group", "industry", "sub_industry"]
+              },
+              "additionalProperties": { "$ref": "#/definitions/bias_levels" }
+            },
+            "custom": {
+              "type": "object",
+              "additionalProperties": { "$ref": "#/definitions/bias_level" }
+            }
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "bias_levels": {
+      "type": "object",
+      "additionalProperties": { "$ref": "#/definitions/bias_level" }
+    },
+    "bias_level": {
+      "type": "object",
+      "additionalProperties": { "type": "number", "minimum": 0, "maximum": 1 }
+    }
+  }
+}

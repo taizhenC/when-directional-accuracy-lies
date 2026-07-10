@@ -1,0 +1,157 @@
+{
+  "meta": {
+    "created_on": "2026-06-09",
+    "notes": "Model configurations."
+  },
+  "model_configs": {
+    "lols_by_claude": {
+      "threshold": 0.6,
+      "bias_multipliers": {
+        "universe": 5,
+        "gics_sector": 1,
+        "gics_industry": 1,
+        "custom": 3
+      },
+      "bias": {
+        "universe": {
+          "ARKK": 0.8,
+          "ARKW": 0.8,
+          "ARKF": 0.5,
+          "ARKQ": 0.7,
+          "ARKG": 0.3,
+          "ARKX": 0.6,
+          "ARKVX": 0.7,
+          "IZRL": 0.4,
+          "PRNT": 0.3,
+          "SOXX": 0.9,
+          "QQQ": 0.8,
+          "SPY": 0.5,
+          "DIA": 0.4
+        },
+        "gics": {
+          "sector": {
+            "Technology": 0.9,
+            "Communication Services": 0.7,
+            "Consumer Cyclical": 0.3,
+            "Healthcare": 0.2,
+            "Industrials": 0.2,
+            "Financial Services": 0.2,
+            "Energy": 0.1,
+            "Basic Materials": 0.1
+          },
+          "industry": {
+            "Semiconductors": 1.0,
+            "Semiconductor Equipment & Materials": 0.9,
+            "Software - Infrastructure": 0.9,
+            "Software - Application": 0.8,
+            "Internet Content & Information": 0.8,
+            "Computer Hardware": 0.7,
+            "Communication Equipment": 0.6,
+            "Internet Retail": 0.5,
+            "Electronic Components": 0.5,
+            "Scientific & Technical Instruments": 0.5,
+            "Information Technology Services": 0.5,
+            "Consumer Electronics": 0.4,
+            "Entertainment": 0.3,
+            "Auto Manufacturers": 0.3,
+            "Biotechnology": 0.2,
+            "Aerospace & Defense": 0.2,
+            "Medical Devices": 0.2,
+            "Diagnostics & Research": 0.2,
+            "Specialty Chemicals": 0.1,
+            "Capital Markets": 0.1,
+            "Insurance": 0.1
+          }
+        },
+        "custom" : {}
+      }
+    },
+    "lols_by_perplexity": {
+      "threshold": 0.6,
+      "bias_multipliers": {
+        "universe": 5,
+        "gics_sector": 1,
+        "gics_industry": 1,
+        "custom": 3
+      },
+      "bias": {
+        "universe": {
+          "QQQ": 0.9,
+          "SPY": 0.4,
+          "DIA": 0.3,
+          "SOXX": 1.0,
+          "ARKK": 0.8,
+          "ARKQ": 0.9,
+          "ARKW": 0.9,
+          "ARKG": 0.5,
+          "ARKF": 0.5,
+          "ARKX": 0.6,
+          "IZRL": 0.5,
+          "PRNT": 0.4,
+          "ARKVX": 0.7
+        },
+        "gics": {
+          "sector": {
+            "Basic Materials": 0.1,
+            "Communication Services": 0.8,
+            "Consumer Cyclical": 0.3,
+            "Consumer Defensive": 0.2,
+            "Energy": 0.1,
+            "Financial Services": 0.4,
+            "Healthcare": 0.5,
+            "Industrials": 0.4,
+            "Real Estate": 0.1,
+            "Technology": 1.0,
+            "Utilities": 0.1
+          },
+          "industry": {
+            "Semiconductors": 1.0,
+            "Semiconductor Equipment & Materials": 1.0,
+            "Software - Infrastructure": 1.0,
+            "Software - Application": 0.9,
+            "Information Technology Services": 0.8,
+            "Health Information Services": 0.7,
+            "Scientific & Technical Instruments": 0.7,
+            "Electronic Components": 0.6,
+            "Computer Hardware": 0.7,
+            "Communication Equipment": 0.6,
+            "Electronic Gaming & Multimedia": 0.5,
+            "Internet Content & Information": 0.7,
+            "Internet Retail": 0.5,
+            "Advertising Agencies": 0.4,
+            "Financial Data & Stock Exchanges": 0.5,
+            "Asset Management": 0.2,
+            "Capital Markets": 0.2,
+            "Credit Services": 0.2,
+            "Banks - Diversified": 0.1,
+            "Banks - Regional": 0.1,
+            "Insurance - Property & Casualty": 0.1,
+            "Insurance - Life": 0.1,
+            "Medical Devices": 0.4,
+            "Diagnostics & Research": 0.5,
+            "Biotechnology": 0.4,
+            "Drug Manufacturers - General": 0.2,
+            "Healthcare Plans": 0.1,
+            "Medical Care Facilities": 0.1,
+            "Medical Distribution": 0.1,
+            "Industrial Distribution": 0.1,
+            "Specialty Industrial Machinery": 0.3,
+            "Electrical Equipment & Parts": 0.3,
+            "Engineering & Construction": 0.1,
+            "Farm & Heavy Construction Machinery": 0.1,
+            "Tools & Accessories": 0.1,
+            "Building Products & Equipment": 0.1,
+            "Aerospace & Defense": 0.3,
+            "Travel Services": 0.1,
+            "Auto Manufacturers": 0.3,
+            "Auto Parts": 0.1,
+            "Copper": 0.1,
+            "Other Industrial Metals & Mining": 0.1,
+            "Specialty Chemicals": 0.1
+          }
+        },
+        "custom" : {}
+      }
+    }
+  }
+}

@@ -1,0 +1,8796 @@
+{
+  "meta": {
+    "created_on": "2026-06-12"
+  },
+  "stocks": {
+    "NVDA": {
+      "name": "NVIDIA Corporation",
+      "gics": {
+        "sector": "Technology",
+        "industry_group": "",
+        "industry": "Semiconductors",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "QQQ",
+        "SPY",
+        "DIA",
+        "SOXX",
+        "ARKK",
+        "ARKQ",
+        "ARKW",
+        "ARKF",
+        "ARKX"
+      ]
+    },
+    "AAPL": {
+      "name": "Apple Inc.",
+      "gics": {
+        "sector": "Technology",
+        "industry_group": "",
+        "industry": "Consumer Electronics",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "QQQ",
+        "SPY",
+        "DIA"
+      ]
+    },
+    "MSFT": {
+      "name": "Microsoft Corporation",
+      "gics": {
+        "sector": "Technology",
+        "industry_group": "",
+        "industry": "Software - Infrastructure",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "QQQ",
+        "SPY",
+        "DIA"
+      ]
+    },
+    "AMZN": {
+      "name": "Amazon.com, Inc.",
+      "gics": {
+        "sector": "Consumer Cyclical",
+        "industry_group": "",
+        "industry": "Internet Retail",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "QQQ",
+        "SPY",
+        "DIA",
+        "ARKK",
+        "ARKQ",
+        "ARKW",
+        "ARKF",
+        "ARKX"
+      ]
+    },
+    "GOOGL": {
+      "name": "Alphabet Inc.",
+      "gics": {
+        "sector": "Communication Services",
+        "industry_group": "",
+        "industry": "Internet Content & Information",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "QQQ",
+        "SPY",
+        "ARKK",
+        "ARKQ",
+        "ARKW",
+        "ARKX"
+      ]
+    },
+    "GOOG": {
+      "name": "Alphabet Inc.",
+      "gics": {
+        "sector": "Communication Services",
+        "industry_group": "",
+        "industry": "Internet Content & Information",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "QQQ",
+        "SPY",
+        "ARKK",
+        "ARKQ",
+        "ARKW",
+        "ARKX"
+      ]
+    },
+    "AVGO": {
+      "name": "Broadcom Inc.",
+      "gics": {
+        "sector": "Technology",
+        "industry_group": "",
+        "industry": "Semiconductors",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "QQQ",
+        "SPY",
+        "SOXX",
+        "ARKK",
+        "ARKQ",
+        "ARKW"
+      ]
+    },
+    "TSLA": {
+      "name": "Tesla, Inc.",
+      "gics": {
+        "sector": "Consumer Cyclical",
+        "industry_group": "",
+        "industry": "Auto Manufacturers",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "QQQ",
+        "SPY",
+        "ARKK",
+        "ARKQ",
+        "ARKW",
+        "ARKX",
+        "ARKVX"
+      ]
+    },
+    "META": {
+      "name": "Meta Platforms, Inc.",
+      "gics": {
+        "sector": "Communication Services",
+        "industry_group": "",
+        "industry": "Internet Content & Information",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "QQQ",
+        "SPY",
+        "ARKK",
+        "ARKW",
+        "ARKF"
+      ]
+    },
+    "MU": {
+      "name": "Micron Technology, Inc.",
+      "gics": {
+        "sector": "Technology",
+        "industry_group": "",
+        "industry": "Semiconductors",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "QQQ",
+        "SPY",
+        "SOXX"
+      ]
+    },
+    "WMT": {
+      "name": "Walmart Inc.",
+      "gics": {
+        "sector": "Consumer Defensive",
+        "industry_group": "",
+        "industry": "Discount Stores",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "QQQ",
+        "SPY",
+        "DIA"
+      ]
+    },
+    "AMD": {
+      "name": "Advanced Micro Devices, Inc.",
+      "gics": {
+        "sector": "Technology",
+        "industry_group": "",
+        "industry": "Semiconductors",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "QQQ",
+        "SPY",
+        "ARKK",
+        "ARKQ",
+        "ARKW",
+        "ARKF",
+        "ARKX"
+      ]
+    },
+    "ASML": {
+      "name": "ASML Holding N.V.",
+      "gics": {
+        "sector": "Technology",
+        "industry_group": "",
+        "industry": "Semiconductor Equipment & Materials",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "QQQ",
+        "SOXX"
+      ]
+    },
+    "INTC": {
+      "name": "Intel Corporation",
+      "gics": {
+        "sector": "Technology",
+        "industry_group": "",
+        "industry": "Semiconductors",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "QQQ",
+        "SPY",
+        "SOXX"
+      ]
+    },
+    "CSCO": {
+      "name": "Cisco Systems, Inc.",
+      "gics": {
+        "sector": "Technology",
+        "industry_group": "",
+        "industry": "Communication Equipment",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "QQQ",
+        "SPY",
+        "DIA"
+      ]
+    },
+    "LRCX": {
+      "name": "Lam Research Corporation",
+      "gics": {
+        "sector": "Technology",
+        "industry_group": "",
+        "industry": "Semiconductor Equipment & Materials",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "QQQ",
+        "SPY",
+        "SOXX"
+      ]
+    },
+    "AMAT": {
+      "name": "Applied Materials, Inc.",
+      "gics": {
+        "sector": "Technology",
+        "industry_group": "",
+        "industry": "Semiconductor Equipment & Materials",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "QQQ",
+        "SPY",
+        "SOXX"
+      ]
+    },
+    "COST": {
+      "name": "Costco Wholesale Corporation",
+      "gics": {
+        "sector": "Consumer Defensive",
+        "industry_group": "",
+        "industry": "Discount Stores",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "QQQ",
+        "SPY"
+      ]
+    },
+    "ARM": {
+      "name": "Arm Holdings plc",
+      "gics": {
+        "sector": "Technology",
+        "industry_group": "",
+        "industry": "Semiconductors",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "QQQ"
+      ]
+    },
+    "NFLX": {
+      "name": "Netflix, Inc.",
+      "gics": {
+        "sector": "Communication Services",
+        "industry_group": "",
+        "industry": "Entertainment",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "QQQ",
+        "SPY",
+        "ARKW"
+      ]
+    },
+    "KLAC": {
+      "name": "KLA Corporation",
+      "gics": {
+        "sector": "Technology",
+        "industry_group": "",
+        "industry": "Semiconductor Equipment & Materials",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "QQQ",
+        "SPY",
+        "SOXX"
+      ]
+    },
+    "PLTR": {
+      "name": "Palantir Technologies Inc.",
+      "gics": {
+        "sector": "Technology",
+        "industry_group": "",
+        "industry": "Software - Infrastructure",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "QQQ",
+        "SPY",
+        "ARKK",
+        "ARKQ",
+        "ARKW",
+        "ARKF",
+        "ARKX"
+      ]
+    },
+    "SNDK": {
+      "name": "Sandisk Corporation",
+      "gics": {
+        "sector": "Technology",
+        "industry_group": "",
+        "industry": "Computer Hardware",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "QQQ",
+        "SPY"
+      ]
+    },
+    "TXN": {
+      "name": "Texas Instruments Incorporated",
+      "gics": {
+        "sector": "Technology",
+        "industry_group": "",
+        "industry": "Semiconductors",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "QQQ",
+        "SPY",
+        "SOXX"
+      ]
+    },
+    "MRVL": {
+      "name": "Marvell Technology, Inc.",
+      "gics": {
+        "sector": "Technology",
+        "industry_group": "",
+        "industry": "Semiconductors",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "QQQ",
+        "SOXX"
+      ]
+    },
+    "LIN": {
+      "name": "Linde plc",
+      "gics": {
+        "sector": "Basic Materials",
+        "industry_group": "",
+        "industry": "Specialty Chemicals",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "QQQ",
+        "SPY"
+      ]
+    },
+    "PANW": {
+      "name": "Palo Alto Networks, Inc.",
+      "gics": {
+        "sector": "Technology",
+        "industry_group": "",
+        "industry": "Software - Infrastructure",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "QQQ",
+        "SPY"
+      ]
+    },
+    "QCOM": {
+      "name": "QUALCOMM Incorporated",
+      "gics": {
+        "sector": "Technology",
+        "industry_group": "",
+        "industry": "Semiconductors",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "QQQ",
+        "SPY",
+        "SOXX"
+      ]
+    },
+    "STX": {
+      "name": "Seagate Technology Holdings plc",
+      "gics": {
+        "sector": "Technology",
+        "industry_group": "",
+        "industry": "Computer Hardware",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "QQQ",
+        "SPY"
+      ]
+    },
+    "TMUS": {
+      "name": "T-Mobile US, Inc.",
+      "gics": {
+        "sector": "Communication Services",
+        "industry_group": "",
+        "industry": "Telecom Services",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "QQQ",
+        "SPY"
+      ]
+    },
+    "ADI": {
+      "name": "Analog Devices, Inc.",
+      "gics": {
+        "sector": "Technology",
+        "industry_group": "",
+        "industry": "Semiconductors",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "QQQ",
+        "SPY",
+        "SOXX"
+      ]
+    },
+    "PEP": {
+      "name": "PepsiCo, Inc.",
+      "gics": {
+        "sector": "Consumer Defensive",
+        "industry_group": "",
+        "industry": "Beverages - Non-Alcoholic",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "QQQ",
+        "SPY"
+      ]
+    },
+    "WDC": {
+      "name": "Western Digital Corporation",
+      "gics": {
+        "sector": "Technology",
+        "industry_group": "",
+        "industry": "Computer Hardware",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "QQQ",
+        "SPY"
+      ]
+    },
+    "AMGN": {
+      "name": "Amgen Inc.",
+      "gics": {
+        "sector": "Healthcare",
+        "industry_group": "",
+        "industry": "Drug Manufacturers - General",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "QQQ",
+        "SPY",
+        "DIA"
+      ]
+    },
+    "CRWD": {
+      "name": "CrowdStrike Holdings, Inc.",
+      "gics": {
+        "sector": "Technology",
+        "industry_group": "",
+        "industry": "Software - Infrastructure",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "QQQ",
+        "SPY",
+        "ARKW",
+        "ARKF"
+      ]
+    },
+    "APP": {
+      "name": "AppLovin Corporation",
+      "gics": {
+        "sector": "Communication Services",
+        "industry_group": "",
+        "industry": "Advertising Agencies",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "QQQ",
+        "SPY"
+      ]
+    },
+    "GILD": {
+      "name": "Gilead Sciences, Inc.",
+      "gics": {
+        "sector": "Healthcare",
+        "industry_group": "",
+        "industry": "Drug Manufacturers - General",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "QQQ",
+        "SPY"
+      ]
+    },
+    "ISRG": {
+      "name": "Intuitive Surgical, Inc.",
+      "gics": {
+        "sector": "Healthcare",
+        "industry_group": "",
+        "industry": "Medical Instruments & Supplies",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "QQQ",
+        "SPY",
+        "ARKQ"
+      ]
+    },
+    "HON": {
+      "name": "Honeywell International Inc.",
+      "gics": {
+        "sector": "Industrials",
+        "industry_group": "",
+        "industry": "Conglomerates",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "QQQ",
+        "SPY",
+        "DIA",
+        "ARKX"
+      ]
+    },
+    "SHOP": {
+      "name": "Shopify Inc.",
+      "gics": {
+        "sector": "Technology",
+        "industry_group": "",
+        "industry": "Software - Application",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "QQQ",
+        "ARKK",
+        "ARKW",
+        "ARKF",
+        "ARKVX"
+      ]
+    },
+    "BKNG": {
+      "name": "Booking Holdings Inc.",
+      "gics": {
+        "sector": "Consumer Cyclical",
+        "industry_group": "",
+        "industry": "Travel Services",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "QQQ",
+        "SPY"
+      ]
+    },
+    "SBUX": {
+      "name": "Starbucks Corporation",
+      "gics": {
+        "sector": "Consumer Cyclical",
+        "industry_group": "",
+        "industry": "Restaurants",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "QQQ",
+        "SPY"
+      ]
+    },
+    "PDD": {
+      "name": "PDD Holdings Inc.",
+      "gics": {
+        "sector": "Consumer Cyclical",
+        "industry_group": "",
+        "industry": "Internet Retail",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "QQQ"
+      ]
+    },
+    "VRTX": {
+      "name": "Vertex Pharmaceuticals Incorporated",
+      "gics": {
+        "sector": "Healthcare",
+        "industry_group": "",
+        "industry": "Biotechnology",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "QQQ",
+        "SPY"
+      ]
+    },
+    "FTNT": {
+      "name": "Fortinet, Inc.",
+      "gics": {
+        "sector": "Technology",
+        "industry_group": "",
+        "industry": "Software - Infrastructure",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "QQQ",
+        "SPY"
+      ]
+    },
+    "MAR": {
+      "name": "Marriott International, Inc.",
+      "gics": {
+        "sector": "Consumer Cyclical",
+        "industry_group": "",
+        "industry": "Lodging",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "QQQ",
+        "SPY"
+      ]
+    },
+    "CDNS": {
+      "name": "Cadence Design Systems, Inc.",
+      "gics": {
+        "sector": "Technology",
+        "industry_group": "",
+        "industry": "Software - Application",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "QQQ",
+        "SPY"
+      ]
+    },
+    "CEG": {
+      "name": "Constellation Energy Corporation",
+      "gics": {
+        "sector": "Utilities",
+        "industry_group": "",
+        "industry": "Utilities - Independent Power Producers",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "QQQ",
+        "SPY"
+      ]
+    },
+    "MNST": {
+      "name": "Monster Beverage Corporation",
+      "gics": {
+        "sector": "Consumer Defensive",
+        "industry_group": "",
+        "industry": "Beverages - Non-Alcoholic",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "QQQ",
+        "SPY"
+      ]
+    },
+    "ADP": {
+      "name": "Automatic Data Processing, Inc.",
+      "gics": {
+        "sector": "Technology",
+        "industry_group": "",
+        "industry": "Software - Application",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "QQQ",
+        "SPY"
+      ]
+    },
+    "CSX": {
+      "name": "CSX Corporation",
+      "gics": {
+        "sector": "Industrials",
+        "industry_group": "",
+        "industry": "Railroads",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "QQQ",
+        "SPY"
+      ]
+    },
+    "CMCSA": {
+      "name": "Comcast Corporation",
+      "gics": {
+        "sector": "Communication Services",
+        "industry_group": "",
+        "industry": "Telecom Services",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "QQQ",
+        "SPY"
+      ]
+    },
+    "SNPS": {
+      "name": "Synopsys, Inc.",
+      "gics": {
+        "sector": "Technology",
+        "industry_group": "",
+        "industry": "Software - Infrastructure",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "QQQ",
+        "SPY",
+        "ARKQ",
+        "ARKX",
+        "PRNT"
+      ]
+    },
+    "ADBE": {
+      "name": "Adobe Inc.",
+      "gics": {
+        "sector": "Technology",
+        "industry_group": "",
+        "industry": "Software - Application",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "QQQ",
+        "SPY"
+      ]
+    },
+    "DDOG": {
+      "name": "Datadog, Inc.",
+      "gics": {
+        "sector": "Technology",
+        "industry_group": "",
+        "industry": "Software - Application",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "QQQ",
+        "SPY",
+        "ARKW"
+      ]
+    },
+    "MDLZ": {
+      "name": "Mondelez International, Inc.",
+      "gics": {
+        "sector": "Consumer Defensive",
+        "industry_group": "",
+        "industry": "Confectioners",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "QQQ",
+        "SPY"
+      ]
+    },
+    "MELI": {
+      "name": "MercadoLibre, Inc.",
+      "gics": {
+        "sector": "Consumer Cyclical",
+        "industry_group": "",
+        "industry": "Internet Retail",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "QQQ",
+        "ARKW",
+        "ARKF"
+      ]
+    },
+    "ABNB": {
+      "name": "Airbnb, Inc.",
+      "gics": {
+        "sector": "Consumer Cyclical",
+        "industry_group": "",
+        "industry": "Travel Services",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "QQQ",
+        "SPY",
+        "ARKW",
+        "ARKF"
+      ]
+    },
+    "MPWR": {
+      "name": "Monolithic Power Systems, Inc.",
+      "gics": {
+        "sector": "Technology",
+        "industry_group": "",
+        "industry": "Semiconductors",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "QQQ",
+        "SPY",
+        "SOXX"
+      ]
+    },
+    "ROST": {
+      "name": "Ross Stores, Inc.",
+      "gics": {
+        "sector": "Consumer Cyclical",
+        "industry_group": "",
+        "industry": "Apparel Retail",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "QQQ",
+        "SPY"
+      ]
+    },
+    "NXPI": {
+      "name": "NXP Semiconductors N.V.",
+      "gics": {
+        "sector": "Technology",
+        "industry_group": "",
+        "industry": "Semiconductors",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "QQQ",
+        "SPY",
+        "SOXX"
+      ]
+    },
+    "INTU": {
+      "name": "Intuit Inc.",
+      "gics": {
+        "sector": "Technology",
+        "industry_group": "",
+        "industry": "Software - Application",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "QQQ",
+        "SPY"
+      ]
+    },
+    "ORLY": {
+      "name": "O'Reilly Automotive, Inc.",
+      "gics": {
+        "sector": "Consumer Cyclical",
+        "industry_group": "",
+        "industry": "Auto Parts",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "QQQ",
+        "SPY"
+      ]
+    },
+    "LITE": {
+      "name": "Lumentum Holdings Inc.",
+      "gics": {
+        "sector": "Technology",
+        "industry_group": "",
+        "industry": "Communication Equipment",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "QQQ",
+        "SPY"
+      ]
+    },
+    "CTAS": {
+      "name": "Cintas Corporation",
+      "gics": {
+        "sector": "Industrials",
+        "industry_group": "",
+        "industry": "Specialty Business Services",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "QQQ",
+        "SPY"
+      ]
+    },
+    "AEP": {
+      "name": "American Electric Power Company, Inc.",
+      "gics": {
+        "sector": "Utilities",
+        "industry_group": "",
+        "industry": "Utilities - Regulated Electric",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "QQQ",
+        "SPY"
+      ]
+    },
+    "WBD": {
+      "name": "Warner Bros. Discovery, Inc.",
+      "gics": {
+        "sector": "Communication Services",
+        "industry_group": "",
+        "industry": "Entertainment",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "QQQ",
+        "SPY"
+      ]
+    },
+    "DASH": {
+      "name": "DoorDash, Inc.",
+      "gics": {
+        "sector": "Consumer Cyclical",
+        "industry_group": "",
+        "industry": "Internet Retail",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "QQQ",
+        "SPY",
+        "ARKQ",
+        "ARKW",
+        "ARKF",
+        "ARKX"
+      ]
+    },
+    "REGN": {
+      "name": "Regeneron Pharmaceuticals, Inc.",
+      "gics": {
+        "sector": "Healthcare",
+        "industry_group": "",
+        "industry": "Biotechnology",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "QQQ",
+        "SPY"
+      ]
+    },
+    "BKR": {
+      "name": "Baker Hughes Company",
+      "gics": {
+        "sector": "Energy",
+        "industry_group": "",
+        "industry": "Oil & Gas Equipment & Services",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "QQQ",
+        "SPY"
+      ]
+    },
+    "PCAR": {
+      "name": "PACCAR Inc",
+      "gics": {
+        "sector": "Industrials",
+        "industry_group": "",
+        "industry": "Farm & Heavy Construction Machinery",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "QQQ",
+        "SPY"
+      ]
+    },
+    "FANG": {
+      "name": "Diamondback Energy, Inc.",
+      "gics": {
+        "sector": "Energy",
+        "industry_group": "",
+        "industry": "Oil & Gas E&P",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "QQQ",
+        "SPY"
+      ]
+    },
+    "FAST": {
+      "name": "Fastenal Company",
+      "gics": {
+        "sector": "Industrials",
+        "industry_group": "",
+        "industry": "Industrial Distribution",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "QQQ",
+        "SPY"
+      ]
+    },
+    "ODFL": {
+      "name": "Old Dominion Freight Line, Inc.",
+      "gics": {
+        "sector": "Industrials",
+        "industry_group": "",
+        "industry": "Trucking",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "QQQ",
+        "SPY"
+      ]
+    },
+    "EA": {
+      "name": "Electronic Arts Inc.",
+      "gics": {
+        "sector": "Communication Services",
+        "industry_group": "",
+        "industry": "Electronic Gaming & Multimedia",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "QQQ",
+        "SPY"
+      ]
+    },
+    "MCHP": {
+      "name": "Microchip Technology Incorporated",
+      "gics": {
+        "sector": "Technology",
+        "industry_group": "",
+        "industry": "Semiconductors",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "QQQ",
+        "SPY",
+        "SOXX"
+      ]
+    },
+    "XEL": {
+      "name": "Xcel Energy Inc.",
+      "gics": {
+        "sector": "Utilities",
+        "industry_group": "",
+        "industry": "Utilities - Regulated Electric",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "QQQ",
+        "SPY"
+      ]
+    },
+    "FER": {
+      "name": "Ferrovial N.V.",
+      "gics": {
+        "sector": "Industrials",
+        "industry_group": "",
+        "industry": "Engineering & Construction",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "QQQ"
+      ]
+    },
+    "EXC": {
+      "name": "Exelon Corporation",
+      "gics": {
+        "sector": "Utilities",
+        "industry_group": "",
+        "industry": "Utilities - Regulated Electric",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "QQQ",
+        "SPY"
+      ]
+    },
+    "IDXX": {
+      "name": "IDEXX Laboratories, Inc.",
+      "gics": {
+        "sector": "Healthcare",
+        "industry_group": "",
+        "industry": "Diagnostics & Research",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "QQQ",
+        "SPY"
+      ]
+    },
+    "CCEP": {
+      "name": "Coca-Cola Europacific Partners PLC",
+      "gics": {
+        "sector": "Consumer Defensive",
+        "industry_group": "",
+        "industry": "Beverages - Non-Alcoholic",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "QQQ"
+      ]
+    },
+    "MSTR": {
+      "name": "Strategy Inc",
+      "gics": {
+        "sector": "Technology",
+        "industry_group": "",
+        "industry": "Software - Application",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "QQQ"
+      ]
+    },
+    "KDP": {
+      "name": "Keurig Dr Pepper Inc.",
+      "gics": {
+        "sector": "Consumer Defensive",
+        "industry_group": "",
+        "industry": "Beverages - Non-Alcoholic",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "QQQ",
+        "SPY"
+      ]
+    },
+    "ADSK": {
+      "name": "Autodesk, Inc.",
+      "gics": {
+        "sector": "Technology",
+        "industry_group": "",
+        "industry": "Software - Application",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "QQQ",
+        "SPY",
+        "PRNT"
+      ]
+    },
+    "TTWO": {
+      "name": "Take-Two Interactive Software, Inc.",
+      "gics": {
+        "sector": "Communication Services",
+        "industry_group": "",
+        "industry": "Electronic Gaming & Multimedia",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "QQQ",
+        "SPY"
+      ]
+    },
+    "ALNY": {
+      "name": "Alnylam Pharmaceuticals, Inc.",
+      "gics": {
+        "sector": "Healthcare",
+        "industry_group": "",
+        "industry": "Biotechnology",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "QQQ"
+      ]
+    },
+    "PYPL": {
+      "name": "PayPal Holdings, Inc.",
+      "gics": {
+        "sector": "Financial Services",
+        "industry_group": "",
+        "industry": "Credit Services",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "QQQ",
+        "SPY"
+      ]
+    },
+    "PAYX": {
+      "name": "Paychex, Inc.",
+      "gics": {
+        "sector": "Technology",
+        "industry_group": "",
+        "industry": "Software - Application",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "QQQ",
+        "SPY"
+      ]
+    },
+    "AXON": {
+      "name": "Axon Enterprise, Inc.",
+      "gics": {
+        "sector": "Industrials",
+        "industry_group": "",
+        "industry": "Aerospace & Defense",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "QQQ",
+        "SPY"
+      ]
+    },
+    "TRI": {
+      "name": "Thomson Reuters Corporation",
+      "gics": {
+        "sector": "Industrials",
+        "industry_group": "",
+        "industry": "Specialty Business Services",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "QQQ"
+      ]
+    },
+    "ROP": {
+      "name": "Roper Technologies, Inc.",
+      "gics": {
+        "sector": "Technology",
+        "industry_group": "",
+        "industry": "Software - Application",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "QQQ",
+        "SPY"
+      ]
+    },
+    "WDAY": {
+      "name": "Workday, Inc.",
+      "gics": {
+        "sector": "Technology",
+        "industry_group": "",
+        "industry": "Software - Application",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "QQQ",
+        "SPY"
+      ]
+    },
+    "GEHC": {
+      "name": "GE HealthCare Technologies Inc.",
+      "gics": {
+        "sector": "Healthcare",
+        "industry_group": "",
+        "industry": "Medical Devices",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "QQQ",
+        "SPY"
+      ]
+    },
+    "DXCM": {
+      "name": "DexCom, Inc.",
+      "gics": {
+        "sector": "Healthcare",
+        "industry_group": "",
+        "industry": "Medical Devices",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "QQQ",
+        "SPY"
+      ]
+    },
+    "KHC": {
+      "name": "The Kraft Heinz Company",
+      "gics": {
+        "sector": "Consumer Defensive",
+        "industry_group": "",
+        "industry": "Packaged Foods",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "QQQ",
+        "SPY"
+      ]
+    },
+    "CPRT": {
+      "name": "Copart, Inc.",
+      "gics": {
+        "sector": "Industrials",
+        "industry_group": "",
+        "industry": "Specialty Business Services",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "QQQ",
+        "SPY"
+      ]
+    },
+    "CTSH": {
+      "name": "Cognizant Technology Solutions Corporation",
+      "gics": {
+        "sector": "Technology",
+        "industry_group": "",
+        "industry": "Information Technology Services",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "QQQ",
+        "SPY"
+      ]
+    },
+    "VRSK": {
+      "name": "Verisk Analytics, Inc.",
+      "gics": {
+        "sector": "Industrials",
+        "industry_group": "",
+        "industry": "Consulting Services",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "QQQ",
+        "SPY"
+      ]
+    },
+    "INSM": {
+      "name": "Insmed Incorporated",
+      "gics": {
+        "sector": "Healthcare",
+        "industry_group": "",
+        "industry": "Biotechnology",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "QQQ"
+      ]
+    },
+    "ZS": {
+      "name": "Zscaler, Inc.",
+      "gics": {
+        "sector": "Technology",
+        "industry_group": "",
+        "industry": "Software - Infrastructure",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "QQQ"
+      ]
+    },
+    "CHTR": {
+      "name": "Charter Communications, Inc.",
+      "gics": {
+        "sector": "Communication Services",
+        "industry_group": "",
+        "industry": "Telecom Services",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "QQQ",
+        "SPY"
+      ]
+    },
+    "BRK.B": {
+      "name": "",
+      "gics": {
+        "sector": "",
+        "industry_group": "",
+        "industry": "",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "LLY": {
+      "name": "Eli Lilly and Company",
+      "gics": {
+        "sector": "Healthcare",
+        "industry_group": "",
+        "industry": "Drug Manufacturers - General",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY",
+        "ARKG"
+      ]
+    },
+    "JPM": {
+      "name": "JPMorgan Chase & Co.",
+      "gics": {
+        "sector": "Financial Services",
+        "industry_group": "",
+        "industry": "Banks - Diversified",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY",
+        "DIA"
+      ]
+    },
+    "V": {
+      "name": "Visa Inc.",
+      "gics": {
+        "sector": "Financial Services",
+        "industry_group": "",
+        "industry": "Credit Services",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY",
+        "DIA"
+      ]
+    },
+    "XOM": {
+      "name": "Exxon Mobil Corporation",
+      "gics": {
+        "sector": "Energy",
+        "industry_group": "",
+        "industry": "Oil & Gas Integrated",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "JNJ": {
+      "name": "Johnson & Johnson",
+      "gics": {
+        "sector": "Healthcare",
+        "industry_group": "",
+        "industry": "Drug Manufacturers - General",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY",
+        "DIA"
+      ]
+    },
+    "ORCL": {
+      "name": "Oracle Corporation",
+      "gics": {
+        "sector": "Technology",
+        "industry_group": "",
+        "industry": "Software - Infrastructure",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "MA": {
+      "name": "Mastercard Incorporated",
+      "gics": {
+        "sector": "Financial Services",
+        "industry_group": "",
+        "industry": "Credit Services",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "CAT": {
+      "name": "Caterpillar Inc.",
+      "gics": {
+        "sector": "Industrials",
+        "industry_group": "",
+        "industry": "Farm & Heavy Construction Machinery",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY",
+        "DIA",
+        "ARKQ"
+      ]
+    },
+    "ABBV": {
+      "name": "AbbVie Inc.",
+      "gics": {
+        "sector": "Healthcare",
+        "industry_group": "",
+        "industry": "Drug Manufacturers - General",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "BAC": {
+      "name": "Bank of America Corporation",
+      "gics": {
+        "sector": "Financial Services",
+        "industry_group": "",
+        "industry": "Banks - Diversified",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "CVX": {
+      "name": "Chevron Corporation",
+      "gics": {
+        "sector": "Energy",
+        "industry_group": "",
+        "industry": "Oil & Gas Integrated",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY",
+        "DIA"
+      ]
+    },
+    "UNH": {
+      "name": "UnitedHealth Group Incorporated",
+      "gics": {
+        "sector": "Healthcare",
+        "industry_group": "",
+        "industry": "Healthcare Plans",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY",
+        "DIA"
+      ]
+    },
+    "KO": {
+      "name": "The Coca-Cola Company",
+      "gics": {
+        "sector": "Consumer Defensive",
+        "industry_group": "",
+        "industry": "Beverages - Non-Alcoholic",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY",
+        "DIA"
+      ]
+    },
+    "GE": {
+      "name": "GE Aerospace",
+      "gics": {
+        "sector": "Industrials",
+        "industry_group": "",
+        "industry": "Aerospace & Defense",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY",
+        "PRNT"
+      ]
+    },
+    "PG": {
+      "name": "The Procter & Gamble Company",
+      "gics": {
+        "sector": "Consumer Defensive",
+        "industry_group": "",
+        "industry": "Household & Personal Products",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY",
+        "DIA"
+      ]
+    },
+    "MS": {
+      "name": "Morgan Stanley",
+      "gics": {
+        "sector": "Financial Services",
+        "industry_group": "",
+        "industry": "Capital Markets",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "HD": {
+      "name": "The Home Depot, Inc.",
+      "gics": {
+        "sector": "Consumer Cyclical",
+        "industry_group": "",
+        "industry": "Home Improvement Retail",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY",
+        "DIA"
+      ]
+    },
+    "GS": {
+      "name": "The Goldman Sachs Group, Inc.",
+      "gics": {
+        "sector": "Financial Services",
+        "industry_group": "",
+        "industry": "Capital Markets",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY",
+        "DIA"
+      ]
+    },
+    "MRK": {
+      "name": "Merck & Co., Inc.",
+      "gics": {
+        "sector": "Healthcare",
+        "industry_group": "",
+        "industry": "Drug Manufacturers - General",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY",
+        "DIA"
+      ]
+    },
+    "PM": {
+      "name": "Philip Morris International Inc.",
+      "gics": {
+        "sector": "Consumer Defensive",
+        "industry_group": "",
+        "industry": "Tobacco",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "DELL": {
+      "name": "Dell Technologies Inc.",
+      "gics": {
+        "sector": "Technology",
+        "industry_group": "",
+        "industry": "Computer Hardware",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "WFC": {
+      "name": "Wells Fargo & Company",
+      "gics": {
+        "sector": "Financial Services",
+        "industry_group": "",
+        "industry": "Banks - Diversified",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "IBM": {
+      "name": "International Business Machines Corporation",
+      "gics": {
+        "sector": "Technology",
+        "industry_group": "",
+        "industry": "Information Technology Services",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY",
+        "DIA"
+      ]
+    },
+    "GEV": {
+      "name": "GE Vernova Inc.",
+      "gics": {
+        "sector": "Industrials",
+        "industry_group": "",
+        "industry": "Specialty Industrial Machinery",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "RTX": {
+      "name": "RTX Corporation",
+      "gics": {
+        "sector": "Industrials",
+        "industry_group": "",
+        "industry": "Aerospace & Defense",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "C": {
+      "name": "Citigroup Inc.",
+      "gics": {
+        "sector": "Financial Services",
+        "industry_group": "",
+        "industry": "Banks - Diversified",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "AXP": {
+      "name": "American Express Company",
+      "gics": {
+        "sector": "Financial Services",
+        "industry_group": "",
+        "industry": "Credit Services",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY",
+        "DIA"
+      ]
+    },
+    "ANET": {
+      "name": "Arista Networks, Inc.",
+      "gics": {
+        "sector": "Technology",
+        "industry_group": "",
+        "industry": "Computer Hardware",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "MCD": {
+      "name": "McDonald's Corporation",
+      "gics": {
+        "sector": "Consumer Cyclical",
+        "industry_group": "",
+        "industry": "Restaurants",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY",
+        "DIA"
+      ]
+    },
+    "VZ": {
+      "name": "Verizon Communications Inc.",
+      "gics": {
+        "sector": "Communication Services",
+        "industry_group": "",
+        "industry": "Telecom Services",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY",
+        "DIA"
+      ]
+    },
+    "APH": {
+      "name": "Amphenol Corporation",
+      "gics": {
+        "sector": "Technology",
+        "industry_group": "",
+        "industry": "Electronic Components",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "TJX": {
+      "name": "The TJX Companies, Inc.",
+      "gics": {
+        "sector": "Consumer Cyclical",
+        "industry_group": "",
+        "industry": "Apparel Retail",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "NEE": {
+      "name": "NextEra Energy, Inc.",
+      "gics": {
+        "sector": "Utilities",
+        "industry_group": "",
+        "industry": "Utilities - Regulated Electric",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "TMO": {
+      "name": "Thermo Fisher Scientific Inc.",
+      "gics": {
+        "sector": "Healthcare",
+        "industry_group": "",
+        "industry": "Diagnostics & Research",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "DIS": {
+      "name": "The Walt Disney Company",
+      "gics": {
+        "sector": "Communication Services",
+        "industry_group": "",
+        "industry": "Entertainment",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY",
+        "DIA"
+      ]
+    },
+    "BA": {
+      "name": "The Boeing Company",
+      "gics": {
+        "sector": "Industrials",
+        "industry_group": "",
+        "industry": "Aerospace & Defense",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY",
+        "DIA"
+      ]
+    },
+    "T": {
+      "name": "AT&T Inc.",
+      "gics": {
+        "sector": "Communication Services",
+        "industry_group": "",
+        "industry": "Telecom Services",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "UNP": {
+      "name": "Union Pacific Corporation",
+      "gics": {
+        "sector": "Industrials",
+        "industry_group": "",
+        "industry": "Railroads",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "BLK": {
+      "name": "BlackRock, Inc.",
+      "gics": {
+        "sector": "Financial Services",
+        "industry_group": "",
+        "industry": "Asset Management",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "SCHW": {
+      "name": "The Charles Schwab Corporation",
+      "gics": {
+        "sector": "Financial Services",
+        "industry_group": "",
+        "industry": "Capital Markets",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "DE": {
+      "name": "Deere & Company",
+      "gics": {
+        "sector": "Industrials",
+        "industry_group": "",
+        "industry": "Farm & Heavy Construction Machinery",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY",
+        "ARKK",
+        "ARKQ",
+        "ARKX"
+      ]
+    },
+    "GLW": {
+      "name": "Corning Incorporated",
+      "gics": {
+        "sector": "Technology",
+        "industry_group": "",
+        "industry": "Electronic Components",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "ABT": {
+      "name": "Abbott Laboratories",
+      "gics": {
+        "sector": "Healthcare",
+        "industry_group": "",
+        "industry": "Medical Devices",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "ETN": {
+      "name": "Eaton Corporation plc",
+      "gics": {
+        "sector": "Industrials",
+        "industry_group": "",
+        "industry": "Specialty Industrial Machinery",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "WELL": {
+      "name": "Welltower Inc.",
+      "gics": {
+        "sector": "Real Estate",
+        "industry_group": "",
+        "industry": "REIT - Healthcare Facilities",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "BX": {
+      "name": "Blackstone Inc.",
+      "gics": {
+        "sector": "Financial Services",
+        "industry_group": "",
+        "industry": "Asset Management",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "PFE": {
+      "name": "Pfizer Inc.",
+      "gics": {
+        "sector": "Healthcare",
+        "industry_group": "",
+        "industry": "Drug Manufacturers - General",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "COP": {
+      "name": "ConocoPhillips",
+      "gics": {
+        "sector": "Energy",
+        "industry_group": "",
+        "industry": "Oil & Gas E&P",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "UBER": {
+      "name": "Uber Technologies, Inc.",
+      "gics": {
+        "sector": "Technology",
+        "industry_group": "",
+        "industry": "Software - Application",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "PLD": {
+      "name": "Prologis, Inc.",
+      "gics": {
+        "sector": "Real Estate",
+        "industry_group": "",
+        "industry": "REIT - Industrial",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "CRM": {
+      "name": "Salesforce, Inc.",
+      "gics": {
+        "sector": "Technology",
+        "industry_group": "",
+        "industry": "Software - Application",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY",
+        "DIA"
+      ]
+    },
+    "CVS": {
+      "name": "CVS Health Corporation",
+      "gics": {
+        "sector": "Healthcare",
+        "industry_group": "",
+        "industry": "Healthcare Plans",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "DHR": {
+      "name": "Danaher Corporation",
+      "gics": {
+        "sector": "Healthcare",
+        "industry_group": "",
+        "industry": "Diagnostics & Research",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "CB": {
+      "name": "Chubb Limited",
+      "gics": {
+        "sector": "Financial Services",
+        "industry_group": "",
+        "industry": "Insurance - Property & Casualty",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "LMT": {
+      "name": "Lockheed Martin Corporation",
+      "gics": {
+        "sector": "Industrials",
+        "industry_group": "",
+        "industry": "Aerospace & Defense",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY",
+        "ARKX"
+      ]
+    },
+    "SPGI": {
+      "name": "S&P Global Inc.",
+      "gics": {
+        "sector": "Financial Services",
+        "industry_group": "",
+        "industry": "Financial Data & Stock Exchanges",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "LOW": {
+      "name": "Lowe's Companies, Inc.",
+      "gics": {
+        "sector": "Consumer Cyclical",
+        "industry_group": "",
+        "industry": "Home Improvement Retail",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "SYK": {
+      "name": "Stryker Corporation",
+      "gics": {
+        "sector": "Healthcare",
+        "industry_group": "",
+        "industry": "Medical Devices",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "MO": {
+      "name": "Altria Group, Inc.",
+      "gics": {
+        "sector": "Consumer Defensive",
+        "industry_group": "",
+        "industry": "Tobacco",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "PGR": {
+      "name": "The Progressive Corporation",
+      "gics": {
+        "sector": "Financial Services",
+        "industry_group": "",
+        "industry": "Insurance - Property & Casualty",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "BMY": {
+      "name": "Bristol-Myers Squibb Company",
+      "gics": {
+        "sector": "Healthcare",
+        "industry_group": "",
+        "industry": "Drug Manufacturers - General",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "VRT": {
+      "name": "Vertiv Holdings Co",
+      "gics": {
+        "sector": "Industrials",
+        "industry_group": "",
+        "industry": "Electrical Equipment & Parts",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "COF": {
+      "name": "Capital One Financial Corporation",
+      "gics": {
+        "sector": "Financial Services",
+        "industry_group": "",
+        "industry": "Credit Services",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "PH": {
+      "name": "Parker-Hannifin Corporation",
+      "gics": {
+        "sector": "Industrials",
+        "industry_group": "",
+        "industry": "Specialty Industrial Machinery",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "NEM": {
+      "name": "Newmont Corporation",
+      "gics": {
+        "sector": "Basic Materials",
+        "industry_group": "",
+        "industry": "Gold",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "PWR": {
+      "name": "Quanta Services, Inc.",
+      "gics": {
+        "sector": "Industrials",
+        "industry_group": "",
+        "industry": "Engineering & Construction",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "SO": {
+      "name": "The Southern Company",
+      "gics": {
+        "sector": "Utilities",
+        "industry_group": "",
+        "industry": "Utilities - Regulated Electric",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "HWM": {
+      "name": "Howmet Aerospace Inc.",
+      "gics": {
+        "sector": "Industrials",
+        "industry_group": "",
+        "industry": "Aerospace & Defense",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "NOW": {
+      "name": "ServiceNow, Inc.",
+      "gics": {
+        "sector": "Technology",
+        "industry_group": "",
+        "industry": "Software - Application",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "ACN": {
+      "name": "Accenture plc",
+      "gics": {
+        "sector": "Technology",
+        "industry_group": "",
+        "industry": "Information Technology Services",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "EQIX": {
+      "name": "Equinix, Inc.",
+      "gics": {
+        "sector": "Real Estate",
+        "industry_group": "",
+        "industry": "REIT - Specialty",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "MDT": {
+      "name": "Medtronic plc",
+      "gics": {
+        "sector": "Healthcare",
+        "industry_group": "",
+        "industry": "Medical Devices",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "TT": {
+      "name": "Trane Technologies plc",
+      "gics": {
+        "sector": "Industrials",
+        "industry_group": "",
+        "industry": "Building Products & Equipment",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "BNY": {
+      "name": "",
+      "gics": {
+        "sector": "Financial Services",
+        "industry_group": "",
+        "industry": "Banks - Diversified",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "FCX": {
+      "name": "Freeport-McMoRan Inc.",
+      "gics": {
+        "sector": "Basic Materials",
+        "industry_group": "",
+        "industry": "Copper",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "GD": {
+      "name": "General Dynamics Corporation",
+      "gics": {
+        "sector": "Industrials",
+        "industry_group": "",
+        "industry": "Aerospace & Defense",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "DUK": {
+      "name": "Duke Energy Corporation",
+      "gics": {
+        "sector": "Utilities",
+        "industry_group": "",
+        "industry": "Utilities - Regulated Electric",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "CME": {
+      "name": "CME Group Inc.",
+      "gics": {
+        "sector": "Financial Services",
+        "industry_group": "",
+        "industry": "Financial Data & Stock Exchanges",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "PNC": {
+      "name": "The PNC Financial Services Group, Inc.",
+      "gics": {
+        "sector": "Financial Services",
+        "industry_group": "",
+        "industry": "Banks - Regional",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "MCK": {
+      "name": "McKesson Corporation",
+      "gics": {
+        "sector": "Healthcare",
+        "industry_group": "",
+        "industry": "Medical Distribution",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "UPS": {
+      "name": "United Parcel Service, Inc.",
+      "gics": {
+        "sector": "Industrials",
+        "industry_group": "",
+        "industry": "Integrated Freight & Logistics",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "USB": {
+      "name": "U.S. Bancorp",
+      "gics": {
+        "sector": "Financial Services",
+        "industry_group": "",
+        "industry": "Banks - Regional",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "CMI": {
+      "name": "Cummins Inc.",
+      "gics": {
+        "sector": "Industrials",
+        "industry_group": "",
+        "industry": "Specialty Industrial Machinery",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "JCI": {
+      "name": "Johnson Controls International plc",
+      "gics": {
+        "sector": "Industrials",
+        "industry_group": "",
+        "industry": "Building Products & Equipment",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "WM": {
+      "name": "Waste Management, Inc.",
+      "gics": {
+        "sector": "Industrials",
+        "industry_group": "",
+        "industry": "Waste Management",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "WMB": {
+      "name": "The Williams Companies, Inc.",
+      "gics": {
+        "sector": "Energy",
+        "industry_group": "",
+        "industry": "Oil & Gas Midstream",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "ELV": {
+      "name": "Elevance Health, Inc.",
+      "gics": {
+        "sector": "Healthcare",
+        "industry_group": "",
+        "industry": "Healthcare Plans",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "AMT": {
+      "name": "American Tower Corporation",
+      "gics": {
+        "sector": "Real Estate",
+        "industry_group": "",
+        "industry": "REIT - Specialty",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "KKR": {
+      "name": "KKR & Co. Inc.",
+      "gics": {
+        "sector": "Financial Services",
+        "industry_group": "",
+        "industry": "Asset Management",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "HCA": {
+      "name": "HCA Healthcare, Inc.",
+      "gics": {
+        "sector": "Healthcare",
+        "industry_group": "",
+        "industry": "Medical Care Facilities",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "SLB": {
+      "name": "SLB N.V.",
+      "gics": {
+        "sector": "Energy",
+        "industry_group": "",
+        "industry": "Oil & Gas Equipment & Services",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "HOOD": {
+      "name": "Robinhood Markets, Inc.",
+      "gics": {
+        "sector": "Financial Services",
+        "industry_group": "",
+        "industry": "Capital Markets",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY",
+        "ARKK",
+        "ARKW",
+        "ARKF",
+        "ARKVX"
+      ]
+    },
+    "MMM": {
+      "name": "3M Company",
+      "gics": {
+        "sector": "Industrials",
+        "industry_group": "",
+        "industry": "Conglomerates",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY",
+        "DIA",
+        "PRNT"
+      ]
+    },
+    "MRSH": {
+      "name": "Marsh & McLennan Companies, Inc.",
+      "gics": {
+        "sector": "Financial Services",
+        "industry_group": "",
+        "industry": "Insurance Brokers",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "FDX": {
+      "name": "FedEx Corporation",
+      "gics": {
+        "sector": "Industrials",
+        "industry_group": "",
+        "industry": "Integrated Freight & Logistics",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "EMR": {
+      "name": "Emerson Electric Co.",
+      "gics": {
+        "sector": "Industrials",
+        "industry_group": "",
+        "industry": "Specialty Industrial Machinery",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "ICE": {
+      "name": "Intercontinental Exchange, Inc.",
+      "gics": {
+        "sector": "Financial Services",
+        "industry_group": "",
+        "industry": "Financial Data & Stock Exchanges",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "CI": {
+      "name": "The Cigna Group",
+      "gics": {
+        "sector": "Healthcare",
+        "industry_group": "",
+        "industry": "Healthcare Plans",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "SHW": {
+      "name": "The Sherwin-Williams Company",
+      "gics": {
+        "sector": "Basic Materials",
+        "industry_group": "",
+        "industry": "Specialty Chemicals",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY",
+        "DIA"
+      ]
+    },
+    "HLT": {
+      "name": "Hilton Worldwide Holdings Inc.",
+      "gics": {
+        "sector": "Consumer Cyclical",
+        "industry_group": "",
+        "industry": "Lodging",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "RCL": {
+      "name": "Royal Caribbean Cruises Ltd.",
+      "gics": {
+        "sector": "Consumer Cyclical",
+        "industry_group": "",
+        "industry": "Travel Services",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "NOC": {
+      "name": "Northrop Grumman Corporation",
+      "gics": {
+        "sector": "Industrials",
+        "industry_group": "",
+        "industry": "Aerospace & Defense",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "MCO": {
+      "name": "Moody's Corporation",
+      "gics": {
+        "sector": "Financial Services",
+        "industry_group": "",
+        "industry": "Financial Data & Stock Exchanges",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "APO": {
+      "name": "Apollo Global Management, Inc.",
+      "gics": {
+        "sector": "Financial Services",
+        "industry_group": "",
+        "industry": "Asset Management",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "VLO": {
+      "name": "Valero Energy Corporation",
+      "gics": {
+        "sector": "Energy",
+        "industry_group": "",
+        "industry": "Oil & Gas Refining & Marketing",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "MPC": {
+      "name": "Marathon Petroleum Corporation",
+      "gics": {
+        "sector": "Energy",
+        "industry_group": "",
+        "industry": "Oil & Gas Refining & Marketing",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "COHR": {
+      "name": "Coherent Corp.",
+      "gics": {
+        "sector": "Technology",
+        "industry_group": "",
+        "industry": "Scientific & Technical Instruments",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY",
+        "SOXX"
+      ]
+    },
+    "ECL": {
+      "name": "Ecolab Inc.",
+      "gics": {
+        "sector": "Basic Materials",
+        "industry_group": "",
+        "industry": "Specialty Chemicals",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "ITW": {
+      "name": "Illinois Tool Works Inc.",
+      "gics": {
+        "sector": "Industrials",
+        "industry_group": "",
+        "industry": "Specialty Industrial Machinery",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "GM": {
+      "name": "General Motors Company",
+      "gics": {
+        "sector": "Consumer Cyclical",
+        "industry_group": "",
+        "industry": "Auto Manufacturers",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "EOG": {
+      "name": "EOG Resources, Inc.",
+      "gics": {
+        "sector": "Energy",
+        "industry_group": "",
+        "industry": "Oil & Gas E&P",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "PSX": {
+      "name": "Phillips 66",
+      "gics": {
+        "sector": "Energy",
+        "industry_group": "",
+        "industry": "Oil & Gas Refining & Marketing",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "AON": {
+      "name": "Aon plc",
+      "gics": {
+        "sector": "Financial Services",
+        "industry_group": "",
+        "industry": "Insurance Brokers",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "CL": {
+      "name": "Colgate-Palmolive Company",
+      "gics": {
+        "sector": "Consumer Defensive",
+        "industry_group": "",
+        "industry": "Household & Personal Products",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "KMI": {
+      "name": "Kinder Morgan, Inc.",
+      "gics": {
+        "sector": "Energy",
+        "industry_group": "",
+        "industry": "Oil & Gas Midstream",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "CRH": {
+      "name": "CRH plc",
+      "gics": {
+        "sector": "Basic Materials",
+        "industry_group": "",
+        "industry": "Building Materials",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "SPG": {
+      "name": "Simon Property Group, Inc.",
+      "gics": {
+        "sector": "Real Estate",
+        "industry_group": "",
+        "industry": "REIT - Retail",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "NSC": {
+      "name": "Norfolk Southern Corporation",
+      "gics": {
+        "sector": "Industrials",
+        "industry_group": "",
+        "industry": "Railroads",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "TDG": {
+      "name": "TransDigm Group Incorporated",
+      "gics": {
+        "sector": "Industrials",
+        "industry_group": "",
+        "industry": "Aerospace & Defense",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "BSX": {
+      "name": "Boston Scientific Corporation",
+      "gics": {
+        "sector": "Healthcare",
+        "industry_group": "",
+        "industry": "Medical Devices",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "MSI": {
+      "name": "Motorola Solutions, Inc.",
+      "gics": {
+        "sector": "Technology",
+        "industry_group": "",
+        "industry": "Communication Equipment",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "URI": {
+      "name": "United Rentals, Inc.",
+      "gics": {
+        "sector": "Industrials",
+        "industry_group": "",
+        "industry": "Rental & Leasing Services",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "NKE": {
+      "name": "NIKE, Inc.",
+      "gics": {
+        "sector": "Consumer Cyclical",
+        "industry_group": "",
+        "industry": "Footwear & Accessories",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY",
+        "DIA"
+      ]
+    },
+    "FIX": {
+      "name": "Comfort Systems USA, Inc.",
+      "gics": {
+        "sector": "Industrials",
+        "industry_group": "",
+        "industry": "Engineering & Construction",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "TRV": {
+      "name": "The Travelers Companies, Inc.",
+      "gics": {
+        "sector": "Financial Services",
+        "industry_group": "",
+        "industry": "Insurance - Property & Casualty",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY",
+        "DIA"
+      ]
+    },
+    "HPE": {
+      "name": "Hewlett Packard Enterprise Company",
+      "gics": {
+        "sector": "Technology",
+        "industry_group": "",
+        "industry": "Communication Equipment",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "DLR": {
+      "name": "Digital Realty Trust, Inc.",
+      "gics": {
+        "sector": "Real Estate",
+        "industry_group": "",
+        "industry": "REIT - Specialty",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "CIEN": {
+      "name": "Ciena Corporation",
+      "gics": {
+        "sector": "Technology",
+        "industry_group": "",
+        "industry": "Communication Equipment",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "RSG": {
+      "name": "Republic Services, Inc.",
+      "gics": {
+        "sector": "Industrials",
+        "industry_group": "",
+        "industry": "Waste Management",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "TFC": {
+      "name": "Truist Financial Corporation",
+      "gics": {
+        "sector": "Financial Services",
+        "industry_group": "",
+        "industry": "Banks - Regional",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "APD": {
+      "name": "Air Products and Chemicals, Inc.",
+      "gics": {
+        "sector": "Basic Materials",
+        "industry_group": "",
+        "industry": "Specialty Chemicals",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "TER": {
+      "name": "Teradyne, Inc.",
+      "gics": {
+        "sector": "Technology",
+        "industry_group": "",
+        "industry": "Semiconductor Equipment & Materials",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY",
+        "SOXX",
+        "ARKK",
+        "ARKQ",
+        "ARKX"
+      ]
+    },
+    "GWW": {
+      "name": "W.W. Grainger, Inc.",
+      "gics": {
+        "sector": "Industrials",
+        "industry_group": "",
+        "industry": "Industrial Distribution",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "TEL": {
+      "name": "TE Connectivity plc",
+      "gics": {
+        "sector": "Technology",
+        "industry_group": "",
+        "industry": "Electronic Components",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "TGT": {
+      "name": "Target Corporation",
+      "gics": {
+        "sector": "Consumer Defensive",
+        "industry_group": "",
+        "industry": "Discount Stores",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "NUE": {
+      "name": "Nucor Corporation",
+      "gics": {
+        "sector": "Basic Materials",
+        "industry_group": "",
+        "industry": "Steel",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "SRE": {
+      "name": "Sempra",
+      "gics": {
+        "sector": "Utilities",
+        "industry_group": "",
+        "industry": "Utilities - Diversified",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "AFL": {
+      "name": "Aflac Incorporated",
+      "gics": {
+        "sector": "Financial Services",
+        "industry_group": "",
+        "industry": "Insurance - Life",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "KEYS": {
+      "name": "Keysight Technologies, Inc.",
+      "gics": {
+        "sector": "Technology",
+        "industry_group": "",
+        "industry": "Scientific & Technical Instruments",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "D": {
+      "name": "Dominion Energy, Inc.",
+      "gics": {
+        "sector": "Utilities",
+        "industry_group": "",
+        "industry": "Utilities - Regulated Electric",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "F": {
+      "name": "Ford Motor Company",
+      "gics": {
+        "sector": "Consumer Cyclical",
+        "industry_group": "",
+        "industry": "Auto Manufacturers",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "TRGP": {
+      "name": "Targa Resources Corp.",
+      "gics": {
+        "sector": "Energy",
+        "industry_group": "",
+        "industry": "Oil & Gas Midstream",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "O": {
+      "name": "Realty Income Corporation",
+      "gics": {
+        "sector": "Real Estate",
+        "industry_group": "",
+        "industry": "REIT - Retail",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "CARR": {
+      "name": "Carrier Global Corporation",
+      "gics": {
+        "sector": "Industrials",
+        "industry_group": "",
+        "industry": "Building Products & Equipment",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "LHX": {
+      "name": "L3Harris Technologies, Inc.",
+      "gics": {
+        "sector": "Industrials",
+        "industry_group": "",
+        "industry": "Aerospace & Defense",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY",
+        "ARKQ",
+        "ARKX",
+        "PRNT"
+      ]
+    },
+    "PSA": {
+      "name": "Public Storage",
+      "gics": {
+        "sector": "Real Estate",
+        "industry_group": "",
+        "industry": "REIT - Industrial",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "MET": {
+      "name": "MetLife, Inc.",
+      "gics": {
+        "sector": "Financial Services",
+        "industry_group": "",
+        "industry": "Insurance - Life",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "OKE": {
+      "name": "ONEOK, Inc.",
+      "gics": {
+        "sector": "Energy",
+        "industry_group": "",
+        "industry": "Oil & Gas Midstream",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "ALL": {
+      "name": "The Allstate Corporation",
+      "gics": {
+        "sector": "Financial Services",
+        "industry_group": "",
+        "industry": "Insurance - Property & Casualty",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "AJG": {
+      "name": "Arthur J. Gallagher & Co.",
+      "gics": {
+        "sector": "Financial Services",
+        "industry_group": "",
+        "industry": "Insurance Brokers",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "OXY": {
+      "name": "Occidental Petroleum Corporation",
+      "gics": {
+        "sector": "Energy",
+        "industry_group": "",
+        "industry": "Oil & Gas E&P",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "COR": {
+      "name": "Cencora, Inc.",
+      "gics": {
+        "sector": "Healthcare",
+        "industry_group": "",
+        "industry": "Medical Distribution",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "DAL": {
+      "name": "Delta Air Lines, Inc.",
+      "gics": {
+        "sector": "Industrials",
+        "industry_group": "",
+        "industry": "Airlines",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "CAH": {
+      "name": "Cardinal Health, Inc.",
+      "gics": {
+        "sector": "Healthcare",
+        "industry_group": "",
+        "industry": "Medical Distribution",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "DVN": {
+      "name": "Devon Energy Corporation",
+      "gics": {
+        "sector": "Energy",
+        "industry_group": "",
+        "industry": "Oil & Gas E&P",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "AME": {
+      "name": "AMETEK, Inc.",
+      "gics": {
+        "sector": "Industrials",
+        "industry_group": "",
+        "industry": "Specialty Industrial Machinery",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY",
+        "PRNT"
+      ]
+    },
+    "ROK": {
+      "name": "Rockwell Automation, Inc.",
+      "gics": {
+        "sector": "Industrials",
+        "industry_group": "",
+        "industry": "Specialty Industrial Machinery",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "CTVA": {
+      "name": "Corteva, Inc.",
+      "gics": {
+        "sector": "Basic Materials",
+        "industry_group": "",
+        "industry": "Agricultural Inputs",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "AZO": {
+      "name": "AutoZone, Inc.",
+      "gics": {
+        "sector": "Consumer Cyclical",
+        "industry_group": "",
+        "industry": "Auto Parts",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "ETR": {
+      "name": "Entergy Corporation",
+      "gics": {
+        "sector": "Utilities",
+        "industry_group": "",
+        "industry": "Utilities - Regulated Electric",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "VST": {
+      "name": "Vistra Corp.",
+      "gics": {
+        "sector": "Utilities",
+        "industry_group": "",
+        "industry": "Utilities - Independent Power Producers",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "NDAQ": {
+      "name": "Nasdaq, Inc.",
+      "gics": {
+        "sector": "Financial Services",
+        "industry_group": "",
+        "industry": "Financial Data & Stock Exchanges",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "FITB": {
+      "name": "Fifth Third Bancorp",
+      "gics": {
+        "sector": "Financial Services",
+        "industry_group": "",
+        "industry": "Banks - Regional",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "EW": {
+      "name": "Edwards Lifesciences Corporation",
+      "gics": {
+        "sector": "Healthcare",
+        "industry_group": "",
+        "industry": "Medical Devices",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "EBAY": {
+      "name": "eBay Inc.",
+      "gics": {
+        "sector": "Consumer Cyclical",
+        "industry_group": "",
+        "industry": "Internet Retail",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "STT": {
+      "name": "State Street Corporation",
+      "gics": {
+        "sector": "Financial Services",
+        "industry_group": "",
+        "industry": "Asset Management",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "CVNA": {
+      "name": "Carvana Co.",
+      "gics": {
+        "sector": "Consumer Cyclical",
+        "industry_group": "",
+        "industry": "Auto & Truck Dealerships",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "GRMN": {
+      "name": "Garmin Ltd.",
+      "gics": {
+        "sector": "Technology",
+        "industry_group": "",
+        "industry": "Scientific & Technical Instruments",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "HUM": {
+      "name": "Humana Inc.",
+      "gics": {
+        "sector": "Healthcare",
+        "industry_group": "",
+        "industry": "Healthcare Plans",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "ON": {
+      "name": "ON Semiconductor Corporation",
+      "gics": {
+        "sector": "Technology",
+        "industry_group": "",
+        "industry": "Semiconductors",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY",
+        "SOXX"
+      ]
+    },
+    "WAB": {
+      "name": "Westinghouse Air Brake Technologies Corporation",
+      "gics": {
+        "sector": "Industrials",
+        "industry_group": "",
+        "industry": "Railroads",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "DHI": {
+      "name": "D.R. Horton, Inc.",
+      "gics": {
+        "sector": "Consumer Cyclical",
+        "industry_group": "",
+        "industry": "Residential Construction",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "MSCI": {
+      "name": "MSCI Inc.",
+      "gics": {
+        "sector": "Financial Services",
+        "industry_group": "",
+        "industry": "Financial Data & Stock Exchanges",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "COIN": {
+      "name": "Coinbase Global, Inc.",
+      "gics": {
+        "sector": "Financial Services",
+        "industry_group": "",
+        "industry": "Financial Data & Stock Exchanges",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY",
+        "ARKK",
+        "ARKW",
+        "ARKF",
+        "ARKVX"
+      ]
+    },
+    "YUM": {
+      "name": "Yum! Brands, Inc.",
+      "gics": {
+        "sector": "Consumer Cyclical",
+        "industry_group": "",
+        "industry": "Restaurants",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "XYZ": {
+      "name": "Block, Inc.",
+      "gics": {
+        "sector": "Technology",
+        "industry_group": "",
+        "industry": "Software - Infrastructure",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY",
+        "ARKK",
+        "ARKW",
+        "ARKF"
+      ]
+    },
+    "CMG": {
+      "name": "Chipotle Mexican Grill, Inc.",
+      "gics": {
+        "sector": "Consumer Cyclical",
+        "industry_group": "",
+        "industry": "Restaurants",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "VTR": {
+      "name": "Ventas, Inc.",
+      "gics": {
+        "sector": "Real Estate",
+        "industry_group": "",
+        "industry": "REIT - Healthcare Facilities",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "AMP": {
+      "name": "Ameriprise Financial, Inc.",
+      "gics": {
+        "sector": "Financial Services",
+        "industry_group": "",
+        "industry": "Asset Management",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "STLD": {
+      "name": "Steel Dynamics, Inc.",
+      "gics": {
+        "sector": "Basic Materials",
+        "industry_group": "",
+        "industry": "Steel",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "IBKR": {
+      "name": "Interactive Brokers Group, Inc.",
+      "gics": {
+        "sector": "Financial Services",
+        "industry_group": "",
+        "industry": "Capital Markets",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "JBL": {
+      "name": "Jabil Inc.",
+      "gics": {
+        "sector": "Technology",
+        "industry_group": "",
+        "industry": "Electronic Components",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY",
+        "PRNT"
+      ]
+    },
+    "CCI": {
+      "name": "Crown Castle Inc.",
+      "gics": {
+        "sector": "Real Estate",
+        "industry_group": "",
+        "industry": "REIT - Specialty",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "BDX": {
+      "name": "Becton, Dickinson and Company",
+      "gics": {
+        "sector": "Healthcare",
+        "industry_group": "",
+        "industry": "Medical Instruments & Supplies",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "CCL": {
+      "name": "Carnival Corporation Ltd.",
+      "gics": {
+        "sector": "Consumer Cyclical",
+        "industry_group": "",
+        "industry": "Travel Services",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "AIG": {
+      "name": "American International Group, Inc.",
+      "gics": {
+        "sector": "Financial Services",
+        "industry_group": "",
+        "industry": "Insurance - Diversified",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "LYV": {
+      "name": "Live Nation Entertainment, Inc.",
+      "gics": {
+        "sector": "Communication Services",
+        "industry_group": "",
+        "industry": "Entertainment",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "KR": {
+      "name": "The Kroger Co.",
+      "gics": {
+        "sector": "Consumer Defensive",
+        "industry_group": "",
+        "industry": "Grocery Stores",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "PEG": {
+      "name": "Public Service Enterprise Group Incorporated",
+      "gics": {
+        "sector": "Utilities",
+        "industry_group": "",
+        "industry": "Utilities - Regulated Electric",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "ED": {
+      "name": "Consolidated Edison, Inc.",
+      "gics": {
+        "sector": "Utilities",
+        "industry_group": "",
+        "industry": "Utilities - Regulated Electric",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "CBRE": {
+      "name": "CBRE Group, Inc.",
+      "gics": {
+        "sector": "Real Estate",
+        "industry_group": "",
+        "industry": "Real Estate Services",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "ADM": {
+      "name": "Archer-Daniels-Midland Company",
+      "gics": {
+        "sector": "Consumer Defensive",
+        "industry_group": "",
+        "industry": "Farm Products",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "SYY": {
+      "name": "Sysco Corporation",
+      "gics": {
+        "sector": "Consumer Defensive",
+        "industry_group": "",
+        "industry": "Food Distribution",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "IRM": {
+      "name": "Iron Mountain Incorporated",
+      "gics": {
+        "sector": "Real Estate",
+        "industry_group": "",
+        "industry": "REIT - Specialty",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "PRU": {
+      "name": "Prudential Financial, Inc.",
+      "gics": {
+        "sector": "Financial Services",
+        "industry_group": "",
+        "industry": "Insurance - Life",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "UAL": {
+      "name": "United Airlines Holdings, Inc.",
+      "gics": {
+        "sector": "Industrials",
+        "industry_group": "",
+        "industry": "Airlines",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "PCG": {
+      "name": "PG&E Corporation",
+      "gics": {
+        "sector": "Utilities",
+        "industry_group": "",
+        "industry": "Utilities - Regulated Electric",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "VMC": {
+      "name": "Vulcan Materials Company",
+      "gics": {
+        "sector": "Basic Materials",
+        "industry_group": "",
+        "industry": "Building Materials",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "WEC": {
+      "name": "WEC Energy Group, Inc.",
+      "gics": {
+        "sector": "Utilities",
+        "industry_group": "",
+        "industry": "Utilities - Regulated Electric",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "HSY": {
+      "name": "The Hershey Company",
+      "gics": {
+        "sector": "Consumer Defensive",
+        "industry_group": "",
+        "industry": "Confectioners",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "A": {
+      "name": "",
+      "gics": {
+        "sector": "Healthcare",
+        "industry_group": "",
+        "industry": "Diagnostics & Research",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "EME": {
+      "name": "EMCOR Group, Inc.",
+      "gics": {
+        "sector": "Industrials",
+        "industry_group": "",
+        "industry": "Engineering & Construction",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "HBAN": {
+      "name": "Huntington Bancshares Incorporated",
+      "gics": {
+        "sector": "Financial Services",
+        "industry_group": "",
+        "industry": "Banks - Regional",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "HIG": {
+      "name": "The Hartford Insurance Group, Inc.",
+      "gics": {
+        "sector": "Financial Services",
+        "industry_group": "",
+        "industry": "Insurance - Diversified",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "WAT": {
+      "name": "Waters Corporation",
+      "gics": {
+        "sector": "Healthcare",
+        "industry_group": "",
+        "industry": "Diagnostics & Research",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "KVUE": {
+      "name": "Kenvue Inc.",
+      "gics": {
+        "sector": "Consumer Defensive",
+        "industry_group": "",
+        "industry": "Household & Personal Products",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "MLM": {
+      "name": "Martin Marietta Materials, Inc.",
+      "gics": {
+        "sector": "Basic Materials",
+        "industry_group": "",
+        "industry": "Building Materials",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "KMB": {
+      "name": "Kimberly-Clark Corporation",
+      "gics": {
+        "sector": "Consumer Defensive",
+        "industry_group": "",
+        "industry": "Household & Personal Products",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "MTB": {
+      "name": "M&T Bank Corporation",
+      "gics": {
+        "sector": "Financial Services",
+        "industry_group": "",
+        "industry": "Banks - Regional",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "ZTS": {
+      "name": "Zoetis Inc.",
+      "gics": {
+        "sector": "Healthcare",
+        "industry_group": "",
+        "industry": "Drug Manufacturers - Specialty & Generic",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "LVS": {
+      "name": "Las Vegas Sands Corp.",
+      "gics": {
+        "sector": "Consumer Cyclical",
+        "industry_group": "",
+        "industry": "Resorts & Casinos",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "HAL": {
+      "name": "Halliburton Company",
+      "gics": {
+        "sector": "Energy",
+        "industry_group": "",
+        "industry": "Oil & Gas Equipment & Services",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "CASY": {
+      "name": "Casey's General Stores, Inc.",
+      "gics": {
+        "sector": "Consumer Cyclical",
+        "industry_group": "",
+        "industry": "Specialty Retail",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "SATS": {
+      "name": "EchoStar Corporation",
+      "gics": {
+        "sector": "Communication Services",
+        "industry_group": "",
+        "industry": "Telecom Services",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "EQT": {
+      "name": "EQT Corporation",
+      "gics": {
+        "sector": "Energy",
+        "industry_group": "",
+        "industry": "Oil & Gas E&P",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "EL": {
+      "name": "The Est\u00e9e Lauder Companies Inc.",
+      "gics": {
+        "sector": "Consumer Defensive",
+        "industry_group": "",
+        "industry": "Household & Personal Products",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "CNC": {
+      "name": "Centene Corporation",
+      "gics": {
+        "sector": "Healthcare",
+        "industry_group": "",
+        "industry": "Healthcare Plans",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "NTRS": {
+      "name": "Northern Trust Corporation",
+      "gics": {
+        "sector": "Financial Services",
+        "industry_group": "",
+        "industry": "Asset Management",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "ACGL": {
+      "name": "Arch Capital Group Ltd.",
+      "gics": {
+        "sector": "Financial Services",
+        "industry_group": "",
+        "industry": "Insurance - Diversified",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "EXR": {
+      "name": "Extra Space Storage Inc.",
+      "gics": {
+        "sector": "Real Estate",
+        "industry_group": "",
+        "industry": "REIT - Industrial",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "Q": {
+      "name": "Qnity Electronics, Inc.",
+      "gics": {
+        "sector": "Technology",
+        "industry_group": "",
+        "industry": "Semiconductor Equipment & Materials",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "NTAP": {
+      "name": "NetApp, Inc.",
+      "gics": {
+        "sector": "Technology",
+        "industry_group": "",
+        "industry": "Software - Infrastructure",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "CBOE": {
+      "name": "Cboe Global Markets, Inc.",
+      "gics": {
+        "sector": "Financial Services",
+        "industry_group": "",
+        "industry": "Financial Data & Stock Exchanges",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "VICI": {
+      "name": "VICI Properties Inc.",
+      "gics": {
+        "sector": "Real Estate",
+        "industry_group": "",
+        "industry": "REIT - Diversified",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "DTE": {
+      "name": "DTE Energy Company",
+      "gics": {
+        "sector": "Utilities",
+        "industry_group": "",
+        "industry": "Utilities - Regulated Electric",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "ARES": {
+      "name": "Ares Management Corporation",
+      "gics": {
+        "sector": "Financial Services",
+        "industry_group": "",
+        "industry": "Asset Management",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "IQV": {
+      "name": "IQVIA Holdings Inc.",
+      "gics": {
+        "sector": "Healthcare",
+        "industry_group": "",
+        "industry": "Diagnostics & Research",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "AEE": {
+      "name": "Ameren Corporation",
+      "gics": {
+        "sector": "Utilities",
+        "industry_group": "",
+        "industry": "Utilities - Regulated Electric",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "TPR": {
+      "name": "Tapestry, Inc.",
+      "gics": {
+        "sector": "Consumer Cyclical",
+        "industry_group": "",
+        "industry": "Luxury Goods",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "RJF": {
+      "name": "Raymond James Financial, Inc.",
+      "gics": {
+        "sector": "Financial Services",
+        "industry_group": "",
+        "industry": "Asset Management",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "BIIB": {
+      "name": "Biogen Inc.",
+      "gics": {
+        "sector": "Healthcare",
+        "industry_group": "",
+        "industry": "Drug Manufacturers - General",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "DOV": {
+      "name": "Dover Corporation",
+      "gics": {
+        "sector": "Industrials",
+        "industry_group": "",
+        "industry": "Specialty Industrial Machinery",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "FSLR": {
+      "name": "First Solar, Inc.",
+      "gics": {
+        "sector": "Technology",
+        "industry_group": "",
+        "industry": "Solar",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "TDY": {
+      "name": "Teledyne Technologies Incorporated",
+      "gics": {
+        "sector": "Technology",
+        "industry_group": "",
+        "industry": "Scientific & Technical Instruments",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY",
+        "ARKQ",
+        "ARKX"
+      ]
+    },
+    "IR": {
+      "name": "Ingersoll Rand Inc.",
+      "gics": {
+        "sector": "Industrials",
+        "industry_group": "",
+        "industry": "Specialty Industrial Machinery",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "FISV": {
+      "name": "Fiserv, Inc.",
+      "gics": {
+        "sector": "",
+        "industry_group": "",
+        "industry": "",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "CFG": {
+      "name": "Citizens Financial Group, Inc.",
+      "gics": {
+        "sector": "Financial Services",
+        "industry_group": "",
+        "industry": "Banks - Regional",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "ATO": {
+      "name": "Atmos Energy Corporation",
+      "gics": {
+        "sector": "Utilities",
+        "industry_group": "",
+        "industry": "Utilities - Regulated Gas",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "RMD": {
+      "name": "ResMed Inc.",
+      "gics": {
+        "sector": "Healthcare",
+        "industry_group": "",
+        "industry": "Medical Instruments & Supplies",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "CNP": {
+      "name": "CenterPoint Energy, Inc.",
+      "gics": {
+        "sector": "Utilities",
+        "industry_group": "",
+        "industry": "Utilities - Regulated Electric",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "EIX": {
+      "name": "Edison International",
+      "gics": {
+        "sector": "Utilities",
+        "industry_group": "",
+        "industry": "Utilities - Regulated Electric",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "JBHT": {
+      "name": "J.B. Hunt Transport Services, Inc.",
+      "gics": {
+        "sector": "Industrials",
+        "industry_group": "",
+        "industry": "Integrated Freight & Logistics",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "FE": {
+      "name": "FirstEnergy Corp.",
+      "gics": {
+        "sector": "Utilities",
+        "industry_group": "",
+        "industry": "Utilities - Regulated Electric",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "FICO": {
+      "name": "Fair Isaac Corporation",
+      "gics": {
+        "sector": "Technology",
+        "industry_group": "",
+        "industry": "Software - Application",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "OTIS": {
+      "name": "Otis Worldwide Corporation",
+      "gics": {
+        "sector": "Industrials",
+        "industry_group": "",
+        "industry": "Specialty Industrial Machinery",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "EXPE": {
+      "name": "Expedia Group, Inc.",
+      "gics": {
+        "sector": "Consumer Cyclical",
+        "industry_group": "",
+        "industry": "Travel Services",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "PPL": {
+      "name": "PPL Corporation",
+      "gics": {
+        "sector": "Utilities",
+        "industry_group": "",
+        "industry": "Utilities - Regulated Electric",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "NRG": {
+      "name": "NRG Energy, Inc.",
+      "gics": {
+        "sector": "Utilities",
+        "industry_group": "",
+        "industry": "Utilities - Independent Power Producers",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "PPG": {
+      "name": "PPG Industries, Inc.",
+      "gics": {
+        "sector": "Basic Materials",
+        "industry_group": "",
+        "industry": "Specialty Chemicals",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "TPL": {
+      "name": "Texas Pacific Land Corporation",
+      "gics": {
+        "sector": "Energy",
+        "industry_group": "",
+        "industry": "Oil & Gas E&P",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "AVB": {
+      "name": "AvalonBay Communities, Inc.",
+      "gics": {
+        "sector": "Real Estate",
+        "industry_group": "",
+        "industry": "REIT - Residential",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "WSM": {
+      "name": "Williams-Sonoma, Inc.",
+      "gics": {
+        "sector": "Consumer Cyclical",
+        "industry_group": "",
+        "industry": "Specialty Retail",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "CINF": {
+      "name": "Cincinnati Financial Corporation",
+      "gics": {
+        "sector": "Financial Services",
+        "industry_group": "",
+        "industry": "Insurance - Property & Casualty",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "XYL": {
+      "name": "Xylem Inc.",
+      "gics": {
+        "sector": "Industrials",
+        "industry_group": "",
+        "industry": "Specialty Industrial Machinery",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "FDXF": {
+      "name": "FedEx Freight Holding Company, Inc.",
+      "gics": {
+        "sector": "Industrials",
+        "industry_group": "",
+        "industry": "Integrated Freight & Logistics",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "VEEV": {
+      "name": "Veeva Systems Inc.",
+      "gics": {
+        "sector": "Healthcare",
+        "industry_group": "",
+        "industry": "Health Information Services",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "ES": {
+      "name": "Eversource Energy",
+      "gics": {
+        "sector": "Utilities",
+        "industry_group": "",
+        "industry": "Utilities - Regulated Electric",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "STZ": {
+      "name": "Constellation Brands, Inc.",
+      "gics": {
+        "sector": "Consumer Defensive",
+        "industry_group": "",
+        "industry": "Beverages - Brewers",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "VRSN": {
+      "name": "VeriSign, Inc.",
+      "gics": {
+        "sector": "Technology",
+        "industry_group": "",
+        "industry": "Software - Infrastructure",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "DG": {
+      "name": "Dollar General Corporation",
+      "gics": {
+        "sector": "Consumer Defensive",
+        "industry_group": "",
+        "industry": "Discount Stores",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "WRB": {
+      "name": "W. R. Berkley Corporation",
+      "gics": {
+        "sector": "Financial Services",
+        "industry_group": "",
+        "industry": "Insurance - Property & Casualty",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "EQR": {
+      "name": "Equity Residential",
+      "gics": {
+        "sector": "Real Estate",
+        "industry_group": "",
+        "industry": "REIT - Residential",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "HUBB": {
+      "name": "Hubbell Incorporated",
+      "gics": {
+        "sector": "Industrials",
+        "industry_group": "",
+        "industry": "Electrical Equipment & Parts",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "RF": {
+      "name": "Regions Financial Corporation",
+      "gics": {
+        "sector": "Financial Services",
+        "industry_group": "",
+        "industry": "Banks - Regional",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "WTW": {
+      "name": "Willis Towers Watson Public Limited Company",
+      "gics": {
+        "sector": "Financial Services",
+        "industry_group": "",
+        "industry": "Insurance Brokers",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "SYF": {
+      "name": "Synchrony Financial",
+      "gics": {
+        "sector": "Financial Services",
+        "industry_group": "",
+        "industry": "Credit Services",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "AWK": {
+      "name": "American Water Works Company, Inc.",
+      "gics": {
+        "sector": "Utilities",
+        "industry_group": "",
+        "industry": "Utilities - Regulated Water",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "BG": {
+      "name": "Bunge Global SA",
+      "gics": {
+        "sector": "Consumer Defensive",
+        "industry_group": "",
+        "industry": "Farm Products",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "KEY": {
+      "name": "KeyCorp",
+      "gics": {
+        "sector": "Financial Services",
+        "industry_group": "",
+        "industry": "Banks - Regional",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "DRI": {
+      "name": "Darden Restaurants, Inc.",
+      "gics": {
+        "sector": "Consumer Cyclical",
+        "industry_group": "",
+        "industry": "Restaurants",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "DOW": {
+      "name": "Dow Inc.",
+      "gics": {
+        "sector": "Basic Materials",
+        "industry_group": "",
+        "industry": "Chemicals",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "RL": {
+      "name": "Ralph Lauren Corporation",
+      "gics": {
+        "sector": "Consumer Cyclical",
+        "industry_group": "",
+        "industry": "Apparel Manufacturing",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "PFG": {
+      "name": "Principal Financial Group, Inc.",
+      "gics": {
+        "sector": "Financial Services",
+        "industry_group": "",
+        "industry": "Asset Management",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "PHM": {
+      "name": "PulteGroup, Inc.",
+      "gics": {
+        "sector": "Consumer Cyclical",
+        "industry_group": "",
+        "industry": "Residential Construction",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "TROW": {
+      "name": "T. Rowe Price Group, Inc.",
+      "gics": {
+        "sector": "Financial Services",
+        "industry_group": "",
+        "industry": "Asset Management",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "CPAY": {
+      "name": "Corpay, Inc.",
+      "gics": {
+        "sector": "Technology",
+        "industry_group": "",
+        "industry": "Software - Infrastructure",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "WST": {
+      "name": "West Pharmaceutical Services, Inc.",
+      "gics": {
+        "sector": "Healthcare",
+        "industry_group": "",
+        "industry": "Medical Instruments & Supplies",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "CHD": {
+      "name": "Church & Dwight Co., Inc.",
+      "gics": {
+        "sector": "Consumer Defensive",
+        "industry_group": "",
+        "industry": "Household & Personal Products",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "HPQ": {
+      "name": "HP Inc.",
+      "gics": {
+        "sector": "Technology",
+        "industry_group": "",
+        "industry": "Computer Hardware",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY",
+        "PRNT"
+      ]
+    },
+    "CHRW": {
+      "name": "C.H. Robinson Worldwide, Inc.",
+      "gics": {
+        "sector": "Industrials",
+        "industry_group": "",
+        "industry": "Integrated Freight & Logistics",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "MTD": {
+      "name": "Mettler-Toledo International Inc.",
+      "gics": {
+        "sector": "Healthcare",
+        "industry_group": "",
+        "industry": "Diagnostics & Research",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "SW": {
+      "name": "Smurfit Westrock Plc",
+      "gics": {
+        "sector": "Consumer Cyclical",
+        "industry_group": "",
+        "industry": "Packaging & Containers",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "ROL": {
+      "name": "Rollins, Inc.",
+      "gics": {
+        "sector": "Consumer Cyclical",
+        "industry_group": "",
+        "industry": "Personal Services",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "CMS": {
+      "name": "CMS Energy Corporation",
+      "gics": {
+        "sector": "Utilities",
+        "industry_group": "",
+        "industry": "Utilities - Regulated Electric",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "NI": {
+      "name": "NiSource Inc.",
+      "gics": {
+        "sector": "Utilities",
+        "industry_group": "",
+        "industry": "Utilities - Regulated Gas",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "DGX": {
+      "name": "Quest Diagnostics Incorporated",
+      "gics": {
+        "sector": "Healthcare",
+        "industry_group": "",
+        "industry": "Diagnostics & Research",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "LEN": {
+      "name": "Lennar Corporation",
+      "gics": {
+        "sector": "Consumer Cyclical",
+        "industry_group": "",
+        "industry": "Residential Construction",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "FFIV": {
+      "name": "F5, Inc.",
+      "gics": {
+        "sector": "Technology",
+        "industry_group": "",
+        "industry": "Software - Infrastructure",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "L": {
+      "name": "Loews Corporation",
+      "gics": {
+        "sector": "Financial Services",
+        "industry_group": "",
+        "industry": "Insurance - Property & Casualty",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "LUV": {
+      "name": "Southwest Airlines Co.",
+      "gics": {
+        "sector": "Industrials",
+        "industry_group": "",
+        "industry": "Airlines",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "DLTR": {
+      "name": "Dollar Tree, Inc.",
+      "gics": {
+        "sector": "Consumer Defensive",
+        "industry_group": "",
+        "industry": "Discount Stores",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "OMC": {
+      "name": "Omnicom Group Inc.",
+      "gics": {
+        "sector": "Communication Services",
+        "industry_group": "",
+        "industry": "Advertising Agencies",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "EXPD": {
+      "name": "Expeditors International of Washington, Inc.",
+      "gics": {
+        "sector": "Industrials",
+        "industry_group": "",
+        "industry": "Integrated Freight & Logistics",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "INCY": {
+      "name": "Incyte Corporation",
+      "gics": {
+        "sector": "Healthcare",
+        "industry_group": "",
+        "industry": "Biotechnology",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "LH": {
+      "name": "Labcorp Holdings Inc.",
+      "gics": {
+        "sector": "Healthcare",
+        "industry_group": "",
+        "industry": "Diagnostics & Research",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "SBAC": {
+      "name": "SBA Communications Corporation",
+      "gics": {
+        "sector": "Real Estate",
+        "industry_group": "",
+        "industry": "REIT - Specialty",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "EXE": {
+      "name": "Expand Energy Corporation",
+      "gics": {
+        "sector": "Energy",
+        "industry_group": "",
+        "industry": "Oil & Gas E&P",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "LYB": {
+      "name": "LyondellBasell Industries N.V.",
+      "gics": {
+        "sector": "Basic Materials",
+        "industry_group": "",
+        "industry": "Specialty Chemicals",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "VLTO": {
+      "name": "Veralto Corporation",
+      "gics": {
+        "sector": "Industrials",
+        "industry_group": "",
+        "industry": "Pollution & Treatment Controls",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "ALB": {
+      "name": "Albemarle Corporation",
+      "gics": {
+        "sector": "Basic Materials",
+        "industry_group": "",
+        "industry": "Specialty Chemicals",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "PKG": {
+      "name": "Packaging Corporation of America",
+      "gics": {
+        "sector": "Consumer Cyclical",
+        "industry_group": "",
+        "industry": "Packaging & Containers",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "TSN": {
+      "name": "Tyson Foods, Inc.",
+      "gics": {
+        "sector": "Consumer Defensive",
+        "industry_group": "",
+        "industry": "Farm Products",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "BRO": {
+      "name": "Brown & Brown, Inc.",
+      "gics": {
+        "sector": "Financial Services",
+        "industry_group": "",
+        "industry": "Insurance Brokers",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "STE": {
+      "name": "STERIS plc",
+      "gics": {
+        "sector": "Healthcare",
+        "industry_group": "",
+        "industry": "Medical Devices",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "FIS": {
+      "name": "Fidelity National Information Services, Inc.",
+      "gics": {
+        "sector": "Technology",
+        "industry_group": "",
+        "industry": "Information Technology Services",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "ULTA": {
+      "name": "Ulta Beauty, Inc.",
+      "gics": {
+        "sector": "Consumer Cyclical",
+        "industry_group": "",
+        "industry": "Specialty Retail",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "SNA": {
+      "name": "Snap-on Incorporated",
+      "gics": {
+        "sector": "Industrials",
+        "industry_group": "",
+        "industry": "Tools & Accessories",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "IFF": {
+      "name": "International Flavors & Fragrances Inc.",
+      "gics": {
+        "sector": "Basic Materials",
+        "industry_group": "",
+        "industry": "Specialty Chemicals",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "MRNA": {
+      "name": "Moderna, Inc.",
+      "gics": {
+        "sector": "Healthcare",
+        "industry_group": "",
+        "industry": "Biotechnology",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "DD": {
+      "name": "DuPont de Nemours, Inc.",
+      "gics": {
+        "sector": "Basic Materials",
+        "industry_group": "",
+        "industry": "Specialty Chemicals",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "AKAM": {
+      "name": "Akamai Technologies, Inc.",
+      "gics": {
+        "sector": "Technology",
+        "industry_group": "",
+        "industry": "Software - Infrastructure",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "EFX": {
+      "name": "Equifax Inc.",
+      "gics": {
+        "sector": "Industrials",
+        "industry_group": "",
+        "industry": "Consulting Services",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "EVRG": {
+      "name": "Evergy, Inc.",
+      "gics": {
+        "sector": "Utilities",
+        "industry_group": "",
+        "industry": "Utilities - Regulated Electric",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "VTRS": {
+      "name": "Viatris Inc.",
+      "gics": {
+        "sector": "Healthcare",
+        "industry_group": "",
+        "industry": "Drug Manufacturers - Specialty & Generic",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "IP": {
+      "name": "International Paper Company",
+      "gics": {
+        "sector": "Consumer Cyclical",
+        "industry_group": "",
+        "industry": "Packaging & Containers",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "LNT": {
+      "name": "Alliant Energy Corporation",
+      "gics": {
+        "sector": "Utilities",
+        "industry_group": "",
+        "industry": "Utilities - Regulated Electric",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "AMCR": {
+      "name": "Amcor plc",
+      "gics": {
+        "sector": "Consumer Cyclical",
+        "industry_group": "",
+        "industry": "Packaging & Containers",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "GPN": {
+      "name": "Global Payments Inc.",
+      "gics": {
+        "sector": "Industrials",
+        "industry_group": "",
+        "industry": "Specialty Business Services",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "FTV": {
+      "name": "Fortive Corporation",
+      "gics": {
+        "sector": "Technology",
+        "industry_group": "",
+        "industry": "Scientific & Technical Instruments",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "GIS": {
+      "name": "General Mills, Inc.",
+      "gics": {
+        "sector": "Consumer Defensive",
+        "industry_group": "",
+        "industry": "Packaged Foods",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "SMCI": {
+      "name": "Super Micro Computer, Inc.",
+      "gics": {
+        "sector": "Technology",
+        "industry_group": "",
+        "industry": "Computer Hardware",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "ESS": {
+      "name": "Essex Property Trust, Inc.",
+      "gics": {
+        "sector": "Real Estate",
+        "industry_group": "",
+        "industry": "REIT - Residential",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "WY": {
+      "name": "Weyerhaeuser Company",
+      "gics": {
+        "sector": "Real Estate",
+        "industry_group": "",
+        "industry": "REIT - Specialty",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "LII": {
+      "name": "Lennox International Inc.",
+      "gics": {
+        "sector": "Industrials",
+        "industry_group": "",
+        "industry": "Building Products & Equipment",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "INVH": {
+      "name": "Invitation Homes Inc.",
+      "gics": {
+        "sector": "Real Estate",
+        "industry_group": "",
+        "industry": "REIT - Residential",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "KIM": {
+      "name": "Kimco Realty Corporation",
+      "gics": {
+        "sector": "Real Estate",
+        "industry_group": "",
+        "industry": "REIT - Retail",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "NVR": {
+      "name": "NVR, Inc.",
+      "gics": {
+        "sector": "Consumer Cyclical",
+        "industry_group": "",
+        "industry": "Residential Construction",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "ZBH": {
+      "name": "Zimmer Biomet Holdings, Inc.",
+      "gics": {
+        "sector": "Healthcare",
+        "industry_group": "",
+        "industry": "Medical Devices",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "HST": {
+      "name": "Host Hotels & Resorts, Inc.",
+      "gics": {
+        "sector": "Real Estate",
+        "industry_group": "",
+        "industry": "REIT - Hotel & Motel",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "CF": {
+      "name": "CF Industries Holdings, Inc.",
+      "gics": {
+        "sector": "Basic Materials",
+        "industry_group": "",
+        "industry": "Agricultural Inputs",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "BR": {
+      "name": "Broadridge Financial Solutions, Inc.",
+      "gics": {
+        "sector": "Technology",
+        "industry_group": "",
+        "industry": "Information Technology Services",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "BEN": {
+      "name": "Franklin Resources, Inc.",
+      "gics": {
+        "sector": "Financial Services",
+        "industry_group": "",
+        "industry": "Asset Management",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "CDW": {
+      "name": "CDW Corporation",
+      "gics": {
+        "sector": "Technology",
+        "industry_group": "",
+        "industry": "Information Technology Services",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "BBY": {
+      "name": "Best Buy Co., Inc.",
+      "gics": {
+        "sector": "Consumer Cyclical",
+        "industry_group": "",
+        "industry": "Specialty Retail",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "TSCO": {
+      "name": "Tractor Supply Company",
+      "gics": {
+        "sector": "Consumer Cyclical",
+        "industry_group": "",
+        "industry": "Specialty Retail",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "TXT": {
+      "name": "Textron Inc.",
+      "gics": {
+        "sector": "Industrials",
+        "industry_group": "",
+        "industry": "Aerospace & Defense",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "MAA": {
+      "name": "Mid-America Apartment Communities, Inc.",
+      "gics": {
+        "sector": "Real Estate",
+        "industry_group": "",
+        "industry": "REIT - Residential",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "IEX": {
+      "name": "IDEX Corporation",
+      "gics": {
+        "sector": "Industrials",
+        "industry_group": "",
+        "industry": "Specialty Industrial Machinery",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "NDSN": {
+      "name": "Nordson Corporation",
+      "gics": {
+        "sector": "Industrials",
+        "industry_group": "",
+        "industry": "Specialty Industrial Machinery",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "DECK": {
+      "name": "Deckers Outdoor Corporation",
+      "gics": {
+        "sector": "Consumer Cyclical",
+        "industry_group": "",
+        "industry": "Footwear & Accessories",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "LDOS": {
+      "name": "Leidos Holdings, Inc.",
+      "gics": {
+        "sector": "Technology",
+        "industry_group": "",
+        "industry": "Information Technology Services",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "GNRC": {
+      "name": "Generac Holdings Inc.",
+      "gics": {
+        "sector": "Industrials",
+        "industry_group": "",
+        "industry": "Specialty Industrial Machinery",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "TKO": {
+      "name": "TKO Group Holdings, Inc.",
+      "gics": {
+        "sector": "Communication Services",
+        "industry_group": "",
+        "industry": "Entertainment",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "BALL": {
+      "name": "Ball Corporation",
+      "gics": {
+        "sector": "Consumer Cyclical",
+        "industry_group": "",
+        "industry": "Packaging & Containers",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "MAS": {
+      "name": "Masco Corporation",
+      "gics": {
+        "sector": "Industrials",
+        "industry_group": "",
+        "industry": "Building Products & Equipment",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "J": {
+      "name": "Jacobs Solutions Inc.",
+      "gics": {
+        "sector": "Industrials",
+        "industry_group": "",
+        "industry": "Engineering & Construction",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "REG": {
+      "name": "Regency Centers Corporation",
+      "gics": {
+        "sector": "Real Estate",
+        "industry_group": "",
+        "industry": "REIT - Retail",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "GEN": {
+      "name": "Gen Digital Inc.",
+      "gics": {
+        "sector": "Technology",
+        "industry_group": "",
+        "industry": "Software - Infrastructure",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "APTV": {
+      "name": "Aptiv PLC",
+      "gics": {
+        "sector": "Consumer Cyclical",
+        "industry_group": "",
+        "industry": "Auto Parts",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "DOC": {
+      "name": "Healthpeak Properties, Inc.",
+      "gics": {
+        "sector": "Real Estate",
+        "industry_group": "",
+        "industry": "REIT - Healthcare Facilities",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "GPC": {
+      "name": "Genuine Parts Company",
+      "gics": {
+        "sector": "Consumer Cyclical",
+        "industry_group": "",
+        "industry": "Auto Parts",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "HRL": {
+      "name": "Hormel Foods Corporation",
+      "gics": {
+        "sector": "Consumer Defensive",
+        "industry_group": "",
+        "industry": "Packaged Foods",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "SOLV": {
+      "name": "Solventum Corporation",
+      "gics": {
+        "sector": "Healthcare",
+        "industry_group": "",
+        "industry": "Medical Instruments & Supplies",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "LULU": {
+      "name": "lululemon athletica inc.",
+      "gics": {
+        "sector": "Consumer Cyclical",
+        "industry_group": "",
+        "industry": "Apparel Retail",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "DVA": {
+      "name": "DaVita Inc.",
+      "gics": {
+        "sector": "Healthcare",
+        "industry_group": "",
+        "industry": "Medical Care Facilities",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "CSGP": {
+      "name": "CoStar Group, Inc.",
+      "gics": {
+        "sector": "Real Estate",
+        "industry_group": "",
+        "industry": "Real Estate Services",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "EG": {
+      "name": "Everest Group, Ltd.",
+      "gics": {
+        "sector": "Financial Services",
+        "industry_group": "",
+        "industry": "Insurance - Reinsurance",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "FOXA": {
+      "name": "Fox Corporation",
+      "gics": {
+        "sector": "Communication Services",
+        "industry_group": "",
+        "industry": "Entertainment",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "FOX": {
+      "name": "Fox Corporation",
+      "gics": {
+        "sector": "Communication Services",
+        "industry_group": "",
+        "industry": "Entertainment",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "COO": {
+      "name": "The Cooper Companies, Inc.",
+      "gics": {
+        "sector": "Healthcare",
+        "industry_group": "",
+        "industry": "Medical Instruments & Supplies",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "MKC": {
+      "name": "McCormick & Company, Incorporated",
+      "gics": {
+        "sector": "Consumer Defensive",
+        "industry_group": "",
+        "industry": "Packaged Foods",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "PTC": {
+      "name": "PTC Inc.",
+      "gics": {
+        "sector": "Technology",
+        "industry_group": "",
+        "industry": "Software - Application",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY",
+        "PRNT"
+      ]
+    },
+    "APA": {
+      "name": "APA Corporation",
+      "gics": {
+        "sector": "Energy",
+        "industry_group": "",
+        "industry": "Oil & Gas E&P",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "SWK": {
+      "name": "Stanley Black & Decker, Inc.",
+      "gics": {
+        "sector": "Industrials",
+        "industry_group": "",
+        "industry": "Tools & Accessories",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "GL": {
+      "name": "Globe Life Inc.",
+      "gics": {
+        "sector": "Financial Services",
+        "industry_group": "",
+        "industry": "Insurance - Life",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "AIZ": {
+      "name": "Assurant, Inc.",
+      "gics": {
+        "sector": "Financial Services",
+        "industry_group": "",
+        "industry": "Insurance - Property & Casualty",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "UDR": {
+      "name": "UDR, Inc.",
+      "gics": {
+        "sector": "Real Estate",
+        "industry_group": "",
+        "industry": "REIT - Residential",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "IVZ": {
+      "name": "Invesco Ltd.",
+      "gics": {
+        "sector": "Financial Services",
+        "industry_group": "",
+        "industry": "Asset Management",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "MGM": {
+      "name": "MGM Resorts International",
+      "gics": {
+        "sector": "Consumer Cyclical",
+        "industry_group": "",
+        "industry": "Resorts & Casinos",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "ALGN": {
+      "name": "Align Technology, Inc.",
+      "gics": {
+        "sector": "Healthcare",
+        "industry_group": "",
+        "industry": "Medical Instruments & Supplies",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY",
+        "PRNT"
+      ]
+    },
+    "PNW": {
+      "name": "Pinnacle West Capital Corporation",
+      "gics": {
+        "sector": "Utilities",
+        "industry_group": "",
+        "industry": "Utilities - Regulated Electric",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "BF.B": {
+      "name": "",
+      "gics": {
+        "sector": "",
+        "industry_group": "",
+        "industry": "",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "SJM": {
+      "name": "The J. M. Smucker Company",
+      "gics": {
+        "sector": "Consumer Defensive",
+        "industry_group": "",
+        "industry": "Packaged Foods",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "AVY": {
+      "name": "Avery Dennison Corporation",
+      "gics": {
+        "sector": "Consumer Cyclical",
+        "industry_group": "",
+        "industry": "Packaging & Containers",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "TYL": {
+      "name": "Tyler Technologies, Inc.",
+      "gics": {
+        "sector": "Technology",
+        "industry_group": "",
+        "industry": "Software - Application",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "PNR": {
+      "name": "Pentair plc",
+      "gics": {
+        "sector": "Industrials",
+        "industry_group": "",
+        "industry": "Specialty Industrial Machinery",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "ERIE": {
+      "name": "Erie Indemnity Company",
+      "gics": {
+        "sector": "Financial Services",
+        "industry_group": "",
+        "industry": "Insurance Brokers",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "HAS": {
+      "name": "Hasbro, Inc.",
+      "gics": {
+        "sector": "Consumer Cyclical",
+        "industry_group": "",
+        "industry": "Leisure",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "HII": {
+      "name": "Huntington Ingalls Industries, Inc.",
+      "gics": {
+        "sector": "Industrials",
+        "industry_group": "",
+        "industry": "Aerospace & Defense",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "CLX": {
+      "name": "The Clorox Company",
+      "gics": {
+        "sector": "Consumer Defensive",
+        "industry_group": "",
+        "industry": "Household & Personal Products",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "PSKY": {
+      "name": "Paramount Skydance Corporation",
+      "gics": {
+        "sector": "Communication Services",
+        "industry_group": "",
+        "industry": "Entertainment",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "TRMB": {
+      "name": "Trimble Inc.",
+      "gics": {
+        "sector": "Technology",
+        "industry_group": "",
+        "industry": "Scientific & Technical Instruments",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY",
+        "ARKQ",
+        "ARKX"
+      ]
+    },
+    "ALLE": {
+      "name": "Allegion plc",
+      "gics": {
+        "sector": "Industrials",
+        "industry_group": "",
+        "industry": "Security & Protection Services",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "CPT": {
+      "name": "Camden Property Trust",
+      "gics": {
+        "sector": "Real Estate",
+        "industry_group": "",
+        "industry": "REIT - Residential",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "WYNN": {
+      "name": "Wynn Resorts, Limited",
+      "gics": {
+        "sector": "Consumer Cyclical",
+        "industry_group": "",
+        "industry": "Resorts & Casinos",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "RVTY": {
+      "name": "Revvity, Inc.",
+      "gics": {
+        "sector": "Healthcare",
+        "industry_group": "",
+        "industry": "Diagnostics & Research",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "SWKS": {
+      "name": "Skyworks Solutions, Inc.",
+      "gics": {
+        "sector": "Technology",
+        "industry_group": "",
+        "industry": "Semiconductors",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY",
+        "SOXX"
+      ]
+    },
+    "FRT": {
+      "name": "Federal Realty Investment Trust",
+      "gics": {
+        "sector": "Real Estate",
+        "industry_group": "",
+        "industry": "REIT - Retail",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "ZBRA": {
+      "name": "Zebra Technologies Corporation",
+      "gics": {
+        "sector": "Technology",
+        "industry_group": "",
+        "industry": "Communication Equipment",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "BAX": {
+      "name": "Baxter International Inc.",
+      "gics": {
+        "sector": "Healthcare",
+        "industry_group": "",
+        "industry": "Medical Instruments & Supplies",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "DPZ": {
+      "name": "Domino's Pizza, Inc.",
+      "gics": {
+        "sector": "Consumer Cyclical",
+        "industry_group": "",
+        "industry": "Restaurants",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "BXP": {
+      "name": "BXP, Inc.",
+      "gics": {
+        "sector": "Real Estate",
+        "industry_group": "",
+        "industry": "REIT - Office",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "AES": {
+      "name": "The AES Corporation",
+      "gics": {
+        "sector": "Utilities",
+        "industry_group": "",
+        "industry": "Utilities - Diversified",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "PODD": {
+      "name": "Insulet Corporation",
+      "gics": {
+        "sector": "Healthcare",
+        "industry_group": "",
+        "industry": "Medical Devices",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "GDDY": {
+      "name": "GoDaddy Inc.",
+      "gics": {
+        "sector": "Technology",
+        "industry_group": "",
+        "industry": "Software - Infrastructure",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "IT": {
+      "name": "Gartner, Inc.",
+      "gics": {
+        "sector": "Technology",
+        "industry_group": "",
+        "industry": "Information Technology Services",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "NWSA": {
+      "name": "News Corporation",
+      "gics": {
+        "sector": "Communication Services",
+        "industry_group": "",
+        "industry": "Entertainment",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "HSIC": {
+      "name": "Henry Schein, Inc.",
+      "gics": {
+        "sector": "Healthcare",
+        "industry_group": "",
+        "industry": "Medical Distribution",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "ARE": {
+      "name": "Alexandria Real Estate Equities, Inc.",
+      "gics": {
+        "sector": "Real Estate",
+        "industry_group": "",
+        "industry": "REIT - Office",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "JKHY": {
+      "name": "Jack Henry & Associates, Inc.",
+      "gics": {
+        "sector": "Technology",
+        "industry_group": "",
+        "industry": "Information Technology Services",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "CRL": {
+      "name": "Charles River Laboratories International, Inc.",
+      "gics": {
+        "sector": "Healthcare",
+        "industry_group": "",
+        "industry": "Diagnostics & Research",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "TTD": {
+      "name": "The Trade Desk, Inc.",
+      "gics": {
+        "sector": "Communication Services",
+        "industry_group": "",
+        "industry": "Advertising Agencies",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "NCLH": {
+      "name": "Norwegian Cruise Line Holdings Ltd.",
+      "gics": {
+        "sector": "Consumer Cyclical",
+        "industry_group": "",
+        "industry": "Travel Services",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "UHS": {
+      "name": "Universal Health Services, Inc.",
+      "gics": {
+        "sector": "Healthcare",
+        "industry_group": "",
+        "industry": "Medical Care Facilities",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "FDS": {
+      "name": "FactSet Research Systems Inc.",
+      "gics": {
+        "sector": "Financial Services",
+        "industry_group": "",
+        "industry": "Financial Data & Stock Exchanges",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "TECH": {
+      "name": "Bio-Techne Corporation",
+      "gics": {
+        "sector": "Healthcare",
+        "industry_group": "",
+        "industry": "Biotechnology",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "BLDR": {
+      "name": "Builders FirstSource, Inc.",
+      "gics": {
+        "sector": "Industrials",
+        "industry_group": "",
+        "industry": "Building Products & Equipment",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "AOS": {
+      "name": "A. O. Smith Corporation",
+      "gics": {
+        "sector": "Industrials",
+        "industry_group": "",
+        "industry": "Specialty Industrial Machinery",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "TAP": {
+      "name": "Molson Coors Beverage Company",
+      "gics": {
+        "sector": "Consumer Defensive",
+        "industry_group": "",
+        "industry": "Beverages - Brewers",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "MOS": {
+      "name": "The Mosaic Company",
+      "gics": {
+        "sector": "Basic Materials",
+        "industry_group": "",
+        "industry": "Agricultural Inputs",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "POOL": {
+      "name": "Pool Corporation",
+      "gics": {
+        "sector": "Industrials",
+        "industry_group": "",
+        "industry": "Industrial Distribution",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "CPB": {
+      "name": "The Campbell's Company",
+      "gics": {
+        "sector": "Consumer Defensive",
+        "industry_group": "",
+        "industry": "Packaged Foods",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "CAG": {
+      "name": "Conagra Brands, Inc.",
+      "gics": {
+        "sector": "Consumer Defensive",
+        "industry_group": "",
+        "industry": "Packaged Foods",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "NWS": {
+      "name": "News Corporation",
+      "gics": {
+        "sector": "Communication Services",
+        "industry_group": "",
+        "industry": "Entertainment",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SPY"
+      ]
+    },
+    "ALGM": {
+      "name": "Allegro MicroSystems, Inc.",
+      "gics": {
+        "sector": "Technology",
+        "industry_group": "",
+        "industry": "Semiconductors",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SOXX"
+      ]
+    },
+    "AMKR": {
+      "name": "Amkor Technology, Inc.",
+      "gics": {
+        "sector": "Technology",
+        "industry_group": "",
+        "industry": "Semiconductor Equipment & Materials",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SOXX"
+      ]
+    },
+    "ACLS": {
+      "name": "Axcelis Technologies, Inc.",
+      "gics": {
+        "sector": "Technology",
+        "industry_group": "",
+        "industry": "Semiconductor Equipment & Materials",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SOXX"
+      ]
+    },
+    "ENTG": {
+      "name": "Entegris, Inc.",
+      "gics": {
+        "sector": "Technology",
+        "industry_group": "",
+        "industry": "Semiconductor Equipment & Materials",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SOXX"
+      ]
+    },
+    "GFS": {
+      "name": "GLOBALFOUNDRIES Inc.",
+      "gics": {
+        "sector": "Technology",
+        "industry_group": "",
+        "industry": "Semiconductors",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SOXX"
+      ]
+    },
+    "LSCC": {
+      "name": "Lattice Semiconductor Corporation",
+      "gics": {
+        "sector": "Technology",
+        "industry_group": "",
+        "industry": "Semiconductors",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SOXX"
+      ]
+    },
+    "QRVO": {
+      "name": "Qorvo, Inc.",
+      "gics": {
+        "sector": "Technology",
+        "industry_group": "",
+        "industry": "Semiconductors",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SOXX"
+      ]
+    },
+    "RMBS": {
+      "name": "Rambus Inc.",
+      "gics": {
+        "sector": "Technology",
+        "industry_group": "",
+        "industry": "Semiconductors",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SOXX"
+      ]
+    },
+    "TSM": {
+      "name": "Taiwan Semiconductor Manufacturing Company Limited",
+      "gics": {
+        "sector": "Technology",
+        "industry_group": "",
+        "industry": "Semiconductors",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SOXX",
+        "ARKK",
+        "ARKQ",
+        "ARKW",
+        "ARKX"
+      ]
+    },
+    "WOLF": {
+      "name": "Wolfspeed, Inc.",
+      "gics": {
+        "sector": "Technology",
+        "industry_group": "",
+        "industry": "Semiconductors",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "SOXX"
+      ]
+    },
+    "TEM": {
+      "name": "Tempus AI, Inc.",
+      "gics": {
+        "sector": "Healthcare",
+        "industry_group": "",
+        "industry": "Health Information Services",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "ARKK",
+        "ARKG",
+        "ARKVX"
+      ]
+    },
+    "CRSP": {
+      "name": "CRISPR Therapeutics AG",
+      "gics": {
+        "sector": "Healthcare",
+        "industry_group": "",
+        "industry": "Biotechnology",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "ARKK",
+        "ARKG",
+        "ARKVX"
+      ]
+    },
+    "ROKU": {
+      "name": "Roku, Inc.",
+      "gics": {
+        "sector": "Communication Services",
+        "industry_group": "",
+        "industry": "Entertainment",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "ARKK",
+        "ARKW",
+        "ARKF"
+      ]
+    },
+    "CRCL": {
+      "name": "Circle Internet Group",
+      "gics": {
+        "sector": "Financial Services",
+        "industry_group": "",
+        "industry": "Capital Markets",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "ARKK",
+        "ARKW",
+        "ARKF"
+      ]
+    },
+    "TWST": {
+      "name": "Twist Bioscience Corporation",
+      "gics": {
+        "sector": "Healthcare",
+        "industry_group": "",
+        "industry": "Diagnostics & Research",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "ARKK",
+        "ARKG",
+        "ARKVX"
+      ]
+    },
+    "BEAM": {
+      "name": "Beam Therapeutics Inc.",
+      "gics": {
+        "sector": "Healthcare",
+        "industry_group": "",
+        "industry": "Biotechnology",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "ARKK",
+        "ARKG",
+        "ARKVX"
+      ]
+    },
+    "TXG": {
+      "name": "10x Genomics, Inc.",
+      "gics": {
+        "sector": "Healthcare",
+        "industry_group": "",
+        "industry": "Health Information Services",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "ARKK",
+        "ARKG",
+        "ARKVX"
+      ]
+    },
+    "RBLX": {
+      "name": "Roblox Corporation",
+      "gics": {
+        "sector": "Communication Services",
+        "industry_group": "",
+        "industry": "Electronic Gaming & Multimedia",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "ARKK",
+        "ARKW",
+        "ARKF",
+        "ARKVX"
+      ]
+    },
+    "CRWV": {
+      "name": "CoreWeave, Inc.",
+      "gics": {
+        "sector": "Technology",
+        "industry_group": "",
+        "industry": "Software - Infrastructure",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "ARKK",
+        "ARKW"
+      ]
+    },
+    "BLSH": {
+      "name": "Bullish",
+      "gics": {
+        "sector": "Technology",
+        "industry_group": "",
+        "industry": "Software - Infrastructure",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "ARKK",
+        "ARKW",
+        "ARKF"
+      ]
+    },
+    "NTLA": {
+      "name": "Intellia Therapeutics, Inc.",
+      "gics": {
+        "sector": "Healthcare",
+        "industry_group": "",
+        "industry": "Biotechnology",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "ARKK",
+        "ARKG",
+        "ARKVX"
+      ]
+    },
+    "BMNR": {
+      "name": "Bitmine Immersion Technologies, Inc.",
+      "gics": {
+        "sector": "Financial Services",
+        "industry_group": "",
+        "industry": "Capital Markets",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "ARKK",
+        "ARKW",
+        "ARKF",
+        "ARKVX"
+      ]
+    },
+    "ILMN": {
+      "name": "Illumina, Inc.",
+      "gics": {
+        "sector": "Healthcare",
+        "industry_group": "",
+        "industry": "Diagnostics & Research",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "ARKK",
+        "ARKG"
+      ]
+    },
+    "NTRA": {
+      "name": "Natera, Inc.",
+      "gics": {
+        "sector": "Healthcare",
+        "industry_group": "",
+        "industry": "Diagnostics & Research",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "ARKK",
+        "ARKG"
+      ]
+    },
+    "BABA": {
+      "name": "Alibaba Group Holding Limited",
+      "gics": {
+        "sector": "Consumer Cyclical",
+        "industry_group": "",
+        "industry": "Internet Retail",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "ARKK",
+        "ARKW",
+        "ARKF"
+      ]
+    },
+    "ACHR": {
+      "name": "Archer Aviation Inc.",
+      "gics": {
+        "sector": "Industrials",
+        "industry_group": "",
+        "industry": "Aerospace & Defense",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "ARKK",
+        "ARKQ",
+        "ARKX",
+        "ARKVX"
+      ]
+    },
+    "CBRS": {
+      "name": "Cerebras Systems Inc.",
+      "gics": {
+        "sector": "Technology",
+        "industry_group": "",
+        "industry": "Semiconductors",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "ARKK",
+        "ARKW"
+      ]
+    },
+    "VCYT": {
+      "name": "Veracyte, Inc.",
+      "gics": {
+        "sector": "Healthcare",
+        "industry_group": "",
+        "industry": "Diagnostics & Research",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "ARKK",
+        "ARKG"
+      ]
+    },
+    "KTOS": {
+      "name": "Kratos Defense & Security Solutions, Inc.",
+      "gics": {
+        "sector": "Industrials",
+        "industry_group": "",
+        "industry": "Aerospace & Defense",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "ARKK",
+        "ARKQ",
+        "ARKX"
+      ]
+    },
+    "RXRX": {
+      "name": "Recursion Pharmaceuticals, Inc.",
+      "gics": {
+        "sector": "Healthcare",
+        "industry_group": "",
+        "industry": "Biotechnology",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "ARKK",
+        "ARKG",
+        "ARKVX"
+      ]
+    },
+    "WGS": {
+      "name": "GeneDx Holdings Corp.",
+      "gics": {
+        "sector": "Healthcare",
+        "industry_group": "",
+        "industry": "Diagnostics & Research",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "ARKK",
+        "ARKG",
+        "ARKVX"
+      ]
+    },
+    "BWXT": {
+      "name": "BWX Technologies, Inc.",
+      "gics": {
+        "sector": "Industrials",
+        "industry_group": "",
+        "industry": "Aerospace & Defense",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "ARKK",
+        "ARKQ",
+        "ARKX"
+      ]
+    },
+    "XE": {
+      "name": "X-Energy, Inc.",
+      "gics": {
+        "sector": "Industrials",
+        "industry_group": "",
+        "industry": "Specialty Industrial Machinery",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "ARKK",
+        "ARKQ",
+        "ARKX"
+      ]
+    },
+    "SOFI": {
+      "name": "SoFi Technologies, Inc.",
+      "gics": {
+        "sector": "Financial Services",
+        "industry_group": "",
+        "industry": "Credit Services",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "ARKK",
+        "ARKF"
+      ]
+    },
+    "FIG": {
+      "name": "Figma, Inc.",
+      "gics": {
+        "sector": "Technology",
+        "industry_group": "",
+        "industry": "Software - Application",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "ARKK",
+        "ARKW"
+      ]
+    },
+    "CERS": {
+      "name": "Cerus Corporation",
+      "gics": {
+        "sector": "Healthcare",
+        "industry_group": "",
+        "industry": "Medical Devices",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "ARKK",
+        "ARKG"
+      ]
+    },
+    "PACB": {
+      "name": "Pacific Biosciences of California, Inc.",
+      "gics": {
+        "sector": "Healthcare",
+        "industry_group": "",
+        "industry": "Medical Devices",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "ARKK",
+        "ARKG",
+        "ARKVX"
+      ]
+    },
+    "BIDU": {
+      "name": "Baidu, Inc.",
+      "gics": {
+        "sector": "Communication Services",
+        "industry_group": "",
+        "industry": "Internet Content & Information",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "ARKK",
+        "ARKQ",
+        "ARKW"
+      ]
+    },
+    "RKLB UQ": {
+      "name": "",
+      "gics": {
+        "sector": "",
+        "industry_group": "",
+        "industry": "",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "ARKQ",
+        "ARKX"
+      ]
+    },
+    "AVAV": {
+      "name": "AeroVironment, Inc.",
+      "gics": {
+        "sector": "Industrials",
+        "industry_group": "",
+        "industry": "Aerospace & Defense",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "ARKQ",
+        "ARKX"
+      ]
+    },
+    "LUNR": {
+      "name": "Intuitive Machines, Inc.",
+      "gics": {
+        "sector": "Industrials",
+        "industry_group": "",
+        "industry": "Aerospace & Defense",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "ARKQ",
+        "ARKX"
+      ]
+    },
+    "KMTUY": {
+      "name": "Komatsu Ltd.",
+      "gics": {
+        "sector": "Industrials",
+        "industry_group": "",
+        "industry": "Farm & Heavy Construction Machinery",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "ARKQ"
+      ]
+    },
+    "ESLT": {
+      "name": "Elbit Systems Ltd.",
+      "gics": {
+        "sector": "Industrials",
+        "industry_group": "",
+        "industry": "Aerospace & Defense",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "ARKQ",
+        "ARKX",
+        "IZRL"
+      ]
+    },
+    "CCJ": {
+      "name": "Cameco Corporation",
+      "gics": {
+        "sector": "Energy",
+        "industry_group": "",
+        "industry": "Uranium",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "ARKQ"
+      ]
+    },
+    "AUR": {
+      "name": "Aurora Innovation, Inc.",
+      "gics": {
+        "sector": "Consumer Cyclical",
+        "industry_group": "",
+        "industry": "Auto Parts",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "ARKQ"
+      ]
+    },
+    "JOBY": {
+      "name": "Joby Aviation, Inc.",
+      "gics": {
+        "sector": "Industrials",
+        "industry_group": "",
+        "industry": "Airports & Air Services",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "ARKQ",
+        "ARKX"
+      ]
+    },
+    "SYM UQ": {
+      "name": "",
+      "gics": {
+        "sector": "",
+        "industry_group": "",
+        "industry": "",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "ARKQ"
+      ]
+    },
+    "IRDM": {
+      "name": "Iridium Communications Inc.",
+      "gics": {
+        "sector": "Communication Services",
+        "industry_group": "",
+        "industry": "Telecom Services",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "ARKQ",
+        "ARKX"
+      ]
+    },
+    "WRD": {
+      "name": "WeRide Inc.",
+      "gics": {
+        "sector": "Technology",
+        "industry_group": "",
+        "industry": "Software - Application",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "ARKQ"
+      ]
+    },
+    "OKLO": {
+      "name": "Oklo Inc.",
+      "gics": {
+        "sector": "Utilities",
+        "industry_group": "",
+        "industry": "Utilities - Independent Power Producers",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "ARKQ"
+      ]
+    },
+    "KDK": {
+      "name": "Kodiak AI, Inc.",
+      "gics": {
+        "sector": "Technology",
+        "industry_group": "",
+        "industry": "Software - Infrastructure",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "ARKQ",
+        "ARKVX"
+      ]
+    },
+    "BYDDY": {
+      "name": "BYD Company Limited",
+      "gics": {
+        "sector": "Consumer Cyclical",
+        "industry_group": "",
+        "industry": "Auto Manufacturers",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "ARKQ"
+      ]
+    },
+    "SRTA": {
+      "name": "Strata Critical Medical, Inc.",
+      "gics": {
+        "sector": "Healthcare",
+        "industry_group": "",
+        "industry": "Medical Care Facilities",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "ARKQ",
+        "ARKX"
+      ]
+    },
+    "PONY": {
+      "name": "Pony AI Inc.",
+      "gics": {
+        "sector": "Technology",
+        "industry_group": "",
+        "industry": "Information Technology Services",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "ARKQ"
+      ]
+    },
+    "NET": {
+      "name": "Cloudflare, Inc.",
+      "gics": {
+        "sector": "Technology",
+        "industry_group": "",
+        "industry": "Software - Infrastructure",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "ARKW"
+      ]
+    },
+    "RBRK": {
+      "name": "",
+      "gics": {
+        "sector": "Technology",
+        "industry_group": "",
+        "industry": "Software - Infrastructure",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "ARKW"
+      ]
+    },
+    "P": {
+      "name": "Everpure, Inc.",
+      "gics": {
+        "sector": "Technology",
+        "industry_group": "",
+        "industry": "Computer Hardware",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "ARKW"
+      ]
+    },
+    "GENI": {
+      "name": "Genius Sports Limited",
+      "gics": {
+        "sector": "Communication Services",
+        "industry_group": "",
+        "industry": "Internet Content & Information",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "ARKW"
+      ]
+    },
+    "DKNG UW": {
+      "name": "",
+      "gics": {
+        "sector": "",
+        "industry_group": "",
+        "industry": "",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "ARKW",
+        "ARKF"
+      ]
+    },
+    "SPOT": {
+      "name": "Spotify Technology S.A.",
+      "gics": {
+        "sector": "Communication Services",
+        "industry_group": "",
+        "industry": "Internet Content & Information",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "ARKW",
+        "ARKF"
+      ]
+    },
+    "GTLB": {
+      "name": "GitLab Inc.",
+      "gics": {
+        "sector": "Technology",
+        "industry_group": "",
+        "industry": "Software - Infrastructure",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "ARKW"
+      ]
+    },
+    "TOST": {
+      "name": "Toast, Inc.",
+      "gics": {
+        "sector": "Technology",
+        "industry_group": "",
+        "industry": "Software - Infrastructure",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "ARKW",
+        "ARKF"
+      ]
+    },
+    "ETHQ/U": {
+      "name": "",
+      "gics": {},
+      "memberships": [
+        "ARKW",
+        "ARKF"
+      ]
+    },
+    "SOLQ/U": {
+      "name": "",
+      "gics": {},
+      "memberships": [
+        "ARKW",
+        "ARKF"
+      ]
+    },
+    "ABSI": {
+      "name": "Absci Corporation",
+      "gics": {
+        "sector": "Healthcare",
+        "industry_group": "",
+        "industry": "Biotechnology",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "ARKG",
+        "ARKVX"
+      ]
+    },
+    "PSNL": {
+      "name": "Personalis, Inc.",
+      "gics": {
+        "sector": "Healthcare",
+        "industry_group": "",
+        "industry": "Diagnostics & Research",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "ARKG"
+      ]
+    },
+    "GH": {
+      "name": "Guardant Health, Inc.",
+      "gics": {
+        "sector": "Healthcare",
+        "industry_group": "",
+        "industry": "Diagnostics & Research",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "ARKG"
+      ]
+    },
+    "CDNA": {
+      "name": "CareDx, Inc.",
+      "gics": {
+        "sector": "Healthcare",
+        "industry_group": "",
+        "industry": "Diagnostics & Research",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "ARKG"
+      ]
+    },
+    "ADPT": {
+      "name": "Adaptive Biotechnologies Corporation",
+      "gics": {
+        "sector": "Healthcare",
+        "industry_group": "",
+        "industry": "Diagnostics & Research",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "ARKG"
+      ]
+    },
+    "CMPS": {
+      "name": "COMPASS Pathways plc",
+      "gics": {
+        "sector": "Healthcare",
+        "industry_group": "",
+        "industry": "Medical Care Facilities",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "ARKG"
+      ]
+    },
+    "SDGR": {
+      "name": "Schr\u00f6dinger, Inc.",
+      "gics": {
+        "sector": "Healthcare",
+        "industry_group": "",
+        "industry": "Health Information Services",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "ARKG"
+      ]
+    },
+    "NRIX": {
+      "name": "Nurix Therapeutics, Inc.",
+      "gics": {
+        "sector": "Healthcare",
+        "industry_group": "",
+        "industry": "Biotechnology",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "ARKG"
+      ]
+    },
+    "BFLY": {
+      "name": "Butterfly Network, Inc.",
+      "gics": {
+        "sector": "Healthcare",
+        "industry_group": "",
+        "industry": "Medical Devices",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "ARKG"
+      ]
+    },
+    "IONS": {
+      "name": "Ionis Pharmaceuticals, Inc.",
+      "gics": {
+        "sector": "Healthcare",
+        "industry_group": "",
+        "industry": "Biotechnology",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "ARKG"
+      ]
+    },
+    "ARCT UQ": {
+      "name": "",
+      "gics": {
+        "sector": "",
+        "industry_group": "",
+        "industry": "",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "ARKG"
+      ]
+    },
+    "ATAI UQ": {
+      "name": "",
+      "gics": {
+        "sector": "",
+        "industry_group": "",
+        "industry": "",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "ARKG"
+      ]
+    },
+    "MASS": {
+      "name": "908 Devices Inc.",
+      "gics": {
+        "sector": "Healthcare",
+        "industry_group": "",
+        "industry": "Medical Devices",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "ARKG"
+      ]
+    },
+    "PRME": {
+      "name": "Prime Medicine, Inc.",
+      "gics": {
+        "sector": "Healthcare",
+        "industry_group": "",
+        "industry": "Biotechnology",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "ARKG",
+        "ARKVX"
+      ]
+    },
+    "ALMR": {
+      "name": "Alamar Biosciences, Inc.",
+      "gics": {
+        "sector": "Healthcare",
+        "industry_group": "",
+        "industry": "Medical Devices",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "ARKG",
+        "ARKVX"
+      ]
+    },
+    "BNTX": {
+      "name": "BioNTech SE",
+      "gics": {
+        "sector": "Healthcare",
+        "industry_group": "",
+        "industry": "Biotechnology",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "ARKG"
+      ]
+    },
+    "QSI": {
+      "name": "Quantum-Si incorporated",
+      "gics": {
+        "sector": "Healthcare",
+        "industry_group": "",
+        "industry": "Medical Devices",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "ARKG"
+      ]
+    },
+    "GENB": {
+      "name": "Generate Biomedicines, Inc.",
+      "gics": {
+        "sector": "Healthcare",
+        "industry_group": "",
+        "industry": "Biotechnology",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "ARKG",
+        "ARKVX"
+      ]
+    },
+    "SE": {
+      "name": "Sea Limited",
+      "gics": {
+        "sector": "Consumer Cyclical",
+        "industry_group": "",
+        "industry": "Internet Retail",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "ARKF"
+      ]
+    },
+    "ADYEN": {
+      "name": "",
+      "gics": {
+        "sector": "",
+        "industry_group": "",
+        "industry": "",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "ARKF"
+      ]
+    },
+    "NU UN": {
+      "name": "",
+      "gics": {
+        "sector": "",
+        "industry_group": "",
+        "industry": "",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "ARKF"
+      ]
+    },
+    "KLAR": {
+      "name": "",
+      "gics": {
+        "sector": "Financial Services",
+        "industry_group": "",
+        "industry": "Credit Services",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "ARKF"
+      ]
+    },
+    "ETOR": {
+      "name": "eToro Group Ltd.",
+      "gics": {
+        "sector": "Financial Services",
+        "industry_group": "",
+        "industry": "Capital Markets",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "ARKF",
+        "IZRL"
+      ]
+    },
+    "FUTU": {
+      "name": "Futu Holdings Limited",
+      "gics": {
+        "sector": "Financial Services",
+        "industry_group": "",
+        "industry": "Capital Markets",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "ARKF"
+      ]
+    },
+    "Z": {
+      "name": "Zillow Group, Inc.",
+      "gics": {
+        "sector": "Communication Services",
+        "industry_group": "",
+        "industry": "Internet Content & Information",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "ARKF"
+      ]
+    },
+    "PAYP": {
+      "name": "PayPay Corporation",
+      "gics": {
+        "sector": "Technology",
+        "industry_group": "",
+        "industry": "Software - Infrastructure",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "ARKF"
+      ]
+    },
+    "KSPI": {
+      "name": "Joint Stock Company Kaspi.kz",
+      "gics": {
+        "sector": "Technology",
+        "industry_group": "",
+        "industry": "Software - Infrastructure",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "ARKF"
+      ]
+    },
+    "CNTN": {
+      "name": "Canton Strategic Holdings, Inc.",
+      "gics": {
+        "sector": "Healthcare",
+        "industry_group": "",
+        "industry": "Biotechnology",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "ARKF"
+      ]
+    },
+    "6301": {
+      "name": "",
+      "gics": {
+        "sector": "",
+        "industry_group": "",
+        "industry": "",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "ARKX"
+      ]
+    },
+    "HO": {
+      "name": "",
+      "gics": {
+        "sector": "",
+        "industry_group": "",
+        "industry": "",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "ARKX"
+      ]
+    },
+    "HEI": {
+      "name": "HEICO Corporation",
+      "gics": {
+        "sector": "Industrials",
+        "industry_group": "",
+        "industry": "Aerospace & Defense",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "ARKX"
+      ]
+    },
+    "GRMN UN": {
+      "name": "",
+      "gics": {
+        "sector": "",
+        "industry_group": "",
+        "industry": "",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "ARKX"
+      ]
+    },
+    "2618": {
+      "name": "",
+      "gics": {
+        "sector": "",
+        "industry_group": "",
+        "industry": "",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "ARKX"
+      ]
+    },
+    "AIR": {
+      "name": "AAR Corp.",
+      "gics": {
+        "sector": "Industrials",
+        "industry_group": "",
+        "industry": "Aerospace & Defense",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "ARKX"
+      ]
+    },
+    "BTC": {
+      "name": "Grayscale Bitcoin Mini Trust ETF",
+      "gics": {
+        "sector": "",
+        "industry_group": "",
+        "industry": "",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "ARKB"
+      ]
+    },
+    "FROG": {
+      "name": "JFrog Ltd.",
+      "gics": {
+        "sector": "Technology",
+        "industry_group": "",
+        "industry": "Software - Application",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "IZRL"
+      ]
+    },
+    "SMWB": {
+      "name": "Similarweb Ltd.",
+      "gics": {
+        "sector": "Technology",
+        "industry_group": "",
+        "industry": "Software - Application",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "IZRL"
+      ]
+    },
+    "TLSY": {
+      "name": "",
+      "gics": {
+        "sector": "",
+        "industry_group": "",
+        "industry": "",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "IZRL"
+      ]
+    },
+    "VLN": {
+      "name": "Valens Semiconductor Ltd.",
+      "gics": {
+        "sector": "Technology",
+        "industry_group": "",
+        "industry": "Semiconductors",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "IZRL"
+      ]
+    },
+    "URGN UQ": {
+      "name": "",
+      "gics": {
+        "sector": "",
+        "industry_group": "",
+        "industry": "",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "IZRL"
+      ]
+    },
+    "BSEN": {
+      "name": "",
+      "gics": {
+        "sector": "",
+        "industry_group": "",
+        "industry": "",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "IZRL"
+      ]
+    },
+    "TBLA": {
+      "name": "Taboola.com Ltd.",
+      "gics": {
+        "sector": "Communication Services",
+        "industry_group": "",
+        "industry": "Internet Content & Information",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "IZRL"
+      ]
+    },
+    "DRTS": {
+      "name": "Alpha Tau Medical Ltd.",
+      "gics": {
+        "sector": "Healthcare",
+        "industry_group": "",
+        "industry": "Biotechnology",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "IZRL"
+      ]
+    },
+    "MBLY": {
+      "name": "Mobileye Global Inc.",
+      "gics": {
+        "sector": "Consumer Cyclical",
+        "industry_group": "",
+        "industry": "Auto Parts",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "IZRL"
+      ]
+    },
+    "ITRN": {
+      "name": "Ituran Location and Control Ltd.",
+      "gics": {
+        "sector": "Technology",
+        "industry_group": "",
+        "industry": "Scientific & Technical Instruments",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "IZRL"
+      ]
+    },
+    "MNDY": {
+      "name": "monday.com Ltd.",
+      "gics": {
+        "sector": "Technology",
+        "industry_group": "",
+        "industry": "Software - Application",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "IZRL"
+      ]
+    },
+    "FTAL": {
+      "name": "",
+      "gics": {
+        "sector": "",
+        "industry_group": "",
+        "industry": "",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "IZRL"
+      ]
+    },
+    "TSEM": {
+      "name": "Tower Semiconductor Ltd.",
+      "gics": {
+        "sector": "Technology",
+        "industry_group": "",
+        "industry": "Semiconductors",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "IZRL"
+      ]
+    },
+    "PTNR": {
+      "name": "",
+      "gics": {
+        "sector": "",
+        "industry_group": "",
+        "industry": "",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "IZRL"
+      ]
+    },
+    "RDWR": {
+      "name": "Radware Ltd.",
+      "gics": {
+        "sector": "Technology",
+        "industry_group": "",
+        "industry": "Software - Infrastructure",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "IZRL"
+      ]
+    },
+    "HLAN": {
+      "name": "",
+      "gics": {
+        "sector": "",
+        "industry_group": "",
+        "industry": "",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "IZRL"
+      ]
+    },
+    "ONE": {
+      "name": "",
+      "gics": {
+        "sector": "",
+        "industry_group": "",
+        "industry": "",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "IZRL"
+      ]
+    },
+    "CEL": {
+      "name": "",
+      "gics": {
+        "sector": "",
+        "industry_group": "",
+        "industry": "",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "IZRL"
+      ]
+    },
+    "RSKD": {
+      "name": "Riskified Ltd.",
+      "gics": {
+        "sector": "Technology",
+        "industry_group": "",
+        "industry": "Software - Application",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "IZRL"
+      ]
+    },
+    "TEVA": {
+      "name": "Teva Pharmaceutical Industries Limited",
+      "gics": {
+        "sector": "Healthcare",
+        "industry_group": "",
+        "industry": "Drug Manufacturers - Specialty & Generic",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "IZRL"
+      ]
+    },
+    "NVMI": {
+      "name": "Nova Ltd.",
+      "gics": {
+        "sector": "Technology",
+        "industry_group": "",
+        "industry": "Semiconductor Equipment & Materials",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "IZRL"
+      ]
+    },
+    "AUDC": {
+      "name": "AudioCodes Ltd.",
+      "gics": {
+        "sector": "Technology",
+        "industry_group": "",
+        "industry": "Communication Equipment",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "IZRL"
+      ]
+    },
+    "PGY": {
+      "name": "Pagaya Technologies Ltd.",
+      "gics": {
+        "sector": "Technology",
+        "industry_group": "",
+        "industry": "Software - Infrastructure",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "IZRL"
+      ]
+    },
+    "RPOL": {
+      "name": "",
+      "gics": {
+        "sector": "",
+        "industry_group": "",
+        "industry": "",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "IZRL"
+      ]
+    },
+    "AMAL": {
+      "name": "Amalgamated Financial Corp.",
+      "gics": {
+        "sector": "Financial Services",
+        "industry_group": "",
+        "industry": "Banks - Regional",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "IZRL"
+      ]
+    },
+    "SSYS": {
+      "name": "Stratasys Ltd.",
+      "gics": {
+        "sector": "Technology",
+        "industry_group": "",
+        "industry": "Computer Hardware",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "IZRL",
+        "PRNT"
+      ]
+    },
+    "DANE": {
+      "name": "",
+      "gics": {
+        "sector": "",
+        "industry_group": "",
+        "industry": "",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "IZRL"
+      ]
+    },
+    "CAMT": {
+      "name": "Camtek Ltd.",
+      "gics": {
+        "sector": "Technology",
+        "industry_group": "",
+        "industry": "Semiconductor Equipment & Materials",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "IZRL"
+      ]
+    },
+    "TATTF": {
+      "name": "",
+      "gics": {
+        "sector": "",
+        "industry_group": "",
+        "industry": "",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "IZRL"
+      ]
+    },
+    "RDCM": {
+      "name": "RADCOM Ltd.",
+      "gics": {
+        "sector": "Communication Services",
+        "industry_group": "",
+        "industry": "Telecom Services",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "IZRL"
+      ]
+    },
+    "CLBT": {
+      "name": "Cellebrite DI Ltd.",
+      "gics": {
+        "sector": "Technology",
+        "industry_group": "",
+        "industry": "Software - Infrastructure",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "IZRL"
+      ]
+    },
+    "NYAX": {
+      "name": "Nayax Ltd.",
+      "gics": {
+        "sector": "Technology",
+        "industry_group": "",
+        "industry": "Software - Infrastructure",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "IZRL"
+      ]
+    },
+    "BEZQ": {
+      "name": "",
+      "gics": {
+        "sector": "",
+        "industry_group": "",
+        "industry": "",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "IZRL"
+      ]
+    },
+    "MTRX": {
+      "name": "Matrix Service Company",
+      "gics": {
+        "sector": "Industrials",
+        "industry_group": "",
+        "industry": "Engineering & Construction",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "IZRL"
+      ]
+    },
+    "ALLT": {
+      "name": "Allot Ltd.",
+      "gics": {
+        "sector": "Technology",
+        "industry_group": "",
+        "industry": "Software - Infrastructure",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "IZRL"
+      ]
+    },
+    "BWAY": {
+      "name": "BrainsWay Ltd.",
+      "gics": {
+        "sector": "Healthcare",
+        "industry_group": "",
+        "industry": "Medical Devices",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "IZRL"
+      ]
+    },
+    "INMD": {
+      "name": "InMode Ltd.",
+      "gics": {
+        "sector": "Healthcare",
+        "industry_group": "",
+        "industry": "Medical Devices",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "IZRL"
+      ]
+    },
+    "ISRO": {
+      "name": "",
+      "gics": {
+        "sector": "",
+        "industry_group": "",
+        "industry": "",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "IZRL"
+      ]
+    },
+    "ISTA": {
+      "name": "",
+      "gics": {
+        "sector": "",
+        "industry_group": "",
+        "industry": "",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "IZRL"
+      ]
+    },
+    "MLTM": {
+      "name": "",
+      "gics": {
+        "sector": "",
+        "industry_group": "",
+        "industry": "",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "IZRL"
+      ]
+    },
+    "CGNT": {
+      "name": "Cognyte Software Ltd.",
+      "gics": {
+        "sector": "Technology",
+        "industry_group": "",
+        "industry": "Software - Infrastructure",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "IZRL"
+      ]
+    },
+    "FVRR": {
+      "name": "Fiverr International Ltd.",
+      "gics": {
+        "sector": "Communication Services",
+        "industry_group": "",
+        "industry": "Internet Content & Information",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "IZRL"
+      ]
+    },
+    "CHKP": {
+      "name": "Check Point Software Technologies Ltd.",
+      "gics": {
+        "sector": "Technology",
+        "industry_group": "",
+        "industry": "Software - Infrastructure",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "IZRL"
+      ]
+    },
+    "ASHO": {
+      "name": "",
+      "gics": {
+        "sector": "",
+        "industry_group": "",
+        "industry": "",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "IZRL"
+      ]
+    },
+    "KMDA": {
+      "name": "Kamada Ltd.",
+      "gics": {
+        "sector": "Healthcare",
+        "industry_group": "",
+        "industry": "Drug Manufacturers - Specialty & Generic",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "IZRL"
+      ]
+    },
+    "QLTU": {
+      "name": "",
+      "gics": {
+        "sector": "",
+        "industry_group": "",
+        "industry": "",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "IZRL"
+      ]
+    },
+    "PLTK": {
+      "name": "Playtika Holding Corp.",
+      "gics": {
+        "sector": "Communication Services",
+        "industry_group": "",
+        "industry": "Electronic Gaming & Multimedia",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "IZRL"
+      ]
+    },
+    "NICE": {
+      "name": "NICE Ltd.",
+      "gics": {
+        "sector": "Technology",
+        "industry_group": "",
+        "industry": "Software - Application",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "IZRL"
+      ]
+    },
+    "GILT": {
+      "name": "Gilat Satellite Networks Ltd.",
+      "gics": {
+        "sector": "Technology",
+        "industry_group": "",
+        "industry": "Communication Equipment",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "IZRL"
+      ]
+    },
+    "MDWD UQ": {
+      "name": "",
+      "gics": {
+        "sector": "",
+        "industry_group": "",
+        "industry": "",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "IZRL"
+      ]
+    },
+    "PERI": {
+      "name": "Perion Network Ltd.",
+      "gics": {
+        "sector": "Communication Services",
+        "industry_group": "",
+        "industry": "Internet Content & Information",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "IZRL"
+      ]
+    },
+    "PCBT": {
+      "name": "",
+      "gics": {
+        "sector": "",
+        "industry_group": "",
+        "industry": "",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "IZRL"
+      ]
+    },
+    "ENLV": {
+      "name": "Enlivex Ltd.",
+      "gics": {
+        "sector": "Healthcare",
+        "industry_group": "",
+        "industry": "Biotechnology",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "IZRL"
+      ]
+    },
+    "ARYT": {
+      "name": "",
+      "gics": {
+        "sector": "",
+        "industry_group": "",
+        "industry": "",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "IZRL"
+      ]
+    },
+    "SLRM": {
+      "name": "",
+      "gics": {
+        "sector": "",
+        "industry_group": "",
+        "industry": "",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "IZRL"
+      ]
+    },
+    "ODD": {
+      "name": "Oddity Tech Ltd.",
+      "gics": {
+        "sector": "Consumer Defensive",
+        "industry_group": "",
+        "industry": "Household & Personal Products",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "IZRL"
+      ]
+    },
+    "CGEN": {
+      "name": "Compugen Ltd.",
+      "gics": {
+        "sector": "Healthcare",
+        "industry_group": "",
+        "industry": "Biotechnology",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "IZRL"
+      ]
+    },
+    "WIX": {
+      "name": "Wix.com Ltd.",
+      "gics": {
+        "sector": "Technology",
+        "industry_group": "",
+        "industry": "Software - Infrastructure",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "IZRL"
+      ]
+    },
+    "NNOX": {
+      "name": "Nano-X Imaging Ltd.",
+      "gics": {
+        "sector": "Healthcare",
+        "industry_group": "",
+        "industry": "Medical Devices",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "IZRL"
+      ]
+    },
+    "VELO": {
+      "name": "Velo3D, Inc.",
+      "gics": {
+        "sector": "Technology",
+        "industry_group": "",
+        "industry": "Computer Hardware",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "PRNT"
+      ]
+    },
+    "XMTR": {
+      "name": "Xometry, Inc.",
+      "gics": {
+        "sector": "Industrials",
+        "industry_group": "",
+        "industry": "Industrial Distribution",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "PRNT"
+      ]
+    },
+    "DDD": {
+      "name": "3D Systems Corporation",
+      "gics": {
+        "sector": "Technology",
+        "industry_group": "",
+        "industry": "Computer Hardware",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "PRNT"
+      ]
+    },
+    "SIE": {
+      "name": "",
+      "gics": {
+        "sector": "",
+        "industry_group": "",
+        "industry": "",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "PRNT"
+      ]
+    },
+    "MTLS": {
+      "name": "Materialise NV",
+      "gics": {
+        "sector": "Technology",
+        "industry_group": "",
+        "industry": "Software - Application",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "PRNT"
+      ]
+    },
+    "PRLB": {
+      "name": "Proto Labs, Inc.",
+      "gics": {
+        "sector": "Industrials",
+        "industry_group": "",
+        "industry": "Metal Fabrication",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "PRNT"
+      ]
+    },
+    "DSY FP": {
+      "name": "",
+      "gics": {
+        "sector": "",
+        "industry_group": "",
+        "industry": "",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "PRNT"
+      ]
+    },
+    "RSW": {
+      "name": "",
+      "gics": {
+        "sector": "",
+        "industry_group": "",
+        "industry": "",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "PRNT"
+      ]
+    },
+    "XRAY UW": {
+      "name": "",
+      "gics": {
+        "sector": "",
+        "industry_group": "",
+        "industry": "",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "PRNT"
+      ]
+    },
+    "STMN SE": {
+      "name": "",
+      "gics": {
+        "sector": "",
+        "industry_group": "",
+        "industry": "",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "PRNT"
+      ]
+    },
+    "7731": {
+      "name": "",
+      "gics": {
+        "sector": "",
+        "industry_group": "",
+        "industry": "",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "PRNT"
+      ]
+    },
+    "NNDM": {
+      "name": "Nano Dimension Ltd.",
+      "gics": {
+        "sector": "Technology",
+        "industry_group": "",
+        "industry": "Computer Hardware",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "PRNT"
+      ]
+    },
+    "BICO": {
+      "name": "",
+      "gics": {
+        "sector": "",
+        "industry_group": "",
+        "industry": "",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "PRNT"
+      ]
+    },
+    "TTT": {
+      "name": "ProShares UltraPro Short 20+ Year Treasury",
+      "gics": {
+        "sector": "",
+        "industry_group": "",
+        "industry": "",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "PRNT"
+      ]
+    },
+    "KALU": {
+      "name": "Kaiser Aluminum Corporation",
+      "gics": {
+        "sector": "Basic Materials",
+        "industry_group": "",
+        "industry": "Aluminum",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "PRNT"
+      ]
+    },
+    "MOG/A": {
+      "name": "",
+      "gics": {},
+      "memberships": [
+        "PRNT"
+      ]
+    },
+    "OERL": {
+      "name": "",
+      "gics": {
+        "sector": "",
+        "industry_group": "",
+        "industry": "",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "PRNT"
+      ]
+    },
+    "ML": {
+      "name": "",
+      "gics": {
+        "sector": "",
+        "industry_group": "",
+        "industry": "",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "PRNT"
+      ]
+    },
+    "LECO": {
+      "name": "Lincoln Electric Holdings, Inc.",
+      "gics": {
+        "sector": "Industrials",
+        "industry_group": "",
+        "industry": "Tools & Accessories",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "PRNT"
+      ]
+    },
+    "HEXAB S": {
+      "name": "",
+      "gics": {
+        "sector": "",
+        "industry_group": "",
+        "industry": "",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "PRNT"
+      ]
+    },
+    "MTRN": {
+      "name": "Materion Corporation",
+      "gics": {
+        "sector": "Basic Materials",
+        "industry_group": "",
+        "industry": "Other Industrial Metals & Mining",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "PRNT"
+      ]
+    },
+    "ATI": {
+      "name": "ATI Inc.",
+      "gics": {
+        "sector": "Industrials",
+        "industry_group": "",
+        "industry": "Metal Fabrication",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "PRNT"
+      ]
+    },
+    "CRS": {
+      "name": "Carpenter Technology Corporation",
+      "gics": {
+        "sector": "Industrials",
+        "industry_group": "",
+        "industry": "Metal Fabrication",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "PRNT"
+      ]
+    },
+    "SGL": {
+      "name": "",
+      "gics": {
+        "sector": "",
+        "industry_group": "",
+        "industry": "",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "PRNT"
+      ]
+    },
+    "HEN3": {
+      "name": "",
+      "gics": {
+        "sector": "",
+        "industry_group": "",
+        "industry": "",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "PRNT"
+      ]
+    },
+    "VOE": {
+      "name": "Vanguard Mid-Cap Value Index Fund ETF Shares",
+      "gics": {
+        "sector": "",
+        "industry_group": "",
+        "industry": "",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "PRNT"
+      ]
+    },
+    "AKE": {
+      "name": "",
+      "gics": {
+        "sector": "",
+        "industry_group": "",
+        "industry": "",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "PRNT"
+      ]
+    },
+    "AVNT": {
+      "name": "Avient Corporation",
+      "gics": {
+        "sector": "Basic Materials",
+        "industry_group": "",
+        "industry": "Specialty Chemicals",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "PRNT"
+      ]
+    },
+    "KMT": {
+      "name": "Kennametal Inc.",
+      "gics": {
+        "sector": "Industrials",
+        "industry_group": "",
+        "industry": "Tools & Accessories",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "PRNT"
+      ]
+    },
+    "SAND": {
+      "name": "",
+      "gics": {
+        "sector": "",
+        "industry_group": "",
+        "industry": "",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "PRNT"
+      ]
+    },
+    "3402": {
+      "name": "",
+      "gics": {
+        "sector": "",
+        "industry_group": "",
+        "industry": "",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "PRNT"
+      ]
+    },
+    "EVK": {
+      "name": "",
+      "gics": {
+        "sector": "",
+        "industry_group": "",
+        "industry": "",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "PRNT"
+      ]
+    },
+    "DCH": {
+      "name": "Dauch Corporation",
+      "gics": {
+        "sector": "Consumer Cyclical",
+        "industry_group": "",
+        "industry": "Auto Parts",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "PRNT",
+        "PRNT"
+      ]
+    },
+    "THAR": {
+      "name": "",
+      "gics": {
+        "sector": "",
+        "industry_group": "",
+        "industry": "",
+        "sub_industry": ""
+      },
+      "memberships": [
+        "ARKVX"
+      ]
+    }
+  }
+}
