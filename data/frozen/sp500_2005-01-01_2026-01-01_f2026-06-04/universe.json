@@ -1,0 +1,3631 @@
+{
+  "version": "sp500_2005-01-01_2026-01-01_f2026-06-04",
+  "source": "yfinance",
+  "yfinance_params": {
+    "auto_adjust": true,
+    "start": "2005-01-01",
+    "end": "2026-01-01",
+    "min_len": 252
+  },
+  "fetch_started_at": "2026-06-04T00:28:26.149042+00:00",
+  "fetch_finished_at": "2026-06-04T00:29:00.159894+00:00",
+  "price_file": "prices.csv.gz",
+  "price_file_sha256": "c4c3564d66b0670c46958054156148487d32bf47e7537ff4b69fa9171457fb60",
+  "n_tickers": 512,
+  "n_stocks": 501,
+  "n_etfs": 11,
+  "sectors": [
+    "comms",
+    "cons_disc",
+    "cons_staples",
+    "energy",
+    "financials",
+    "healthcare",
+    "industrials",
+    "materials",
+    "real_estate",
+    "tech",
+    "utilities"
+  ],
+  "environment": {
+    "python": "3.10.10",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "packages": {
+      "numpy": "1.26.4",
+      "pandas": "2.1.1",
+      "scipy": "1.15.3",
+      "yfinance": "1.3.0",
+      "requests": "2.31.0",
+      "torch": "2.11.0",
+      "peft": "0.19.1",
+      "timesfm": "2.0.0",
+      "pyarrow": null
+    }
+  },
+  "tickers": {
+    "A": {
+      "sector": "healthcare",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "AAPL": {
+      "sector": "tech",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "ABBV": {
+      "sector": "healthcare",
+      "category": "stock",
+      "start": "2013-01-02",
+      "end": "2025-12-31",
+      "n_obs": 3270
+    },
+    "ABNB": {
+      "sector": "cons_disc",
+      "category": "stock",
+      "start": "2020-12-10",
+      "end": "2025-12-31",
+      "n_obs": 1270
+    },
+    "ABT": {
+      "sector": "healthcare",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "ACGL": {
+      "sector": "financials",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "ACN": {
+      "sector": "tech",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "ADBE": {
+      "sector": "tech",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "ADI": {
+      "sector": "tech",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "ADM": {
+      "sector": "cons_staples",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "ADP": {
+      "sector": "industrials",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "ADSK": {
+      "sector": "tech",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "AEE": {
+      "sector": "utilities",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "AEP": {
+      "sector": "utilities",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "AES": {
+      "sector": "utilities",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "AFL": {
+      "sector": "financials",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "AIG": {
+      "sector": "financials",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "AIZ": {
+      "sector": "financials",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "AJG": {
+      "sector": "financials",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "AKAM": {
+      "sector": "tech",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "ALB": {
+      "sector": "materials",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "ALGN": {
+      "sector": "healthcare",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "ALL": {
+      "sector": "financials",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "ALLE": {
+      "sector": "industrials",
+      "category": "stock",
+      "start": "2013-11-18",
+      "end": "2025-12-31",
+      "n_obs": 3048
+    },
+    "AMAT": {
+      "sector": "tech",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "AMCR": {
+      "sector": "materials",
+      "category": "stock",
+      "start": "2012-05-15",
+      "end": "2025-12-31",
+      "n_obs": 3428
+    },
+    "AMD": {
+      "sector": "tech",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "AME": {
+      "sector": "industrials",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "AMGN": {
+      "sector": "healthcare",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "AMP": {
+      "sector": "financials",
+      "category": "stock",
+      "start": "2005-09-15",
+      "end": "2025-12-31",
+      "n_obs": 5106
+    },
+    "AMT": {
+      "sector": "real_estate",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "AMZN": {
+      "sector": "cons_disc",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "ANET": {
+      "sector": "tech",
+      "category": "stock",
+      "start": "2014-06-06",
+      "end": "2025-12-31",
+      "n_obs": 2911
+    },
+    "AON": {
+      "sector": "financials",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "AOS": {
+      "sector": "industrials",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "APA": {
+      "sector": "energy",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "APD": {
+      "sector": "materials",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "APH": {
+      "sector": "tech",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "APO": {
+      "sector": "financials",
+      "category": "stock",
+      "start": "2011-03-30",
+      "end": "2025-12-31",
+      "n_obs": 3712
+    },
+    "APP": {
+      "sector": "tech",
+      "category": "stock",
+      "start": "2021-04-15",
+      "end": "2025-12-31",
+      "n_obs": 1185
+    },
+    "APTV": {
+      "sector": "cons_disc",
+      "category": "stock",
+      "start": "2011-11-17",
+      "end": "2025-12-31",
+      "n_obs": 3550
+    },
+    "ARE": {
+      "sector": "real_estate",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "ARES": {
+      "sector": "financials",
+      "category": "stock",
+      "start": "2014-05-02",
+      "end": "2025-12-31",
+      "n_obs": 2935
+    },
+    "ATO": {
+      "sector": "utilities",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "AVB": {
+      "sector": "real_estate",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "AVGO": {
+      "sector": "tech",
+      "category": "stock",
+      "start": "2009-08-06",
+      "end": "2025-12-31",
+      "n_obs": 4127
+    },
+    "AVY": {
+      "sector": "materials",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "AWK": {
+      "sector": "utilities",
+      "category": "stock",
+      "start": "2008-04-23",
+      "end": "2025-12-31",
+      "n_obs": 4452
+    },
+    "AXON": {
+      "sector": "industrials",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "AXP": {
+      "sector": "financials",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "AZO": {
+      "sector": "cons_disc",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "BA": {
+      "sector": "industrials",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "BAC": {
+      "sector": "financials",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "BALL": {
+      "sector": "materials",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "BAX": {
+      "sector": "healthcare",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "BBY": {
+      "sector": "cons_disc",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "BDX": {
+      "sector": "healthcare",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "BEN": {
+      "sector": "financials",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "BF-B": {
+      "sector": "cons_staples",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "BG": {
+      "sector": "cons_staples",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "BIIB": {
+      "sector": "healthcare",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "BKNG": {
+      "sector": "cons_disc",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "BKR": {
+      "sector": "energy",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "BLDR": {
+      "sector": "industrials",
+      "category": "stock",
+      "start": "2005-06-28",
+      "end": "2025-12-31",
+      "n_obs": 5161
+    },
+    "BLK": {
+      "sector": "financials",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "BMY": {
+      "sector": "healthcare",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "BNY": {
+      "sector": "financials",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "BR": {
+      "sector": "industrials",
+      "category": "stock",
+      "start": "2007-03-22",
+      "end": "2025-12-31",
+      "n_obs": 4726
+    },
+    "BRK-B": {
+      "sector": "financials",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "BRO": {
+      "sector": "financials",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "BSX": {
+      "sector": "healthcare",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "BX": {
+      "sector": "financials",
+      "category": "stock",
+      "start": "2007-06-22",
+      "end": "2025-12-31",
+      "n_obs": 4662
+    },
+    "BXP": {
+      "sector": "real_estate",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "C": {
+      "sector": "financials",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "CAG": {
+      "sector": "cons_staples",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "CAH": {
+      "sector": "healthcare",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "CARR": {
+      "sector": "industrials",
+      "category": "stock",
+      "start": "2020-03-19",
+      "end": "2025-12-31",
+      "n_obs": 1455
+    },
+    "CASY": {
+      "sector": "cons_staples",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "CAT": {
+      "sector": "industrials",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "CB": {
+      "sector": "financials",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "CBOE": {
+      "sector": "financials",
+      "category": "stock",
+      "start": "2010-06-15",
+      "end": "2025-12-31",
+      "n_obs": 3912
+    },
+    "CBRE": {
+      "sector": "real_estate",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "CCI": {
+      "sector": "real_estate",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "CCL": {
+      "sector": "cons_disc",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "CDNS": {
+      "sector": "tech",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "CDW": {
+      "sector": "tech",
+      "category": "stock",
+      "start": "2013-06-27",
+      "end": "2025-12-31",
+      "n_obs": 3148
+    },
+    "CEG": {
+      "sector": "utilities",
+      "category": "stock",
+      "start": "2022-01-19",
+      "end": "2025-12-31",
+      "n_obs": 992
+    },
+    "CF": {
+      "sector": "materials",
+      "category": "stock",
+      "start": "2005-08-11",
+      "end": "2025-12-31",
+      "n_obs": 5130
+    },
+    "CFG": {
+      "sector": "financials",
+      "category": "stock",
+      "start": "2014-09-24",
+      "end": "2025-12-31",
+      "n_obs": 2835
+    },
+    "CHD": {
+      "sector": "cons_staples",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "CHRW": {
+      "sector": "industrials",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "CHTR": {
+      "sector": "comms",
+      "category": "stock",
+      "start": "2010-01-05",
+      "end": "2025-12-31",
+      "n_obs": 4023
+    },
+    "CI": {
+      "sector": "healthcare",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "CIEN": {
+      "sector": "tech",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "CINF": {
+      "sector": "financials",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "CL": {
+      "sector": "cons_staples",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "CLX": {
+      "sector": "cons_staples",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "CMCSA": {
+      "sector": "comms",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "CME": {
+      "sector": "financials",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "CMG": {
+      "sector": "cons_disc",
+      "category": "stock",
+      "start": "2006-01-26",
+      "end": "2025-12-31",
+      "n_obs": 5015
+    },
+    "CMI": {
+      "sector": "industrials",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "CMS": {
+      "sector": "utilities",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "CNC": {
+      "sector": "healthcare",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "CNP": {
+      "sector": "utilities",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "COF": {
+      "sector": "financials",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "COHR": {
+      "sector": "tech",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "COIN": {
+      "sector": "financials",
+      "category": "stock",
+      "start": "2021-04-14",
+      "end": "2025-12-31",
+      "n_obs": 1186
+    },
+    "COO": {
+      "sector": "healthcare",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "COP": {
+      "sector": "energy",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "COR": {
+      "sector": "healthcare",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "COST": {
+      "sector": "cons_staples",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "CPAY": {
+      "sector": "financials",
+      "category": "stock",
+      "start": "2010-12-15",
+      "end": "2025-12-31",
+      "n_obs": 3784
+    },
+    "CPB": {
+      "sector": "cons_staples",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "CPRT": {
+      "sector": "industrials",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "CPT": {
+      "sector": "real_estate",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "CRH": {
+      "sector": "materials",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "CRL": {
+      "sector": "healthcare",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "CRM": {
+      "sector": "tech",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "CRWD": {
+      "sector": "tech",
+      "category": "stock",
+      "start": "2019-06-12",
+      "end": "2025-12-31",
+      "n_obs": 1649
+    },
+    "CSCO": {
+      "sector": "tech",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "CSGP": {
+      "sector": "real_estate",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "CSX": {
+      "sector": "industrials",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "CTAS": {
+      "sector": "industrials",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "CTSH": {
+      "sector": "tech",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "CTVA": {
+      "sector": "materials",
+      "category": "stock",
+      "start": "2019-05-24",
+      "end": "2025-12-31",
+      "n_obs": 1661
+    },
+    "CVNA": {
+      "sector": "cons_disc",
+      "category": "stock",
+      "start": "2017-04-28",
+      "end": "2025-12-31",
+      "n_obs": 2182
+    },
+    "CVS": {
+      "sector": "healthcare",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "CVX": {
+      "sector": "energy",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "D": {
+      "sector": "utilities",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "DAL": {
+      "sector": "industrials",
+      "category": "stock",
+      "start": "2007-05-03",
+      "end": "2025-12-31",
+      "n_obs": 4697
+    },
+    "DASH": {
+      "sector": "cons_disc",
+      "category": "stock",
+      "start": "2020-12-09",
+      "end": "2025-12-31",
+      "n_obs": 1271
+    },
+    "DD": {
+      "sector": "materials",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "DDOG": {
+      "sector": "tech",
+      "category": "stock",
+      "start": "2019-09-19",
+      "end": "2025-12-31",
+      "n_obs": 1580
+    },
+    "DE": {
+      "sector": "industrials",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "DECK": {
+      "sector": "cons_disc",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "DELL": {
+      "sector": "tech",
+      "category": "stock",
+      "start": "2016-08-17",
+      "end": "2025-12-31",
+      "n_obs": 2357
+    },
+    "DG": {
+      "sector": "cons_staples",
+      "category": "stock",
+      "start": "2009-11-13",
+      "end": "2025-12-31",
+      "n_obs": 4057
+    },
+    "DGX": {
+      "sector": "healthcare",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "DHI": {
+      "sector": "cons_disc",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "DHR": {
+      "sector": "healthcare",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "DIS": {
+      "sector": "comms",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "DLR": {
+      "sector": "real_estate",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "DLTR": {
+      "sector": "cons_staples",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "DOC": {
+      "sector": "real_estate",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "DOV": {
+      "sector": "industrials",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "DOW": {
+      "sector": "materials",
+      "category": "stock",
+      "start": "2019-03-20",
+      "end": "2025-12-31",
+      "n_obs": 1707
+    },
+    "DPZ": {
+      "sector": "cons_disc",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "DRI": {
+      "sector": "cons_disc",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "DTE": {
+      "sector": "utilities",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "DUK": {
+      "sector": "utilities",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "DVA": {
+      "sector": "healthcare",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "DVN": {
+      "sector": "energy",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "DXCM": {
+      "sector": "healthcare",
+      "category": "stock",
+      "start": "2005-04-14",
+      "end": "2025-12-31",
+      "n_obs": 5213
+    },
+    "EA": {
+      "sector": "comms",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "EBAY": {
+      "sector": "cons_disc",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "ECL": {
+      "sector": "materials",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "ED": {
+      "sector": "utilities",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "EFX": {
+      "sector": "industrials",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "EG": {
+      "sector": "financials",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "EIX": {
+      "sector": "utilities",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "EL": {
+      "sector": "cons_staples",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "ELV": {
+      "sector": "healthcare",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "EME": {
+      "sector": "industrials",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "EMR": {
+      "sector": "industrials",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "EOG": {
+      "sector": "energy",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "EPAM": {
+      "sector": "tech",
+      "category": "stock",
+      "start": "2012-02-08",
+      "end": "2025-12-31",
+      "n_obs": 3495
+    },
+    "EQIX": {
+      "sector": "real_estate",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "EQR": {
+      "sector": "real_estate",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "EQT": {
+      "sector": "energy",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "ERIE": {
+      "sector": "financials",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "ES": {
+      "sector": "utilities",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "ESS": {
+      "sector": "real_estate",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "ETN": {
+      "sector": "industrials",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "ETR": {
+      "sector": "utilities",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "EVRG": {
+      "sector": "utilities",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "EW": {
+      "sector": "healthcare",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "EXC": {
+      "sector": "utilities",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "EXE": {
+      "sector": "energy",
+      "category": "stock",
+      "start": "2021-02-10",
+      "end": "2025-12-31",
+      "n_obs": 1229
+    },
+    "EXPD": {
+      "sector": "industrials",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "EXPE": {
+      "sector": "cons_disc",
+      "category": "stock",
+      "start": "2005-07-21",
+      "end": "2025-12-31",
+      "n_obs": 5145
+    },
+    "EXR": {
+      "sector": "real_estate",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "F": {
+      "sector": "cons_disc",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "FANG": {
+      "sector": "energy",
+      "category": "stock",
+      "start": "2012-10-12",
+      "end": "2025-12-31",
+      "n_obs": 3323
+    },
+    "FAST": {
+      "sector": "industrials",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "FCX": {
+      "sector": "materials",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "FDS": {
+      "sector": "financials",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "FDX": {
+      "sector": "industrials",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "FE": {
+      "sector": "utilities",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "FFIV": {
+      "sector": "tech",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "FICO": {
+      "sector": "tech",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "FIS": {
+      "sector": "financials",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "FISV": {
+      "sector": "financials",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5282
+    },
+    "FITB": {
+      "sector": "financials",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "FIX": {
+      "sector": "industrials",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "FOX": {
+      "sector": "comms",
+      "category": "stock",
+      "start": "2019-03-13",
+      "end": "2025-12-31",
+      "n_obs": 1712
+    },
+    "FOXA": {
+      "sector": "comms",
+      "category": "stock",
+      "start": "2019-03-12",
+      "end": "2025-12-31",
+      "n_obs": 1713
+    },
+    "FRT": {
+      "sector": "real_estate",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "FSLR": {
+      "sector": "tech",
+      "category": "stock",
+      "start": "2006-11-17",
+      "end": "2025-12-31",
+      "n_obs": 4809
+    },
+    "FTNT": {
+      "sector": "tech",
+      "category": "stock",
+      "start": "2009-11-18",
+      "end": "2025-12-31",
+      "n_obs": 4054
+    },
+    "FTV": {
+      "sector": "industrials",
+      "category": "stock",
+      "start": "2016-07-05",
+      "end": "2025-12-31",
+      "n_obs": 2388
+    },
+    "GD": {
+      "sector": "industrials",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "GDDY": {
+      "sector": "tech",
+      "category": "stock",
+      "start": "2015-03-31",
+      "end": "2025-12-31",
+      "n_obs": 2706
+    },
+    "GE": {
+      "sector": "industrials",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "GEHC": {
+      "sector": "healthcare",
+      "category": "stock",
+      "start": "2022-12-15",
+      "end": "2025-12-31",
+      "n_obs": 763
+    },
+    "GEN": {
+      "sector": "tech",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "GEV": {
+      "sector": "industrials",
+      "category": "stock",
+      "start": "2024-03-27",
+      "end": "2025-12-31",
+      "n_obs": 443
+    },
+    "GILD": {
+      "sector": "healthcare",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "GIS": {
+      "sector": "cons_staples",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "GL": {
+      "sector": "financials",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "GLW": {
+      "sector": "tech",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "GM": {
+      "sector": "cons_disc",
+      "category": "stock",
+      "start": "2010-11-18",
+      "end": "2025-12-31",
+      "n_obs": 3802
+    },
+    "GNRC": {
+      "sector": "industrials",
+      "category": "stock",
+      "start": "2010-02-11",
+      "end": "2025-12-31",
+      "n_obs": 3997
+    },
+    "GOOG": {
+      "sector": "comms",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "GOOGL": {
+      "sector": "comms",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "GPC": {
+      "sector": "cons_disc",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "GPN": {
+      "sector": "financials",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "GRMN": {
+      "sector": "cons_disc",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "GS": {
+      "sector": "financials",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "GWW": {
+      "sector": "industrials",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "HAL": {
+      "sector": "energy",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "HAS": {
+      "sector": "cons_disc",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "HBAN": {
+      "sector": "financials",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "HCA": {
+      "sector": "healthcare",
+      "category": "stock",
+      "start": "2011-03-10",
+      "end": "2025-12-31",
+      "n_obs": 3726
+    },
+    "HD": {
+      "sector": "cons_disc",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "HIG": {
+      "sector": "financials",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "HII": {
+      "sector": "industrials",
+      "category": "stock",
+      "start": "2011-03-22",
+      "end": "2025-12-31",
+      "n_obs": 3718
+    },
+    "HLT": {
+      "sector": "cons_disc",
+      "category": "stock",
+      "start": "2013-12-12",
+      "end": "2025-12-31",
+      "n_obs": 3031
+    },
+    "HON": {
+      "sector": "industrials",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "HOOD": {
+      "sector": "financials",
+      "category": "stock",
+      "start": "2021-07-29",
+      "end": "2025-12-31",
+      "n_obs": 1112
+    },
+    "HPE": {
+      "sector": "tech",
+      "category": "stock",
+      "start": "2015-10-19",
+      "end": "2025-12-31",
+      "n_obs": 2566
+    },
+    "HPQ": {
+      "sector": "tech",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "HRL": {
+      "sector": "cons_staples",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "HSIC": {
+      "sector": "healthcare",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "HST": {
+      "sector": "real_estate",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "HSY": {
+      "sector": "cons_staples",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "HUBB": {
+      "sector": "industrials",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "HUM": {
+      "sector": "healthcare",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "HWM": {
+      "sector": "industrials",
+      "category": "stock",
+      "start": "2016-11-01",
+      "end": "2025-12-31",
+      "n_obs": 2304
+    },
+    "IBKR": {
+      "sector": "financials",
+      "category": "stock",
+      "start": "2007-05-04",
+      "end": "2025-12-31",
+      "n_obs": 4696
+    },
+    "IBM": {
+      "sector": "tech",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "ICE": {
+      "sector": "financials",
+      "category": "stock",
+      "start": "2005-11-16",
+      "end": "2025-12-31",
+      "n_obs": 5062
+    },
+    "IDXX": {
+      "sector": "healthcare",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "IEX": {
+      "sector": "industrials",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "IFF": {
+      "sector": "materials",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "INCY": {
+      "sector": "healthcare",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "INTC": {
+      "sector": "tech",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "INTU": {
+      "sector": "tech",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "INVH": {
+      "sector": "real_estate",
+      "category": "stock",
+      "start": "2017-02-01",
+      "end": "2025-12-31",
+      "n_obs": 2242
+    },
+    "IP": {
+      "sector": "materials",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "IQV": {
+      "sector": "healthcare",
+      "category": "stock",
+      "start": "2013-05-09",
+      "end": "2025-12-31",
+      "n_obs": 3182
+    },
+    "IR": {
+      "sector": "industrials",
+      "category": "stock",
+      "start": "2017-05-12",
+      "end": "2025-12-31",
+      "n_obs": 2172
+    },
+    "IRM": {
+      "sector": "real_estate",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "ISRG": {
+      "sector": "healthcare",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "IT": {
+      "sector": "tech",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "ITW": {
+      "sector": "industrials",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "IVZ": {
+      "sector": "financials",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "J": {
+      "sector": "industrials",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "JBHT": {
+      "sector": "industrials",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "JBL": {
+      "sector": "tech",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "JCI": {
+      "sector": "industrials",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "JKHY": {
+      "sector": "financials",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "JNJ": {
+      "sector": "healthcare",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "JPM": {
+      "sector": "financials",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "KDP": {
+      "sector": "cons_staples",
+      "category": "stock",
+      "start": "2008-05-07",
+      "end": "2025-12-31",
+      "n_obs": 4442
+    },
+    "KEY": {
+      "sector": "financials",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "KEYS": {
+      "sector": "tech",
+      "category": "stock",
+      "start": "2014-10-20",
+      "end": "2025-12-31",
+      "n_obs": 2817
+    },
+    "KHC": {
+      "sector": "cons_staples",
+      "category": "stock",
+      "start": "2015-07-06",
+      "end": "2025-12-31",
+      "n_obs": 2640
+    },
+    "KIM": {
+      "sector": "real_estate",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "KKR": {
+      "sector": "financials",
+      "category": "stock",
+      "start": "2010-07-15",
+      "end": "2025-12-31",
+      "n_obs": 3891
+    },
+    "KLAC": {
+      "sector": "tech",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "KMB": {
+      "sector": "cons_staples",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "KMI": {
+      "sector": "energy",
+      "category": "stock",
+      "start": "2011-02-11",
+      "end": "2025-12-31",
+      "n_obs": 3744
+    },
+    "KO": {
+      "sector": "cons_staples",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "KR": {
+      "sector": "cons_staples",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "KVUE": {
+      "sector": "cons_staples",
+      "category": "stock",
+      "start": "2023-05-04",
+      "end": "2025-12-31",
+      "n_obs": 668
+    },
+    "L": {
+      "sector": "financials",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "LDOS": {
+      "sector": "industrials",
+      "category": "stock",
+      "start": "2006-10-17",
+      "end": "2025-12-31",
+      "n_obs": 4832
+    },
+    "LEN": {
+      "sector": "cons_disc",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "LH": {
+      "sector": "healthcare",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "LHX": {
+      "sector": "industrials",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "LII": {
+      "sector": "industrials",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "LIN": {
+      "sector": "materials",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "LITE": {
+      "sector": "tech",
+      "category": "stock",
+      "start": "2015-07-23",
+      "end": "2025-12-31",
+      "n_obs": 2627
+    },
+    "LLY": {
+      "sector": "healthcare",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "LMT": {
+      "sector": "industrials",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "LNT": {
+      "sector": "utilities",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "LOW": {
+      "sector": "cons_disc",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "LRCX": {
+      "sector": "tech",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "LULU": {
+      "sector": "cons_disc",
+      "category": "stock",
+      "start": "2007-07-27",
+      "end": "2025-12-31",
+      "n_obs": 4638
+    },
+    "LUV": {
+      "sector": "industrials",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "LVS": {
+      "sector": "cons_disc",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "LYB": {
+      "sector": "materials",
+      "category": "stock",
+      "start": "2010-04-28",
+      "end": "2025-12-31",
+      "n_obs": 3945
+    },
+    "LYV": {
+      "sector": "comms",
+      "category": "stock",
+      "start": "2005-12-21",
+      "end": "2025-12-31",
+      "n_obs": 5038
+    },
+    "MA": {
+      "sector": "financials",
+      "category": "stock",
+      "start": "2006-05-25",
+      "end": "2025-12-31",
+      "n_obs": 4932
+    },
+    "MAA": {
+      "sector": "real_estate",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "MAR": {
+      "sector": "cons_disc",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "MAS": {
+      "sector": "industrials",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "MCD": {
+      "sector": "cons_disc",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "MCHP": {
+      "sector": "tech",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "MCK": {
+      "sector": "healthcare",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "MCO": {
+      "sector": "financials",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "MDLZ": {
+      "sector": "cons_staples",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "MDT": {
+      "sector": "healthcare",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "MET": {
+      "sector": "financials",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "META": {
+      "sector": "comms",
+      "category": "stock",
+      "start": "2012-05-18",
+      "end": "2025-12-31",
+      "n_obs": 3425
+    },
+    "MGM": {
+      "sector": "cons_disc",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "MKC": {
+      "sector": "cons_staples",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "MLM": {
+      "sector": "materials",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "MMM": {
+      "sector": "industrials",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "MNST": {
+      "sector": "cons_staples",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "MO": {
+      "sector": "cons_staples",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "MOS": {
+      "sector": "materials",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "MPC": {
+      "sector": "energy",
+      "category": "stock",
+      "start": "2011-06-24",
+      "end": "2025-12-31",
+      "n_obs": 3652
+    },
+    "MPWR": {
+      "sector": "tech",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "MRK": {
+      "sector": "healthcare",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "MRNA": {
+      "sector": "healthcare",
+      "category": "stock",
+      "start": "2018-12-07",
+      "end": "2025-12-31",
+      "n_obs": 1776
+    },
+    "MRSH": {
+      "sector": "financials",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "MS": {
+      "sector": "financials",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "MSCI": {
+      "sector": "financials",
+      "category": "stock",
+      "start": "2007-11-15",
+      "end": "2025-12-31",
+      "n_obs": 4560
+    },
+    "MSFT": {
+      "sector": "tech",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "MSI": {
+      "sector": "tech",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "MTB": {
+      "sector": "financials",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "MTD": {
+      "sector": "healthcare",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "MU": {
+      "sector": "tech",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "NCLH": {
+      "sector": "cons_disc",
+      "category": "stock",
+      "start": "2013-01-18",
+      "end": "2025-12-31",
+      "n_obs": 3258
+    },
+    "NDAQ": {
+      "sector": "financials",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "NDSN": {
+      "sector": "industrials",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "NEE": {
+      "sector": "utilities",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "NEM": {
+      "sector": "materials",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "NFLX": {
+      "sector": "comms",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "NI": {
+      "sector": "utilities",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "NKE": {
+      "sector": "cons_disc",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "NOC": {
+      "sector": "industrials",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "NOW": {
+      "sector": "tech",
+      "category": "stock",
+      "start": "2012-06-29",
+      "end": "2025-12-31",
+      "n_obs": 3396
+    },
+    "NRG": {
+      "sector": "utilities",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "NSC": {
+      "sector": "industrials",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "NTAP": {
+      "sector": "tech",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "NTRS": {
+      "sector": "financials",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "NUE": {
+      "sector": "materials",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "NVDA": {
+      "sector": "tech",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "NVR": {
+      "sector": "cons_disc",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "NWS": {
+      "sector": "comms",
+      "category": "stock",
+      "start": "2013-06-19",
+      "end": "2025-12-31",
+      "n_obs": 3154
+    },
+    "NWSA": {
+      "sector": "comms",
+      "category": "stock",
+      "start": "2013-06-19",
+      "end": "2025-12-31",
+      "n_obs": 3154
+    },
+    "NXPI": {
+      "sector": "tech",
+      "category": "stock",
+      "start": "2010-08-06",
+      "end": "2025-12-31",
+      "n_obs": 3875
+    },
+    "O": {
+      "sector": "real_estate",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "ODFL": {
+      "sector": "industrials",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "OKE": {
+      "sector": "energy",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "OMC": {
+      "sector": "comms",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "ON": {
+      "sector": "tech",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "ORCL": {
+      "sector": "tech",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "ORLY": {
+      "sector": "cons_disc",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "OTIS": {
+      "sector": "industrials",
+      "category": "stock",
+      "start": "2020-03-19",
+      "end": "2025-12-31",
+      "n_obs": 1455
+    },
+    "OXY": {
+      "sector": "energy",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "PANW": {
+      "sector": "tech",
+      "category": "stock",
+      "start": "2012-07-20",
+      "end": "2025-12-31",
+      "n_obs": 3382
+    },
+    "PAYX": {
+      "sector": "industrials",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "PCAR": {
+      "sector": "industrials",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "PCG": {
+      "sector": "utilities",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "PEG": {
+      "sector": "utilities",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "PEP": {
+      "sector": "cons_staples",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "PFE": {
+      "sector": "healthcare",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "PFG": {
+      "sector": "financials",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "PG": {
+      "sector": "cons_staples",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "PGR": {
+      "sector": "financials",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "PH": {
+      "sector": "industrials",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "PHM": {
+      "sector": "cons_disc",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "PKG": {
+      "sector": "materials",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "PLD": {
+      "sector": "real_estate",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "PLTR": {
+      "sector": "tech",
+      "category": "stock",
+      "start": "2020-09-30",
+      "end": "2025-12-31",
+      "n_obs": 1320
+    },
+    "PM": {
+      "sector": "cons_staples",
+      "category": "stock",
+      "start": "2008-03-17",
+      "end": "2025-12-31",
+      "n_obs": 4478
+    },
+    "PNC": {
+      "sector": "financials",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "PNR": {
+      "sector": "industrials",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "PNW": {
+      "sector": "utilities",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "PODD": {
+      "sector": "healthcare",
+      "category": "stock",
+      "start": "2007-05-15",
+      "end": "2025-12-31",
+      "n_obs": 4689
+    },
+    "POOL": {
+      "sector": "cons_disc",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "PPG": {
+      "sector": "materials",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "PPL": {
+      "sector": "utilities",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "PRU": {
+      "sector": "financials",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "PSA": {
+      "sector": "real_estate",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "PSKY": {
+      "sector": "comms",
+      "category": "stock",
+      "start": "2005-12-05",
+      "end": "2025-12-31",
+      "n_obs": 5050
+    },
+    "PSX": {
+      "sector": "energy",
+      "category": "stock",
+      "start": "2012-04-12",
+      "end": "2025-12-31",
+      "n_obs": 3451
+    },
+    "PTC": {
+      "sector": "tech",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "PWR": {
+      "sector": "industrials",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "PYPL": {
+      "sector": "financials",
+      "category": "stock",
+      "start": "2015-07-06",
+      "end": "2025-12-31",
+      "n_obs": 2640
+    },
+    "QCOM": {
+      "sector": "tech",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "RCL": {
+      "sector": "cons_disc",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "REG": {
+      "sector": "real_estate",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "REGN": {
+      "sector": "healthcare",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "RF": {
+      "sector": "financials",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "RJF": {
+      "sector": "financials",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "RL": {
+      "sector": "cons_disc",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "RMD": {
+      "sector": "healthcare",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "ROK": {
+      "sector": "industrials",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "ROL": {
+      "sector": "industrials",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "ROP": {
+      "sector": "tech",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "ROST": {
+      "sector": "cons_disc",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "RSG": {
+      "sector": "industrials",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "RTX": {
+      "sector": "industrials",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "RVTY": {
+      "sector": "healthcare",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "SATS": {
+      "sector": "comms",
+      "category": "stock",
+      "start": "2008-01-02",
+      "end": "2025-12-31",
+      "n_obs": 4529
+    },
+    "SBAC": {
+      "sector": "real_estate",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "SBUX": {
+      "sector": "cons_disc",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "SCHW": {
+      "sector": "financials",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "SHW": {
+      "sector": "materials",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "SJM": {
+      "sector": "cons_staples",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "SLB": {
+      "sector": "energy",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "SMCI": {
+      "sector": "tech",
+      "category": "stock",
+      "start": "2007-03-29",
+      "end": "2025-12-31",
+      "n_obs": 4721
+    },
+    "SNA": {
+      "sector": "industrials",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "SNPS": {
+      "sector": "tech",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "SO": {
+      "sector": "utilities",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "SOLV": {
+      "sector": "healthcare",
+      "category": "stock",
+      "start": "2024-03-26",
+      "end": "2025-12-31",
+      "n_obs": 444
+    },
+    "SPG": {
+      "sector": "real_estate",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "SPGI": {
+      "sector": "financials",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "SRE": {
+      "sector": "utilities",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "STE": {
+      "sector": "healthcare",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "STLD": {
+      "sector": "materials",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "STT": {
+      "sector": "financials",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "STX": {
+      "sector": "tech",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "STZ": {
+      "sector": "cons_staples",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "SW": {
+      "sector": "materials",
+      "category": "stock",
+      "start": "2008-06-17",
+      "end": "2025-12-31",
+      "n_obs": 4414
+    },
+    "SWK": {
+      "sector": "industrials",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "SWKS": {
+      "sector": "tech",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "SYF": {
+      "sector": "financials",
+      "category": "stock",
+      "start": "2014-07-31",
+      "end": "2025-12-31",
+      "n_obs": 2873
+    },
+    "SYK": {
+      "sector": "healthcare",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "SYY": {
+      "sector": "cons_staples",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "T": {
+      "sector": "comms",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "TAP": {
+      "sector": "cons_staples",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "TDG": {
+      "sector": "industrials",
+      "category": "stock",
+      "start": "2006-03-15",
+      "end": "2025-12-31",
+      "n_obs": 4982
+    },
+    "TDY": {
+      "sector": "tech",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "TECH": {
+      "sector": "healthcare",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "TEL": {
+      "sector": "tech",
+      "category": "stock",
+      "start": "2007-06-14",
+      "end": "2025-12-31",
+      "n_obs": 4668
+    },
+    "TER": {
+      "sector": "tech",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "TFC": {
+      "sector": "financials",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "TGT": {
+      "sector": "cons_staples",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "TJX": {
+      "sector": "cons_disc",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "TKO": {
+      "sector": "comms",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "TMO": {
+      "sector": "healthcare",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "TMUS": {
+      "sector": "comms",
+      "category": "stock",
+      "start": "2007-04-19",
+      "end": "2025-12-31",
+      "n_obs": 4707
+    },
+    "TPL": {
+      "sector": "energy",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "TPR": {
+      "sector": "cons_disc",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "TRGP": {
+      "sector": "energy",
+      "category": "stock",
+      "start": "2010-12-07",
+      "end": "2025-12-31",
+      "n_obs": 3790
+    },
+    "TRMB": {
+      "sector": "tech",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "TROW": {
+      "sector": "financials",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "TRV": {
+      "sector": "financials",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "TSCO": {
+      "sector": "cons_disc",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "TSLA": {
+      "sector": "cons_disc",
+      "category": "stock",
+      "start": "2010-06-29",
+      "end": "2025-12-31",
+      "n_obs": 3902
+    },
+    "TSN": {
+      "sector": "cons_staples",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "TT": {
+      "sector": "industrials",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "TTD": {
+      "sector": "comms",
+      "category": "stock",
+      "start": "2016-09-21",
+      "end": "2025-12-31",
+      "n_obs": 2333
+    },
+    "TTWO": {
+      "sector": "comms",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "TXN": {
+      "sector": "tech",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "TXT": {
+      "sector": "industrials",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "TYL": {
+      "sector": "tech",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "UAL": {
+      "sector": "industrials",
+      "category": "stock",
+      "start": "2006-02-06",
+      "end": "2025-12-31",
+      "n_obs": 5008
+    },
+    "UBER": {
+      "sector": "industrials",
+      "category": "stock",
+      "start": "2019-05-10",
+      "end": "2025-12-31",
+      "n_obs": 1671
+    },
+    "UDR": {
+      "sector": "real_estate",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "UHS": {
+      "sector": "healthcare",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "ULTA": {
+      "sector": "cons_disc",
+      "category": "stock",
+      "start": "2007-10-25",
+      "end": "2025-12-31",
+      "n_obs": 4575
+    },
+    "UNH": {
+      "sector": "healthcare",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "UNP": {
+      "sector": "industrials",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "UPS": {
+      "sector": "industrials",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "URI": {
+      "sector": "industrials",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "USB": {
+      "sector": "financials",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "V": {
+      "sector": "financials",
+      "category": "stock",
+      "start": "2008-03-19",
+      "end": "2025-12-31",
+      "n_obs": 4476
+    },
+    "VEEV": {
+      "sector": "healthcare",
+      "category": "stock",
+      "start": "2013-10-16",
+      "end": "2025-12-31",
+      "n_obs": 3071
+    },
+    "VICI": {
+      "sector": "real_estate",
+      "category": "stock",
+      "start": "2018-01-02",
+      "end": "2025-12-31",
+      "n_obs": 2011
+    },
+    "VLO": {
+      "sector": "energy",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "VLTO": {
+      "sector": "industrials",
+      "category": "stock",
+      "start": "2023-10-04",
+      "end": "2025-12-31",
+      "n_obs": 563
+    },
+    "VMC": {
+      "sector": "materials",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "VRSK": {
+      "sector": "industrials",
+      "category": "stock",
+      "start": "2009-10-07",
+      "end": "2025-12-31",
+      "n_obs": 4084
+    },
+    "VRSN": {
+      "sector": "tech",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "VRT": {
+      "sector": "industrials",
+      "category": "stock",
+      "start": "2018-08-02",
+      "end": "2025-12-31",
+      "n_obs": 1864
+    },
+    "VRTX": {
+      "sector": "healthcare",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "VST": {
+      "sector": "utilities",
+      "category": "stock",
+      "start": "2016-10-05",
+      "end": "2025-12-31",
+      "n_obs": 2323
+    },
+    "VTR": {
+      "sector": "real_estate",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "VTRS": {
+      "sector": "healthcare",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "VZ": {
+      "sector": "comms",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "WAB": {
+      "sector": "industrials",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "WAT": {
+      "sector": "healthcare",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "WBD": {
+      "sector": "comms",
+      "category": "stock",
+      "start": "2005-07-08",
+      "end": "2025-12-31",
+      "n_obs": 5154
+    },
+    "WDAY": {
+      "sector": "tech",
+      "category": "stock",
+      "start": "2012-10-12",
+      "end": "2025-12-31",
+      "n_obs": 3323
+    },
+    "WDC": {
+      "sector": "tech",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "WEC": {
+      "sector": "utilities",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "WELL": {
+      "sector": "real_estate",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "WFC": {
+      "sector": "financials",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "WM": {
+      "sector": "industrials",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "WMB": {
+      "sector": "energy",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "WMT": {
+      "sector": "cons_staples",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "WRB": {
+      "sector": "financials",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "WSM": {
+      "sector": "cons_disc",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "WST": {
+      "sector": "healthcare",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "WTW": {
+      "sector": "financials",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "WY": {
+      "sector": "real_estate",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "WYNN": {
+      "sector": "cons_disc",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "XEL": {
+      "sector": "utilities",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "XLB": {
+      "sector": "materials",
+      "category": "etf",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "XLC": {
+      "sector": "comms",
+      "category": "etf",
+      "start": "2018-06-19",
+      "end": "2025-12-31",
+      "n_obs": 1895
+    },
+    "XLE": {
+      "sector": "energy",
+      "category": "etf",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "XLF": {
+      "sector": "financials",
+      "category": "etf",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "XLI": {
+      "sector": "industrials",
+      "category": "etf",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "XLK": {
+      "sector": "tech",
+      "category": "etf",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "XLP": {
+      "sector": "cons_staples",
+      "category": "etf",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "XLRE": {
+      "sector": "real_estate",
+      "category": "etf",
+      "start": "2015-10-08",
+      "end": "2025-12-31",
+      "n_obs": 2573
+    },
+    "XLU": {
+      "sector": "utilities",
+      "category": "etf",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "XLV": {
+      "sector": "healthcare",
+      "category": "etf",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "XLY": {
+      "sector": "cons_disc",
+      "category": "etf",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "XOM": {
+      "sector": "energy",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "XYL": {
+      "sector": "industrials",
+      "category": "stock",
+      "start": "2011-10-13",
+      "end": "2025-12-31",
+      "n_obs": 3575
+    },
+    "XYZ": {
+      "sector": "financials",
+      "category": "stock",
+      "start": "2015-11-19",
+      "end": "2025-12-31",
+      "n_obs": 2543
+    },
+    "YUM": {
+      "sector": "cons_disc",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "ZBH": {
+      "sector": "healthcare",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "ZBRA": {
+      "sector": "tech",
+      "category": "stock",
+      "start": "2005-01-03",
+      "end": "2025-12-31",
+      "n_obs": 5283
+    },
+    "ZTS": {
+      "sector": "healthcare",
+      "category": "stock",
+      "start": "2013-02-01",
+      "end": "2025-12-31",
+      "n_obs": 3249
+    }
+  }
+}
