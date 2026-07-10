@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this benchmark, its code, or its results, please cite it as below."
+title: "When Directional Accuracy Lies: A Base-Rate-Honest Benchmark for LoRA-Adapted TimesFM on Equity Forecasting"
+type: software
+authors:
+  - family-names: "Cheung"
+    given-names: "Taizhen"
+date-released: 2026-07-10
+url: "https://github.com/taizhenC/when-directional-accuracy-lies"
+repository-code: "https://github.com/taizhenC/when-directional-accuracy-lies"
+license: MIT
+keywords:
+  - TimesFM
+  - LoRA
+  - time-series forecasting
+  - financial forecasting
+  - directional accuracy
+  - base rate
+  - walk-forward validation
+  - reproducibility
+  - negative result

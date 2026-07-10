@@ -1,0 +1,24 @@
+# CPU essentials — enough for `python -m pytest` and re-rendering tables/figures
+numpy
+pandas
+scipy
+torch
+matplotlib
+pytest
+
+# Full benchmark (GPU). On Colab, timesfm is installed with --no-deps to avoid
+# pre-installed-package conflicts — see notebooks/reproduce_all_colab.ipynb.
+timesfm @ git+https://github.com/google-research/timesfm.git
+peft
+accelerate
+einops
+huggingface_hub
+pyarrow
+
+# Data freezing (scripts/freeze_data.py)
+yfinance
+lxml
+requests
+
+# Exact versions used for the paper's runs are recorded in
+# results/**/run_meta.json (pip_freeze) and data/frozen/*/requirements_freeze.txt.
