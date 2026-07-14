@@ -2,7 +2,7 @@
 
 **A base-rate-honest benchmark for LoRA-adapted TimesFM on equity forecasting**
 
-📄 Paper: [`paper/when-directional-accuracy-lies.pdf`](paper/when-directional-accuracy-lies.pdf) ([LaTeX source](paper/paper.tex)) ·
+📄 Paper: [`paper/when-directional-accuracy-lies.pdf`](paper/When_Directional_Accuracy_Lies__A_Base_Rate_Honest_Benchmark_for_LoRA_Adapted_TimesFM_on_Equity_Forecasting_.pdf) ([LaTeX source](paper/paper.tex)) ·
 🧪 Lab log: [`paper/EXPERIMENT_LOG.md`](paper/EXPERIMENT_LOG.md) ·
 📊 Committed results: [`results/`](results/)
 
@@ -18,12 +18,12 @@ identical windows** — and on that scoreboard, fine-tuned TimesFM has none.
 
 1. **The ~80% was a base-rate artifact.** Recreating the original condition (pooled adapter,
    2014+ bull training window, raw accuracy) yields an always-up base rate of **0.704** at the
-   six-month horizon on held-out stocks — and the fine-tuned model scores **0.626**, *below* it.
+   six-month horizon on held-out stocks — and the fine-tuned model scores **0.626**, _below_ it.
 2. **No directional skill over the base rate, replicated on two universes.** On an honest
    walk-forward benchmark, excess accuracy is centred on zero at every horizon and **negative at
    h=128** on both NASDAQ-100 (−0.081) and S&P 500 (−0.017). Zero-shot TimesFM is below the base
    rate everywhere.
-3. **Per-sector specialization is significantly *worse* than one pooled adapter** — the
+3. **Per-sector specialization is significantly _worse_ than one pooled adapter** — the
    pre-registered confirmatory test. On held-out S&P 500 stocks at h=128, per-sector accuracy is
    0.599 vs pooled 0.641, and Diebold–Mariano rejects equality in pooling's favour (p < 0.001 in
    folds 0 and 2).
@@ -38,16 +38,16 @@ identical windows** — and on that scoreboard, fine-tuned TimesFM has none.
 **Excess accuracy** (model − always-up, held-out stocks, fold-averaged) — positive would mean
 skill over the base rate:
 
-| h | 2 | 4 | 8 | 16 | 32 | 64 | 128 |
-|---|---|---|---|---|---|---|---|
-| **NASDAQ-100** pooled | +0.036 | +0.061 | −0.024 | +0.006 | +0.001 | −0.000 | **−0.081** |
-| **NASDAQ-100** zero-shot | −0.047 | −0.007 | −0.053 | −0.017 | −0.062 | −0.011 | −0.151 |
-| **S&P 500** pooled | +0.004 | −0.009 | +0.002 | +0.019 | −0.005 | −0.017 | **−0.017** |
-| **S&P 500** per-sector | −0.031 | −0.036 | −0.039 | +0.001 | −0.045 | −0.044 | −0.059 |
-| **S&P 500** zero-shot | −0.024 | −0.022 | −0.074 | −0.028 | −0.080 | −0.059 | −0.125 |
+| h                        | 2      | 4      | 8      | 16     | 32     | 64     | 128        |
+| ------------------------ | ------ | ------ | ------ | ------ | ------ | ------ | ---------- |
+| **NASDAQ-100** pooled    | +0.036 | +0.061 | −0.024 | +0.006 | +0.001 | −0.000 | **−0.081** |
+| **NASDAQ-100** zero-shot | −0.047 | −0.007 | −0.053 | −0.017 | −0.062 | −0.011 | −0.151     |
+| **S&P 500** pooled       | +0.004 | −0.009 | +0.002 | +0.019 | −0.005 | −0.017 | **−0.017** |
+| **S&P 500** per-sector   | −0.031 | −0.036 | −0.039 | +0.001 | −0.045 | −0.044 | −0.059     |
+| **S&P 500** zero-shot    | −0.024 | −0.022 | −0.074 | −0.028 | −0.080 | −0.059 | −0.125     |
 
 Every cell above is reproducible from the committed [`results/**/raw.json`](results/) files.
-(McNemar rejections that survive FDR indicate the model *differs from* — often underperforms —
+(McNemar rejections that survive FDR indicate the model _differs from_ — often underperforms —
 the base rate; h=128 is underpowered and no significance is claimed there. See paper §Results.)
 
 ## Method at a glance
@@ -55,14 +55,14 @@ the base rate; h=128 is underpowered and no significance is claimed there. See p
 - **Frozen, checksum-verified data.** Each universe (S&P 500: 501 stocks + 11 SPDR ETFs;
   NASDAQ-100: 100 stocks + QQQ; daily adjusted close, 2005–2026) is frozen once into a
   versioned artifact under [`data/frozen/`](data/frozen/) and reused by every run.
-- **Expanding walk-forward folds** — validation is the *only* early-stopping/model-selection
+- **Expanding walk-forward folds** — validation is the _only_ early-stopping/model-selection
   signal; the test window is never used for selection:
 
-  | Fold | Train | Validation | Test |
-  |---|---|---|---|
-  | 0 | 2005–2019 | 2019–2020 | 2020–2022 |
-  | 1 | 2005–2021 | 2021–2022 | 2022–2024 |
-  | 2 | 2005–2023 | 2023–2024 | 2024–2026 |
+  | Fold | Train     | Validation | Test      |
+  | ---- | --------- | ---------- | --------- |
+  | 0    | 2005–2019 | 2019–2020  | 2020–2022 |
+  | 1    | 2005–2021 | 2021–2022  | 2022–2024 |
+  | 2    | 2005–2023 | 2023–2024  | 2024–2026 |
 
 - **Held-out tickers.** Per-sector 80/20 seen/held-out split (seed 42, fixed across folds);
   held-out names are never trained in any fold. Headline numbers are on held-out stocks.
@@ -74,7 +74,7 @@ the base rate; h=128 is underpowered and no significance is claimed there. See p
 - **Paired significance.** McNemar + block-bootstrap CIs for excess accuracy; Diebold–Mariano
   (Newey–West, sample-size-capped lag) for forecast error; Benjamini–Hochberg FDR across the
   exploratory family.
-- **Seeded end to end.** Seed 42 across Python/NumPy/torch/CUDA, set *before* LoRA
+- **Seeded end to end.** Seed 42 across Python/NumPy/torch/CUDA, set _before_ LoRA
   initialization, with a seeded DataLoader; the best-validation checkpoint is what gets scored.
   A reproducibility gate runs the smoke benchmark twice and asserts bit-identical accuracies
   before the real runs. Every run writes a `run_meta.json` (seed, git commit + clean-tree flag,
@@ -139,7 +139,7 @@ Results are single-seed deterministic up to ~1e-3 GPU-atomic jitter
 (`torch.use_deterministic_algorithms` raises on TimesFM kernels).
 
 **4. Re-freeze data from scratch (optional).** `python -m scripts.freeze_data --universe sp500`
-(or `nasdaq100`). Note a fresh freeze downloads current Yahoo data and produces a *new*
+(or `nasdaq100`). Note a fresh freeze downloads current Yahoo data and produces a _new_
 versioned artifact — the committed artifacts are the canonical ones for the paper's numbers.
 
 ## Data notes
@@ -149,7 +149,7 @@ with per-ticker sha256 checksums; the loader verifies integrity. NASDAQ-100 memb
 sector tags come from the `simofi` catalog; both universes share one sector taxonomy. The
 frozen data are included solely for research reproducibility.
 
-**Survivorship caveat (important):** both universes are *current-membership snapshots*, not
+**Survivorship caveat (important):** both universes are _current-membership snapshots_, not
 point-in-time constituents. Only 2005–2026 survivors are included, which inflates the up base
 rate and long-horizon drift. Results are a benchmark over a frozen current-constituent
 universe, not a live investable simulation.
@@ -190,9 +190,9 @@ model, its weights, and upstream data sources are governed by their own licenses
 
 ## Key references
 
-- Das et al., *A decoder-only foundation model for time-series forecasting* (TimesFM), ICML 2024
-- Hu et al., *LoRA: Low-Rank Adaptation of Large Language Models*, 2021
-- Fu, Hirano & Imajo, *Financial Fine-tuning a Large Time Series Model*, arXiv:2412.09880 —
+- Das et al., _A decoder-only foundation model for time-series forecasting_ (TimesFM), ICML 2024
+- Hu et al., _LoRA: Low-Rank Adaptation of Large Language Models_, 2021
+- Fu, Hirano & Imajo, _Financial Fine-tuning a Large Time Series Model_, arXiv:2412.09880 —
   the ≈54% short-horizon directional ceiling that made an 80% claim suspect
 - Diebold & Mariano (1995); McNemar (1947); Künsch (1989); Benjamini & Hochberg (1995) —
   the significance machinery
