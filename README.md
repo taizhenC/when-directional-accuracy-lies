@@ -2,7 +2,7 @@
 
 **A base-rate-honest benchmark for LoRA-adapted TimesFM on equity forecasting**
 
-📄 Paper: [`paper/when-directional-accuracy-lies.pdf`](paper/When_Directional_Accuracy_Lies__A_Base_Rate_Honest_Benchmark_for_LoRA_Adapted_TimesFM_on_Equity_Forecasting_.pdf) ([LaTeX source](paper/paper.tex)) ·
+📄 Paper: [arXiv:2607.12248](https://arxiv.org/abs/2607.12248) ([HTML](https://arxiv.org/html/2607.12248v1) · [local PDF](paper/When_Directional_Accuracy_Lies__A_Base_Rate_Honest_Benchmark_for_LoRA_Adapted_TimesFM_on_Equity_Forecasting_.pdf) · [LaTeX source](paper/paper.tex)) ·
 🧪 Lab log: [`paper/EXPERIMENT_LOG.md`](paper/EXPERIMENT_LOG.md) ·
 📊 Committed results: [`results/`](results/)
 
@@ -175,11 +175,14 @@ repository, and `paper/EXPERIMENT_LOG.md` documents every methodological decisio
 
 ```bibtex
 @misc{cheung2026directional,
-  title  = {When Directional Accuracy Lies: A Base-Rate-Honest Benchmark for
-            LoRA-Adapted TimesFM on Equity Forecasting},
-  author = {Cheung, Taizhen},
-  year   = {2026},
-  url    = {https://github.com/taizhenC/when-directional-accuracy-lies}
+  title         = {When Directional Accuracy Lies: A Base-Rate-Honest Benchmark for
+                   LoRA-Adapted TimesFM on Equity Forecasting},
+  author        = {Cheung, Taizhen},
+  year          = {2026},
+  eprint        = {2607.12248},
+  archivePrefix = {arXiv},
+  primaryClass  = {q-fin.ST},
+  url           = {https://arxiv.org/abs/2607.12248}
 }
 ```
 
